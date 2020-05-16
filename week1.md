@@ -1,5 +1,3 @@
-# DIGH 3814 notes
-
 ## Week 1
 
 ### Readings
