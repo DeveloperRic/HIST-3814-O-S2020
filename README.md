@@ -82,7 +82,7 @@ I've usually only heard this term being used to describe converting video/audio 
 
     - How to fix: disable hypothes.is and open the PDF. Save it to zotero, then reenable hypothes.is
 
-    ![URL of the hypothes.is file on my browser](./week2/hypothesis-annotations.png)
+    ![URL of the hypothes.is file on my browser](https://github.com/DeveloperRic/HIST-3814-O-S2020/blob/master/week2/hypothesis-annotations.PNG)
 
 2. Annotations don't work when hypothes.is is enabled on a PDF file (wow so many bugs with hypothes.is). The url of the html page that is generated includes a random ID that identifes the extension in Chrome. The ID isn't global and so, you won't be able to see annotations on the page.
 
@@ -94,7 +94,7 @@ I've usually only heard this term being used to describe converting video/audio 
 
     - So I added `-OutFile website.html` and it worked! I could then view the page in my browser. (I knew it was html due to the `<!DOCTYPE html>` at the start of the file.)
 
-      ![wget hiccup](./week2/wget-hiccup.png)
+      ![wget hiccup](https://github.com/DeveloperRic/HIST-3814-O-S2020/blob/master/week2/wget-hiccup.png)
 
     - One thing I noticed that I think poses a problem for archiving is that despite me downloading the webpage, my browser still had to fetch a lot of resources, for example the css file had to be fetched
 
