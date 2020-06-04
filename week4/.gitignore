@@ -1,0 +1,6 @@
+# toom many input and output files
+topic_modeling/tmt/*put/*
+antconc/nls-text-chapbooks/nls-text-chapbooks/*
+
+# applications
+topic_modeling/TopicModelingTool

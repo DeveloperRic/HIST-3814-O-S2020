@@ -1,0 +1,14 @@
+# A tibble: 3,080 x 6
+      X1  line title  text  date  certainty
+   <dbl> <dbl> <chr>  <chr> <chr> <chr>    
+ 1     1     1 Song ~ "ASO~ 1826  NA       
+ 2     2     2 Two n~ "TWO~ 1835  NA       
+ 3     3     3 Repor~ "REP~ 1836  NA       
+ 4     4     4 Laird~ "LAI~ 1838  NA       
+ 5     5     5 Comic~ "THE~ 1850  NA       
+ 6     6     6 Old S~ "THE~ 1840  NA       
+ 7     7     7 True ~ "TRU~ 1852  NA       
+ 8     8     8 Pictu~ "CHE~ 1826  NA       
+ 9     9     9 Tales~ "t1(~ 1826  NA       
+10    10    10 Elegy~ "ELE~ 1799  NA       
+# ... with 3,070 more rows

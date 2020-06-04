@@ -1,0 +1,14 @@
+# A tibble: 4,638,934 x 3
+      id date  word       
+   <dbl> <chr> <chr>      
+ 1     1 1826  asongjraisb
+ 2     1 1826  op         
+ 3     1 1826  highland   
+ 4     1 1826  lads.to    
+ 5     1 1826  tun        
+ 6     1 1826  ofjohnny   
+ 7     1 1826  oop.by     
+ 8     1 1826  john       
+ 9     1 1826  miiine     
+10     1 1826  glknlivax  
+# ... with 4,638,924 more rows

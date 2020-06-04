@@ -11,7 +11,7 @@
 
 [_back to top_](#contents)
 
-### Done:
+### Done
 
 - Graph population of children aged 1-4 with Excel
 - Graph colonial newspapers articles & cities with R
@@ -19,6 +19,8 @@
 - Visualise data in Voyant
   - use stopwords
 - Chronicling America
+- AntConc text analysis
+- TopicModelingTool & script
 
 ### Cleaning up colonial newspapers
 
@@ -38,21 +40,11 @@ Things I'd like to find out about the data:
 
 #### Interesting stuff
 
-<!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 424px; height: 291px;' src='https://voyant-tools.org/tool/DreamScape/?corpus=5d8ae32e9dadfc942fada12806ec2031'></iframe>
+[View the corpus here](https://voyant-tools.org/?panels=cirrus%2Creader%2Ctrends%2Csummary%2Ccontexts&corpus=5d8ae32e9dadfc942fada12806ec2031)
 
-<!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 424px; height: 291px;' src='https://voyant-tools.org/tool/CorpusTerms/?corpus=5d8ae32e9dadfc942fada12806ec2031'></iframe>
+![voyant wordcloud](voyant_wordcloud.png)
+
+![voyant links](voyant_links.png)
 
 In this one, I seached for relationships between 'government' and 'bad' too see what kind of negative thoughts people had surrounding policing of reprinting:
 
@@ -104,49 +96,65 @@ barplot(years, main="Publication Year", xlab="Year", ylab="Number of Articles")
 
 1. Seached for newspapers with the keyword `Nigeria` to see when the country was mentioned in the news
 
-    - [Link to search for 1st 500 results](https://chroniclingamerica.loc.gov/search/pages/results/list/?date1=1789&rows=500&searchType=basic&state=&date2=1963&proxtext=Nigeria&y=13&x=20&dateFilterType=yearRange&page=1&sort=relevance). You have to save the results from that website as an XML
+   - [Link to search for 1st 500 results](https://chroniclingamerica.loc.gov/search/pages/results/list/?date1=1789&rows=500&searchType=basic&state=&date2=1963&proxtext=Nigeria&y=13&x=20&dateFilterType=yearRange&page=1&sort=relevance). You have to save the results from that website as an XML
 
 2. Cleanup XML file:
 
-    |       |              |
-    |-------|--------------|
-    || _Clear leading and trailing whitespace_ |
-    | Find _**(.*)**_: | `^\s*(.+)\s*$` |
-    | Replace: | \1 |
-    || _Remove `<item>` tags_ |
-    | Find _**(.*)**_: | `(|</item>\n)<item>` |
-    | Replace: |  |
-    || _Remove tags_ |
-    | Find _**(.*)**_: | `^<.*>(.*)</.*>$` |
-    | Replace: | `\1,`_(space)_ |
-    || _Bring description to newline_ |
-    | Find _**(.*)**_: | `<description>\n` |
-    | Replace: | `\n<description>` |
-    || _Remove heading commas_ |
-    | Find _**(.*)**_: | `<description>((, )+)(.*)</description>` |
-    | Replace: | `<description>\3</description>` |
-    || _Remove trailing commas_ |
-    | Find _**(.*)**_: | `<description>(.*)((, )+)</description>` |
-    | Replace: | `<description>\1</description>` |
-    || _Remove \<hr/>'s_ |
-    | Find _**(.*)**_: | `(,| |\.)*<hr />\n*(,| |\.)*` |
-    | Replace: | _(space)_ |
-    | Replace: | `<description>\1</description>` |
-    || _Remove \<description> tags_ |
-    | Find _**(.*)**_: | `, \n<description>(.*)</description>` |
-    | Replace: | `, \1` |
-    || _Remove closing tags_ |
-    | Find _**(.*)**_: | `\n</.+>` |
-    | Replace: |  |
-    || _Remove closing tags_ |
-    | Find _**(.*)**_: | `<description>((.|\n)*)</description>` |
-    | Replace: | `\1` |
+   |                   |                                          |
+   | ----------------- | ---------------------------------------- |
+   |                   | _Clear leading and trailing whitespace_  |
+   | Find _**(.\*)**_: | `^\s*(.+)\s*$`                           |
+   | Replace:          | \1                                       |
+   |                   | _Remove `<item>` tags_                   |
+   | Find _**(.\*)**_: | `(|</item>\n)<item>`                     |
+   | Replace:          |                                          |
+   |                   | _Remove tags_                            |
+   | Find _**(.\*)**_: | `^<.*>(.*)</.*>$`                        |
+   | Replace:          | `\1,`_(space)_                           |
+   |                   | _Bring description to newline_           |
+   | Find _**(.\*)**_: | `<description>\n`                        |
+   | Replace:          | `\n<description>`                        |
+   |                   | _Remove heading commas_                  |
+   | Find _**(.\*)**_: | `<description>((, )+)(.*)</description>` |
+   | Replace:          | `<description>\3</description>`          |
+   |                   | _Remove trailing commas_                 |
+   | Find _**(.\*)**_: | `<description>(.*)((, )+)</description>` |
+   | Replace:          | `<description>\1</description>`          |
+   |                   | _Remove \<hr/>'s_                        |
+   | Find _**(.\*)**_: | `(,| |\.)*<hr />\n*(,| |\.)*`            |
+   | Replace:          | _(space)_                                |
+   | Replace:          | `<description>\1</description>`          |
+   |                   | _Remove \<description> tags_             |
+   | Find _**(.\*)**_: | `, \n<description>(.*)</description>`    |
+   | Replace:          | `, \1`                                   |
+   |                   | _Remove closing tags_                    |
+   | Find _**(.\*)**_: | `\n</.+>`                                |
+   | Replace:          |                                          |
+   |                   | _Remove closing tags_                    |
+   | Find _**(.\*)**_: | `<description>((.|\n)*)</description>`   |
+   | Replace:          | `\1`                                     |
 
-    - At this point, I realised I had been dumb and forgot to remove the extra commads within the file (or build a tab-separated file). So I quit parsing and moved onto visualisation
+   - At this point, I realised I had been dumb and forgot to remove the extra commads within the file (or build a tab-separated file). So I quit parsing and moved onto visualisation
 
 3. Pasted text into Voyant
 
 4. Add `amp`, `rsquo` & `https` to stopwords
+
+### AntConc
+
+1. Load up `nls-text-chapbooks/` dir into AntConc
+
+2. Run search for `the` (so resource intensive! I won't do such basic searches after)
+
+3. Regex search for `'wom?n'` and `'m?n'`: `\b(|wo)m[ae]n\b`
+
+4. Generated collocates for `wom?n`: `\bwom[ae]n\b`
+
+### Topic Modeling
+
+- A lot of stuff was lost to me, I think the readings will help.
+
+![topic modeling graph](topic_modeling/chapbooks-r/plot-graph-1.png)
 
 ## Errors
 
@@ -167,4 +175,17 @@ Voyant failed to load the content from the url that was provided to us ([https:/
   - [https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/CompDataDownload.cfm?LANG=E&PID=109523&OFT=CSV](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/CompDataDownload.cfm?LANG=E&PID=109523&OFT=CSV)
 
 - Colonial newspapers
+
   - [https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv](https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv)
+
+- Chapbooks Text csv
+  - [https://craftingdh.netlify.app/data/chapbooks-text.csv](https://craftingdh.netlify.app/data/chapbooks-text.csv)
+
+### Applications
+
+- AntConc
+
+  - [http://www.laurenceanthony.net/software/antconc/](http://www.laurenceanthony.net/software/antconc/)
+
+- TopicModeling tool
+  - [https://raw.githubusercontent.com/shawngraham/topic-modeling-tool-1/master/TopicModelingTool.zip](https://raw.githubusercontent.com/shawngraham/topic-modeling-tool-1/master/TopicModelingTool.zip)

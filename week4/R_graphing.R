@@ -12,3 +12,12 @@ barplot(counts, main="Cities", xlab="Number of Articles")
 
 years <- table(documents$Year)
 barplot(years, main="Publication Year", xlab="Year", ylab="Number of Articles")
+
+clean_csv <- read.csv('colonial_newspapers_cleaned.csv')
+counts <- table(clean_csv$Newspaper.City)
+counts
+
+barplot(counts, main="Cities", xlab="Number of Articles")
+
+years <- table(clean_csv$Year)
+barplot(years, main="Publication Year", xlab="Year", ylab="Number of Articles")

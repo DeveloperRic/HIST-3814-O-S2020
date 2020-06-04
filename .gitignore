@@ -1,2 +1,8 @@
+# exclude R files
+.Rhistory
+.Rdata
 
-week2/.Rhistory
+# exclude all zip files
+*.zip
+.Rproj.user
+

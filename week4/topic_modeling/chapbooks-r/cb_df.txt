@@ -1,0 +1,14 @@
+# A tibble: 3,080 x 3
+      id text                         date 
+   <dbl> <chr>                        <chr>
+ 1     1 "ASONGJRAISB OP THE ^HIGHLA~ 1826 
+ 2     2 "TWONEW SONGS, VIZ.COMICAL ~ 1835 
+ 3     3 "REPORTOF THE,CATTLE SHOWAT~ 1836 
+ 4     4 "LAIRD of ARDENOAIGEAND THE~ 1838 
+ 5     5 "THECOMICAL STOKYOFTHRUMMY ~ 1850 
+ 6     6 "THEOLD SCOTTISH TRAGICALBA~ 1840 
+ 7     7 "TRUE AND CORRECT NARRATIVE~ 1852 
+ 8     8 "CHEAP TRACTS, No. .A PICTU~ 1826 
+ 9     9 "t(I€HS&P TRACTS, ?]o, .For~ 1826 
+10    10 "ELEGYONrilF. TEAR EIGHTY-E~ 1799 
+# ... with 3,070 more rows
