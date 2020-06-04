@@ -1,4 +1,4 @@
-# DIGH 3814 Week 3 Journal
+# DIGH 3814 Week 4 Journal
 
 ## Contents
 
