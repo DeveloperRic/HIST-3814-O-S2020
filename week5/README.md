@@ -14,7 +14,7 @@
 
 In the past, I never knew what CMYK stood for in the real of colours (and frankly, I didn't care enough to check). But I think the chart you included was really informative, I'll defintely be refering to it when next I pick a colour scheme.
 
-![color theory chart](https://github.com/DeveloperRic/HIST-3814-O-S2020/tree/master/week5/color_theory.jpg)
+![color theory chart](https://raw.githubusercontent.com/DeveloperRic/HIST-3814-O-S2020/master/week5/color_theory.jpg)
 
 For reference: [ColorBrewer](https://colorbrewer2.org)
 
@@ -30,7 +30,7 @@ A font whose design is primarily based on geometry. The hidden shapes in the typ
 
 When I ran the command the server said it was running but I was unable to view the page.
 
-![web server error snippet](https://github.com/DeveloperRic/HIST-3814-O-S2020/tree/master/week5/web-server-error.png)
+![web server error snippet](https://raw.githubusercontent.com/DeveloperRic/HIST-3814-O-S2020/master/week5/web-server-error.PNG)
 
 So I checked Discord and... apparently I'm supposed to use `http://localhost:8000/` instead of `http://0.0.0.0:8000/`. Another case the Discord group rescued!
 
