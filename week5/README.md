@@ -36,7 +36,7 @@ So I checked Discord and... apparently I'm supposed to use `http://localhost:800
 
 ### Stress
 
-This is more of a rant than anything. If I'm to be completely honest this week's work was really stressful. I had my computer run out of disk space twice. Working with Inkscape slowed my computer down so much that I could only type 1 character each second and this was compounded ontop of my laptop potentially having a virus. The challenges I faced this week I think are pretty evident in my work but hopefully I can bring things back up next week.
+This is more of a rant than anything. If I'm to be completely honest this week's work was really stressful. I had my computer run out of disk space twice. Working with Inkscape slowed my computer down so much that I could only type 1 character each second and this was compounded ontop of my laptop potentially having a virus. The challenges I faced this week I think are pretty evident in my work but hopefully I can bring things back up next week (edit: I think I did 😁).
 
 ## Readings
 
