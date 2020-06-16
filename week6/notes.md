@@ -76,7 +76,7 @@ _`&nbsp;` represents a space_
 
 Here is a list of the tracks used in TwoTone to sonify Virginia Woolf's diary (from heighest to lowest track). I modified each track to better express the emotion of the topics that they portray. Sadder topics have their track in a minor scale; topics relating to dynamics (movement) have their tracks played in faster tempos. All tempos are factors of 2 (to preserve the consistency of the audio).
 
-![sonify tracks snippet](snippets/sonify-tracks.png)
+![sonify tracks snippet](https://github.com/DeveloperRic/HIST-3814-O-S2020/tree/master/week6/snippets/sonify-tracks.png)
 
 1. Recorded audio detailing the instrument of each following track and the topic that it represents
     - volume: 66%
@@ -122,7 +122,7 @@ Here is a list of the tracks used in TwoTone to sonify Virginia Woolf's diary (f
 
 The TwoTone app seems to be really buggy. If I change any track, I have to reload the page before I can actually listen to the audio again. Also, I tried exporting the audio twice and both audio files have no sound (but they have all the metadata and megabytes). I loaded the created audio file into Audacity and sure enough, there was nothing in the file.
 
-![sonify muted file snippet](snippets/sonify-mute.png)
+![sonify muted file snippet](https://github.com/DeveloperRic/HIST-3814-O-S2020/tree/master/week6/snippets/sonify-mute.png)
 
 ## Downloads
 
