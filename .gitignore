@@ -1,3 +1,6 @@
+# exclude VS-Code settings
+.vscode
+
 # exclude R files
 .Rhistory
 .Rdata
@@ -5,4 +8,8 @@
 # exclude all zip files
 *.zip
 .Rproj.user
+
+# exclude python cache
+__pycache__
+*.pyc
 
