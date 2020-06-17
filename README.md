@@ -1,4 +1,4 @@
-# DIGH 3814 notes
+# DIGH 3814
 
 An account of my work for DIGH/HIST 3814 Section O Summer 2020. I tried to keep my work here as organised as possible but some links are broken because I write everything locally, on my computer.
 
