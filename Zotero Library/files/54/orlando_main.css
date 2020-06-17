@@ -1,0 +1,2612 @@
+/* IE 6.0 not inheriting font size (doctype is present) in datedelimit */
+/* IE 5.5 TD size */
+/* font-size in MS IE 6 <table> is not inherited if html file does not have a docytype declaration that causes the browser to not render in quirks mode (IE4 bug emulation mode) */
+/*www.w3schools.com Default value of font-size is "small", looks like 12pt*/
+
+
+/*\*//*/
+	@import("orlando_ie5mac.css");
+/**/
+
+
+/* CUP header/footer 2017 */
+/* --------------------------------------------------------------------------*/
+
+/*
+@import url("//services.cambridge.org/web/global/header/css/latest.css");
+@import url("//services.cambridge.org/web/global/footer/css/latest.css");
+*/
+
+/*
+#globalnav li a:not(.hide-text) {
+    font-size: 8px!important;
+}
+*/
+/* div#global-nav { */
+/*     clear: both; */
+/*     min-height: 46px; */ /* prevent content movement as header loads */
+/* } */
+/* div#global-foot.wrapLowerFooter { */
+/*     clear: both; */
+/* } */
+
+
+/* --------------------------------------------------------------------------*/
+/* CUP - BEGIN */
+/* --------------------------------------------------------------------------*/
+/*
+--------------------------------------
+corporateHomebar
+Andrew Maison, Feb 2011
+--------------------------------------
+*/
+
+#corporateHomebar { margin: 0; padding: 5px 0 5px; background: #fff; width: 100%; font-weight: 700; font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.7em; /* note: you may need to modify the font size as it will inherit any size specified on your website's <body> element */
+}
+#corporateHomebar a:link, #corporateHomebar a:visited  { color: #666; font-weight: 700; text-decoration: none;}
+#corporateHomebar a:hover, #corporateHomebar a:active  { color: #3399cc; font-weight: 700; text-decoration: underline;}
+
+#corporateHomebar .clear { margin: 0; padding: 0;  clear: both; height: 0; overflow: hidden; }
+
+
+/*
+--------------------------------------
+corporateHomebar portal homepage link
+--------------------------------------
+*/
+
+#corporateHomebarPortalLink {float: left;}
+#corporateHomebarPortalLink a:link, #corporateHomebarPortalLink a:visited { padding: 0 0 0 25px; background: url(pics/cup/corporateHomeIcon.gif) 8px 0 no-repeat; display: block;}
+#corporateHomebarPortalLink a:hover, #corporateHomebarPortalLink a:active { background: url(pics/cup/corporateHomeIconHover.gif) 8px 0 no-repeat; display: block;}
+
+
+/*
+--------------------------------------
+utilities
+--------------------------------------
+*/
+
+#corporateHomebarTools {float: right; }
+
+#corporateHomebarTools #utilities { float: left; }
+#corporateHomebarTools #utilities ul, #corporateHomebarTools #utilities ul li {float: left; list-style: none; margin: 0; padding: 0;}
+
+#corporateHomebarTools #utilities ul li { margin: 0; padding: 0 7px; border-right: 1px solid #ccc; }
+#corporateHomebarTools #utilities ul li a:link, #corporateHomebarTools #utilities  ul li a:visited { display: block; float: left;}
+#corporateHomebarTools #utilities ul li a:hover, #corporateHomebarTools #utilities  ul li a:active { }
+
+#corporateHomebarTools #utilities  ul li.utilityMyBasket a:link, #corporateHomebarTools #utilities  ul li.utilityMyBasket a:visited {
+background: url(../images/corporateBasketIcon.gif) no-repeat 100% 50% ; padding-right: 24px;}
+#corporateHomebarTools #utilities  ul li.utilityMyBasket a:hover, #corporateHomebarTools #utilities  ul li.utilityMyBasket a:active {
+background: url(../images/corporateBasketIconHover.gif) no-repeat 100% 50%; padding-right: 24px;}
+
+
+/*
+--------------------------------------
+corporateHomebar - country select
+--------------------------------------
+*/
+
+#corporateHomebarTools #countrySelect {
+margin: 0 10px 0 5px;
+padding: 0px 0 0px 5px;
+float: left;
+}
+
+#corporateHomebarTools #countrySelect ul { list-style: none; margin: 0; padding: 0;}
+#corporateHomebarTools #countrySelect ul li  { margin: 0 0 0 3px; display: inline; }
+#corporateHomebarTools #countrySelect ul li a:link,  #corporateHomebarTools #countrySelect ul li a:visited { padding: 0 0 0 3px;  color: #666;}
+/* --------------------------------------------------------------------------*/
+/* CUP - END */
+/* --------------------------------------------------------------------------*/
+
+
+
+/* Body / HTML: */
+/* --------------------------------------------------------------------------*/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	height: 100%; 
+}
+body {
+    min-height: 668px;
+	height: 100%; 
+/*
+    display: flex;
+    flex-direction: column;
+*/
+}
+
+div#orl_container {
+    clear: both;
+    /* flex-grow: 1; */
+}
+
+/* Main Header (Table Version): */
+/* --------------------------------------------------------------------------*/
+
+#header_table {
+	width: 100%;
+	margin:0px;
+	padding:0px;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-family: "verdana", sans-serif;
+	background-color: #990000;
+	background-image: none; 
+}
+
+#header_table table {
+	width: 100%;
+}
+
+#header_table #header_left {
+	vertical-align: middle;
+	text-align: center;
+	width: 81px;
+}
+
+#header_table #oaktree {
+	vertical-align: top;
+}
+
+#header_table #project_title_group {
+	height: 38px;
+}
+
+#header_table #crumbtrail {
+	font-size: 1.0em;
+	margin-left: 5px;
+	padding: 0px 0px 10px 0px;
+	vertical-align: top;
+}
+
+#header_table #help {
+	text-align: center;
+	font-size: 1.0em;
+	float: right;
+	margin-right: 15px;
+	border: 1px solid #FFFFFF;
+	padding: 0.1em 1.5em 0.1em 1.5em;
+}
+
+#header_table A:link { 
+	color: #FFFFFF;  text-decoration: none; 
+} 
+
+#header_table A:visited { 
+	color: #FF9999; text-decoration: none; 
+}
+
+#header_table A:hover { 
+	text-decoration: underline; 
+}
+
+#header_table A:active { 
+	color: #FF9999; text-decoration: underline; 
+}
+
+
+/* Main Header (NO-Table Version): */
+/* --------------------------------------------------------------------------*/
+
+#header 
+, #header_blue
+{
+	float: left;
+	width: 100%;
+	margin:0px;
+	padding:0px;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-family: "verdana", sans-serif;
+	background-color: #990000;
+	background-image: none; 
+}
+
+#header_blue {
+	color: #FFFFFF;
+	background-color: #336699;
+}
+
+/*
+#header #logo 
+, #header_blue #logo 
+{
+	float: left;
+    width: 170px;
+	padding: 0em 0em 0em 0em;
+	margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+#header_blue #logo 
+{
+    width: 220px;
+}
+*/
+
+#header #logo #cambridge_logo
+, #header_blue #logo #cambridge_logo
+{
+    float: left;
+    padding: 0em 0em 0em 0em;
+    margin: 0px 32px 0px 0px;
+}
+#header_blue #logo #cambridge_logo
+{
+    margin: 0px 82px 0px 0px;
+}
+
+#header #logo #orlando_logo 
+, #header_blue #logo #orlando_logo 
+{
+    float: left;
+	padding: 2px 0em 0px 0em;
+	margin: 0px 0px 0px 0px;
+}
+
+#header #project_title_group
+, #header_blue #project_title_group 
+{
+	float: left;
+}
+
+#header #project_title 
+, #header_blue #project_title {
+	margin-top: 12px;
+	padding: 2px 0em 2px 0em;
+}
+
+#header #crumbtrail
+, #header_blue #crumbtrail
+{
+	line-height: 16px;
+	vertical-align: middle;
+	font-size: 0.8em;
+	padding: 0px 0px 2px 0px;
+	white-space: pre;
+}
+
+#header #help
+, #header_blue #help 
+, #header #login
+, #header_blue #login 
+, #header #logout_form 
+, #header_blue #logout_form 
+{
+	width: 5em;
+	float: right;
+	border: 1px solid #FFFFFF;
+	margin: 11px 1em 11px 0em; */
+	/* margin: 1em 1em 1em 0em; */
+	/* padding: 0.1em 0.5em 0.1em 0.5em; */
+	padding: 1px 0.5em 1px 0.5em; 
+	text-align: center;
+	font-size: 1.0em;
+}
+
+#header #logout_form 
+, #header_blue #logout_form 
+, #header #login
+, #header_blue #login 
+{
+	clear: right;
+	margin-top: 0em;
+	/* margin-bottom: 1em; */
+}
+
+#header #logout_form
+, #header_blue #logout_form
+{
+	/* margin: 0em 1em 0em 0em; */
+	/* padding: 0em 0.5em 0em 0.5em; */
+}
+
+#header #logout_button
+, #header_blue #logout_button
+{
+	background-color: #990000;
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: inherit ! important;
+	font-family: inherit ! important;
+	margin:0px;
+	padding:0px;
+	border: none;
+}
+
+
+#header A:link 
+, #header_blue A:link 
+{ 
+	color: #FFFFFF;  text-decoration: none; 
+} 
+
+#header A:visited 
+, #header_blue A:visited 
+{ 
+	color: #FF9999; text-decoration: none; 
+}
+
+#header A:hover 
+, #header_blue A:hover 
+, #header button:hover #logout_button_text 
+, #people_main #by_alphabet_input input:hover
+, #people_main #by_chron_input input:hover
+, #chronology_main #name_alphabet_input input:hover
+, #chronology_main #orgname_alphabet_input input:hover
+, #tagsearch_main #by_tags #submit_attribute_btn:hover
+, #tagsearch_main #by_tags #submit_nested_btn:hover
+, #tagsearch_main #by_tags #submit_multi_attribute_btn:hover
+{ 
+	text-decoration: underline; 
+}
+
+#header A:active 
+, #header_blue A:active 
+{ 
+	color: #FF9999; text-decoration: underline; 
+}
+
+
+/* Query Screens (AKA Nav_Bar): Basic presentation for all Query Screens */
+/* --------------------------------------------------------------------------*/
+
+.nav_bar {
+	max-width: 1100px;
+	min-width: 750px;
+	width: 100%;
+    /* min-height: 100%; */
+	font-size: small;
+	font-family: "verdana", sans-serif; 
+	color: #FFFFFF;
+	/* background-color: #990000; */
+	background-image: none;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+.nav_bar input, .nav_bar select  {
+	font-size: 0.9em;
+	font-family: "verdana", sans-serif;
+	padding: 0px;
+	padding-left: 0.5em;
+}
+
+.nav_bar optgroup {
+	font-size: 1.0em;
+}
+
+a:link {
+	 background-color: transparent; 
+	 color: #FFFFFF;  
+	 font-weight: bold; 
+	 text-decoration: none; 
+}
+
+a:visited {
+	 background-color: transparent; 
+	 color: #FF9999;  
+	 font-weight: bold; 
+	 text-decoration: none; 
+}
+
+a:hover { 
+	font-weight: bold; 
+	text-decoration: underline; 
+}
+
+a:active { 
+	font-weight: bold; 
+	background-color: transparent; 
+	color: #FF9999; 
+	text-decoration: underline; 
+}
+
+
+/* Query Screen: Basic Layout into 3 columns: */
+/* --------------------------------------------------------------------------*/
+
+#fullWindow {
+	border-collapse:collapse;
+	border-spacing: 0px;
+	border: 0px none black;
+	margin: 0px;
+	padding: 0px;
+    height: 100%; 
+	width: 100%;
+}
+
+
+#fullWindow #layout_column_nav 
+, #fullWindow #layout_column_main
+, #fullWindow #layout_column_options
+{
+	/* IE lt 6.0 height: 100%; */
+	min-height: 100%; 
+	vertical-align: top;
+}
+
+#fullWindow #layout_column_nav
+{
+	color: inherit;
+	background-color: #990000;
+	padding: 1em 1em 1em 1em;
+}
+
+#fullWindow #layout_column_main
+{
+	border-left: 1px solid #FFFFFF;
+	color: inherit;
+	background-color: #3C638A;
+	padding: 1em;
+}
+#fullWindow #layout_column_options
+{
+	color: #FFFFFF;
+	background-color: #3C638A; 
+	/* background-color: #6699cc; */
+	/* background-color: #3C638A; */
+	padding: 1em 0em 1em 0em;
+	width: 18em;
+}
+
+
+/* Query Screen: Left-hand column for navigation of Entry Points: */
+/* --------------------------------------------------------------------------*/
+
+#entry_points {
+	font-size: 0.85em;
+	clear: left;
+	float: left;
+	width: 13em;
+	height: 100%;
+	padding: 0em;
+	margin: 0px;
+}
+
+#entry_points .ep_heading {
+	font-family: "Times New Roman", serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	letter-spacing: 0.1ex;
+	padding: 0px;
+	margin: 0px;
+	
+	font-size: 1.3em;
+}
+
+#entry_points_list #ep_people
+, #entry_points_list #ep_chronology
+, #entry_points_list #ep_tagsearch
+, #entry_points_list #ep_wordsearch
+, #entry_points_list #ep_links
+, #entry_points_list #ep_legal
+, #entry_points_list #ep_history
+{
+	margin-top: 0.5em;
+}
+#entry_points_list #ep_legal
+{
+	margin-top: 3.5em;
+}
+
+#entry_points_list #ep_home
+, #entry_points_list #ep_people
+, #entry_points_list #ep_chronology
+, #entry_points_list #ep_tagsearch
+, #entry_points_list #ep_wordsearch
+, #entry_points_list #ep_links
+, #entry_points_list #ep_legal
+, #entry_points_list #ep_history
+{
+	list-style-type: none;
+}
+
+
+#entry_points #ep_people_l1
+, #entry_points #ep_people_l2 
+, #entry_points #ep_links_l2 
+{
+	list-style-type:none;
+}
+
+#entry_points #ep_people_l1 li
+, #entry_points #ep_people_l2 li 
+, #entry_points #ep_links_l2 li 
+{
+	list-style-type:circle;
+}
+
+#entry_points_list {
+	margin: 0em;
+	padding: 0em;
+}
+#entry_points_list ul {
+	margin: 0em 0em 0em 0em;
+	padding: 0em 0em 0em 15px;
+}
+#entry_points_list ul ul {
+	margin: 0em 0em 0em 0em;
+	padding: 0em 0em 0em 15px;
+}
+
+#entry_points li {
+}
+
+
+
+
+#entry_points_list .selected {
+	text-decoration: underline;
+}
+
+/* Query Screen: Center -> Home Page: */
+/* --------------------------------------------------------------------------*/
+
+
+
+
+
+#mainBlurb {
+	vertical-align: top;
+	width: 100%;
+	height: 100%; 
+	padding: 1em;
+	color:black;
+	background-color: #FFFFFF;
+}
+
+#homePage_Blurb {
+	text-align: center;
+	color:inherit;
+	background-color: inherit;
+	background-image: url('pics/oakTreeEmbossed.jpg');
+	background-repeat: no-repeat;
+	background-position: center 2em;
+	height: 100%; 
+	padding: 0em;
+	margin: 0px 0px 0px 0px;
+}
+
+.homePage_Content 
+{
+	width: 100%;
+}
+
+#homePage_Navigation {
+	width: 100%;
+	padding-top: 1.0em;
+}
+
+
+.homePage_TitleHeading {
+	font-family: "Trajan", "Times New Roman", serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	letter-spacing: 0.1ex;
+	padding: 0px;
+	margin: 0px;
+	
+	font-size: 2em;
+}
+
+.homePage_Heading {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+.homePage_Text {
+	padding: 0.0em;
+}
+
+/*
+.homePage_Text_Justified {
+	width: 70ex;
+
+	text-align:justify;
+	text-justify: distribute;
+
+	padding: -1.0em;
+}
+*/
+
+
+#homePage_Navigation a:link {
+	 background-color: transparent; color: #336699;  font-weight: bold; text-decoration: none; 
+}
+
+#homePage_Navigation a:visited {
+	 background-color: transparent; color: #336699;  font-weight: bold; text-decoration: none; 
+}
+
+#homePage_Navigation a:hover {
+	 font-weight: bold; text-decoration: none; 
+}
+
+#homePage_Navigation a:active {
+	 background-color: transparent; color: #336699;  font-weight: bold; text-decoration: none; 
+}
+
+#homePage_FeatureList {
+	padding: 0px 0px 0.2em 1.5em;
+}
+
+.homePage_news {
+    border-radius: 25px;
+    border: 2px solid #990000;
+    padding: 0px 10px; 
+    max-width: 50%;
+    min-width: 50px;
+    margin: 0em auto 1em auto;
+}
+
+
+/* Query Screen: Right-hand column of search options: */
+/* --------------------------------------------------------------------------*/
+
+#right_side {
+	/* background-color: #990000; */
+	background-color: inherit;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	/*float: left;*/
+	height: 100%; 
+	width: 100%;
+	padding: 0em 0em 0em 0em;
+	margin: 0em 0em 0em 0em;
+}
+
+#right_side h1 {
+	padding-left: 10px ! important;
+}
+
+#right_side legend {
+	width: auto;
+	background-color: #6699CC ! important; 
+	color: #000000;
+	line-height: 1.5em;
+	padding-left: 10px ! important;
+	padding-right: 10px ! important;
+	margin-left: -7px ! important;
+}
+#right_side fieldset {
+	margin: 10px 0px 5px 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+	background-color: #6699CC; 
+	color: #000000;
+	border-style: none;
+}
+#right_side #limit_scope_event_type img {
+	padding-right: 5px;
+}
+#right_side #limit_scope_event_type {
+	vertical-align: bottom;
+}
+
+/* Query Screen: Right-hand column of search options -> Date Delimiter: */
+/* --------------------------------------------------------------------------*/
+
+#date_delimiter {
+	background-color: inherit; 
+	color: inherit;
+}
+
+#date_delimiter table 
+, #date_delimiter #date_delimiter_select 
+{
+	width:auto;
+	margin: 0px 10px;
+}
+
+/* ie 5.0 doesn't inherit the font color */
+#date_delimiter table
+, #date_delimiter tbody
+, #date_delimiter tr
+, #date_delimiter td 
+{
+	background-color: inherit;
+	color: #000000;
+}
+
+
+#date_delimiter input {
+	border-color: #6699CC; 
+	border-style: solid; 
+	border-width: 2px 2px 0px 2px;
+	padding: 0px;
+}
+
+#date_delimiter .type {
+	text-align: right;
+}
+
+#date_delimiter .cal, #date_delimiter .cal input {
+	width:2.3em;
+	border-style: none none none solid;
+	padding:0px;
+	text-align: center;
+}
+
+#date_delimiter .from_LabelRow {
+	vertical-align: text-top;
+	height: 1.7em;
+}
+
+#date_delimiter .yyyy label {
+	vertical-align: text-top;
+	height: 1.3em;
+}
+
+#date_delimiter .yyyy, #date_delimiter .yyyy input {
+	width:4.0em;
+	border-style: none none none solid;
+	padding:0px;
+	text-align: center;
+}
+
+#date_delimiter .mm, #date_delimiter .mm input {
+	width: 2em; 
+	border-style: none none none solid; 
+	padding:0px; 
+	text-align: center;
+}
+
+#date_delimiter .dd, #date_delimiter .dd input {
+	width: 2em; 
+	border-style: none solid none solid; 
+	padding:0px; 
+	text-align: center;
+}
+
+#date_delimiter #date_delimiter_select select {
+	background-color: #FFFFFF;
+}
+
+#date_delimiter #date_delimiter_select select
+, #date_delimiter #date_delimiter_select option
+{
+        width: 100% !important;
+        min-width: 18.0em !important;
+        max-width: 100% !important;
+		overflow: hidden !important;
+}
+
+#date_delimiter #date_delimiter_select select {
+	background-color: #FFFFFF;
+}
+
+#date_delimiter #date_delimiter_select select .colored {
+	color: inherit;
+	background-color:  #99CCFF;
+}
+
+
+
+
+/* Query Screen: Center column -> General */
+/* --------------------------------------------------------------------------*/
+
+/* min-width hack for IE 5 5.5, 6.0, enabled in orlando_ie.css */
+#min_width_div {
+	display: none;
+}
+
+
+#entry_points h1
+, #people_main h1
+, #people_results h1
+, #limit_scope legend
+, #results_order legend
+, #date_delimiter legend
+, #chronology_main h1
+, #tagsearch_main h1 
+, #history_main h1 
+, #AboutTheTags_largeTagDiagrams h1
+, #right_side h1 
+, #login_main h1
+{
+	color: inherit;
+	background-color: inherit;
+	font-family: "Times New Roman", serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 1.5em;
+	letter-spacing: 0.1ex;
+	padding: 0px;
+	margin: 0px;
+}
+
+#right_side #limit_scope legend
+, #right_side #results_order legend
+, #right_side #date_delimiter legend
+, #tagSearch_AboutTheTags #tagSearch_AboutTheTags_Thumbnails .tagsearch_thumbnail h1 
+{
+	font-size: 1.3em;
+}
+
+#people_main #heading_group
+, #chronology_main #heading_group
+, #tagsearch_main #heading_group 
+, #history_main #heading_group 
+{
+	clear: both;
+	padding-bottom: 2.0em;
+}
+
+#people_main #heading_group #heading_text
+, #chronology_main #heading_group #heading_text
+, #tagsearch_main #heading_group #heading_text 
+, #history_main #heading_group #heading_text 
+{
+	width: 79%;
+	float: left;
+}
+
+#people_main #heading_group #query_button
+, #chronology_main #heading_group #query_button
+, #tagsearch_main #heading_group #query_button 
+, #history_main #heading_group #query_button 
+{
+	text-align: center;
+	width: 20%;
+	float: left;
+}
+
+#heading_group #query_button #submit {
+	padding-right: 5px;
+}	
+
+#people_main input
+, #chronology_main input
+, #tagsearch_main input
+, #history_main input
+, #links_main  input
+{
+	border:none;
+}
+
+
+#people_main #ep_name_list
+, #people_main #partial_match
+, #chronology_main #partial_match 
+{
+	margin-left: 1em;
+	clear: both;
+}
+
+#people_main #ep_name_list h1
+, #people_main #partial_match h1
+, #chronology_main #partial_match h1
+{
+	margin-bottom: 0.5em;
+}
+
+#people_main #ep_name_list a
+, #people_main #partial_match a 
+, #chronology_main #partial_match a 
+{
+	line-height: 1.5em;
+}
+
+#people_main #ep_name_list a span
+, #people_main #partial_match a span
+, #chronology_main #partial_match a span
+{
+	font-size: smaller;
+}
+
+#people_main #ep_name_list .pseudonym
+, #people_main #partial_match .pseudonym
+, #chronology_main #partial_match  .pseudonym
+{
+	padding-left: 2em;
+	display: block;
+}
+
+
+#ep_name_list .noneFound {
+}
+
+#people_main #partial_match table td
+{
+	padding-right: 1em
+}
+
+#people_main #ep_name_list a:link 
+, #people_main #partial_match a:link 
+, #chronology_main #partial_match a:link 
+{
+	 font-weight: normal; 
+}
+
+#people_main #ep_name_list a:visited 
+, #people_main #partial_match a:visited 
+, #chronology_main #partial_match a:visited 
+{
+	 font-weight: normal; 
+}
+
+#people_main #ep_name_list a:hover 
+, #people_main #partial_match a:hover 
+, #chronology_main #partial_match a:hover 
+{ 
+	 font-weight: normal; 
+}
+
+#people_main #ep_name_list a:active 
+, #people_main #partial_match a:active 
+, #chronology_main #partial_match a:active 
+{ 
+	 font-weight: normal; 
+}
+
+#people_main #partial_match td
+{
+	vertical-align: top;
+}
+
+#people_main #partial_match .entry
+{
+	border: 1px solid #6699CC;
+	padding: 0px 1px 2px 1px;
+	margin: 0.25em 0px 0px 0px;
+	font-size: smaller;
+	text-align: center;
+}
+#people_main #partial_match .entry a
+{
+	line-height: 1.0em;
+	color: #6699CC;
+	background-color: inherit;
+}
+
+
+
+
+/* Query Screen: Center column -> People */
+/* --------------------------------------------------------------------------*/
+
+#people_main {
+	min-width: 25em;
+	font-size: 0.9em;
+	height: 100%; 
+	background-color: inherit;
+	color: inherit;
+	padding: 0em;
+	margin: 0px;
+}
+
+
+#people_main #by_name label
+, #people_main #by_name #by_chron_input label
+, #people_main #by_name #by_alphabet_input label
+, #people_main #by_occupation label
+, #people_main #by_genre #by_genre_1_input label
+, #people_main #by_genre #by_genre_2_input #by_genre_2_bool
+, #people_main #by_place #by_place_input label
+, #people_main #by_place #by_place_select label
+, #people_main #by_place #by_place_type #by_place_type_spacing 
+{
+	width: 30%;
+	float:left;
+	clear:left;
+	text-align: right;
+	margin-bottom: 1em;	
+}
+
+
+
+#people_main #by_name_input input
+, #people_main #by_name #by_alphabet_list
+, #people_main #by_name #by_chron_input #by_chron_all
+, #people_main #by_occupation select
+, #people_main #by_genre select
+, #people_main #by_genre #by_genre_1_input div 
+, #people_main #by_place #by_place_input input
+{
+	width: 60%;
+	float:left;
+	margin-bottom: 1em;	
+}
+
+#people_main #by_place #by_place_type 
+{
+	clear: left;
+}
+
+#people_main #by_name #by_alphabet_list
+{
+	text-align: center;
+	font-size: 1.0em;
+}
+
+#people_main #by_name #by_alphabet_input #alpha_all 
+, #people_main #by_name #by_chron_input #by_chron_all input
+{
+	float:left;
+	width: 29%;
+	height: 100%;
+}
+
+#people_main #by_name #by_alphabet_input #alpha_letters {
+	float:left;
+	width:70%;
+}
+
+#people_main #by_name #by_chron_input #by_chron_description
+{
+	padding-top: 1.0em;
+	padding-bottom: 1.0em;
+	clear: both;
+	text-align: center;
+	font-size: 1.0em;
+}
+
+
+
+#people_main h1 span {
+	font-size: 0.8em;
+}
+
+#people_main h1 span span {
+	font-size: 0.7em;
+}
+
+
+/* Query Screen: Center column -> Chronology: */
+/* --------------------------------------------------------------------------*/
+
+#chronology_main {
+	min-width: 25em;
+	font-size: 0.9em;
+	height: 100%;
+	background-color: inherit;
+	color: inherit;
+	padding: 0em;
+	margin: 0px;
+}
+
+
+#chronology_main #date_delimiter_inline {
+	font-variant: small-caps;
+}
+
+
+#chronology_main #by_text #by_text_input label
+, #chronology_main #by_tags #by_name_input label
+, #chronology_main #by_tags #name_alphabet_input label
+, #chronology_main #by_tags #by_orgname_input label
+, #chronology_main #by_tags #orgname_alphabet_input label
+, #chronology_main #by_tags #by_genre_input label
+, #chronology_main #by_tags #by_place_input label
+, #chronology_main #by_tags #by_title_input label
+, #chronology_main #sample_lb 
+{
+	width:30%;
+	float:left;
+	clear:left;
+	text-align: right;
+	vertical-align: middle;
+	margin-bottom: 1em;
+}
+
+#chronology_main #by_text #by_text_input input 
+, #chronology_main #by_tags #by_name_input input
+, #chronology_main #by_tags #by_orgname_input input
+, #chronology_main #by_tags #by_genre_input select 
+, #chronology_main #by_tags #by_place_input input
+, #chronology_main #by_tags #by_title_input input
+, #chronology_main #sample 
+, #chronology_main #by_tags #name_alphabet_input .alpha_letters_fullWidth
+, #chronology_main #by_tags #orgname_alphabet_input  .alpha_letters_fullWidth
+{
+	width:60%; 
+	float:left; 
+	margin-bottom: 1em;
+}
+
+#chronology_main #by_tags #name_alphabet_input .alpha_letters_fullWidth
+, #chronology_main #by_tags #orgname_alphabet_input  .alpha_letters_fullWidth
+{
+	text-align: center;
+}
+
+
+#chronology_main #sample
+{
+	margin-left: 1em;
+}
+
+
+
+/* Query Screen: Center column -> Tag Search: */
+/* --------------------------------------------------------------------------*/
+
+#tagsearch_main {
+	min-width: 25em;
+	font-size: 0.9em;
+	height: 100%;
+	background-color: inherit;
+	color: inherit;
+	padding: 0em;
+	margin: 0em;
+}
+
+
+
+#tagsearch_main #by_tags_text_input_main label
+, #tagsearch_main #by_tags_input_main label
+, #tagsearch_main #by_tags_input_sec label
+, #tagsearch_main #by_tags_text_input_sec label
+, #tagsearch_main #by_text #by_text_input label
+, #tagsearch_main #attribute_lb 
+, #tagsearch_main #nested_lb 
+, #tagsearch_main #sample_lb 
+{
+	width: 30%;
+	float:left;
+	clear:left;
+	text-align: right;
+	vertical-align: middle;
+	margin-bottom: 1em;
+}
+
+#tagsearch_main #by_tags_input_main input
+, #tagsearch_main #by_tags_input_sec input
+, #tagsearch_main #by_text #by_text_input input 
+, #tagsearch_main #submit_attribute_btn
+, #tagsearch_main #submit_multi_attribute_btn
+, #tagsearch_main #submit_nested_btn
+, #tagsearch_main #sample
+/* intermediate tag search select screens */
+, #tagsearch_main #by_tags_input_main select
+, #tagsearch_main #by_tags_input_sec select
+, #tagsearch_main #by_tags_text_input_main input
+, #tagsearch_main #by_tags_text_input_sec input
+, #tagsearch_main #select_attribute 
+{
+	width:60%;
+	float:left;
+	text-align: left;
+	vertical-align: middle;
+	margin-bottom: 1em;
+	z-index: 1;
+	overflow: visible;
+}
+
+#tagsearch_main #submit_attribute_btn
+, #tagsearch_main #submit_multi_attribute_btn
+, #tagsearch_main #submit_nested_btn
+, #tagsearch_main #sample
+{
+	margin-left: 1em;
+}
+
+/* intermediate tag search select screens */
+#tagsearch_main #by_tags_input_main select
+,#tagsearch_main #by_tags_input_sec select
+{
+}
+
+#tagsearch_main #by_tags_text_input_main input
+,#tagsearch_main #by_tags_text_input_sec input
+{
+}
+
+
+#tagSearch_Intermediate {
+	clear: both;
+}
+
+
+#tagsearch_main #select_attribute 
+{
+	padding-left: 15%;
+	margin-bottom: 1em;
+}
+
+
+#tagsearch_main #select_attribute input
+{
+}
+
+#tagsearch_main #select_attribute label
+{
+}
+#tagsearch_main #select_attribute select 
+{
+	margin-left: 5.0em;
+	width: 100%;
+	max-width: 100%;
+}
+
+#tagsearch_main #select_attribute option
+{
+	width: 100%; 
+	min-width: 100%; 
+	max-width: 100%; 
+}
+
+#tagSearch_AboutTheTags {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+#tagSearch_AboutTheTags h1 {
+	text-align: left;
+}
+
+#tagSearch_AboutTheTags #tagSearch_AboutTheTags_Thumbnails 
+{
+	text-align: center;
+	width: 100%;
+}
+
+/* float allows thumbnails to display on multiple lines therefore no horizontal scrolling */
+#tagSearch_AboutTheTags #tagSearch_AboutTheTags_Thumbnails .tagsearch_thumbnail 
+{
+	width: 10em;
+	height: 10em;
+	float: left;
+}
+
+#tagSearch_AboutTheTags #tagSearch_AboutTheTags_Thumbnails .tagsearch_thumbnail h1 
+{
+	padding: 0em;
+	margin: 0em;
+	text-align: center;
+}
+#tagSearch_AboutTheTags #tagSearch_AboutTheTags_Thumbnails .tagsearch_thumbnail img 
+{
+	width: 90%;
+}
+
+
+
+#AboutTheTags_largeTagDiagrams {
+	padding-bottom: 2.0em;
+	background-color: #3C638A;
+	color: inherit;
+	text-align: center;
+	clear: both;
+}
+
+#AboutTheTags_largeTagDiagrams .largeTagDiagram {
+	padding-top: 1.0em;
+	padding-bottom: 0.5em;
+}
+
+#AboutTheTags_largeTagDiagrams h1 {
+	padding-top: 3.0em;
+}
+
+
+/* Query Screen: Center column -> History: */
+/* --------------------------------------------------------------------------*/
+
+#history_main {
+	min-width: 25em;
+	font-size: 0.9em;
+	height: 100%;
+	background-color: inherit;
+	color: inherit;
+	padding: 0em;
+	margin: 0em;
+}
+
+
+
+
+/* Query Screen: Wallpaper (Random Links): */
+/* --------------------------------------------------------------------------*/
+
+#links_main {
+	width:50%;
+	background-color: #3C638A;
+	color: inherit;
+	border: 1px solid #FFFFFF;
+	padding: 1em;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#links_main p {
+	padding: 0em;
+	margin: 0em;
+	font-size: 0.9em;
+}
+
+.wallpaper {
+	margin-top: 1em;
+	font-family: "verdana", sans-serif;
+	font-size: 1.1em; 
+	text-align:justify;
+}
+
+.wallpaper.box {
+	text-justify: distribute; 
+	/*text-align-last: justify;*/
+	line-height: 1.5em;
+}
+
+.wallpaper A:link {
+	font-weight: bold;
+	background-color: transparent;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.wallpaper A:visited {
+	font-weight: bold;
+	background-color: transparent;
+	color: #FF9999;
+	text-decoration: none;
+}
+ 
+.wallpaper A:hover {
+	font-weight: bold;
+	background-color: transparent;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.wallpaper A:active {
+	font-weight: bold;
+	background-color: transparent;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.wallpaper h1, .wallpaper h3 {
+	text-align:left;
+}
+
+
+
+/* Search Result Screens: General*/
+/* --------------------------------------------------------------------------*/
+.result 
+{
+	max-width: 1100px;
+	min-width: 750px;
+	width: 100%;
+	font-size: small;
+	font-family: "Times New Roman", serif;
+	font-weight: normal;
+	color: #1A1A1A;
+	background-color: #FFFFFF;
+	margin: 0px auto; 
+	padding:0px;
+}
+
+.result.popup /* small result popups */
+{
+	width: 100% ! important;
+	min-width: 100px ! important;	
+}
+
+#people_results
+, #chronology_results
+, #tagsearch_results
+, #build_core_tag_timeline
+, #links_results 
+{
+	clear: both;
+}
+
+.result TD {
+	font-size: 1.0em;
+	font-family: "Times New Roman", serif;
+}
+
+.result h2 {
+	font-size: 1.4em;
+	margin-top: 0em;
+	padding-top: 0em;
+}
+.result h2 span.h2_small {
+	font-size: 0.6em;
+}
+.result h3 {
+	font-size: 1.25em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+.result h4 {
+	font-size: 1.1em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 0.5em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+.result A:link 		{ color: #336699; text-decoration: none;} 
+.result A:visited 	{ color: #711A1A; text-decoration: none;} 
+.result A:hover     { text-decoration: underline; }
+.result A:active 	{ color: #711A1A; text-decoration: underline;}
+
+.result a:hover.disable {
+	font-weight: normal ! important;
+	text-decoration: none ! important;
+}
+
+.result.heading {
+	font-size: 1.2em;
+}
+
+IMG.ROLLY_MARK, A.ROLLY_MARK IMG.ROLLY_MARK.BIBCIT {
+	margin: 0px 0.4em;
+	padding: 0px 0.2em;
+	color: #386088;
+	background-color: #386088 !important;
+	border-color: #eeeeff !important;
+	border-style: solid;
+	border-width: 0px 0.8em;
+}
+
+.ROLLY_MARK {
+	font-weight: normal;
+	margin: 0px 0.0em 0px 0px;
+	padding: 0px 2px 0px 2px;
+	color: #386088 !important;
+	background-color: #eeeeff !important;
+	display: inline;
+}
+
+.ROLLY_MARK .paragraph {
+	/* margin-top: 0em; */
+	/* margin-bottom: 0em; */
+	background: inherit;
+	color: inherit;
+}
+
+.ROLLY_MARK .personname_dataitem
+, .ROLLY_MARK .personname_datastruct
+, .ROLLY_MARK .line_of_poetry 
+{
+	background: inherit;
+	color: inherit;
+	display: block;
+}
+
+/* Search Result Screens: Top Portion of Chronology and Tag Search*/
+/* --------------------------------------------------------------------------*/
+
+#queryStatement {
+	width: 75%;
+	min-width: 75%;
+	float: left;
+
+	padding-top: 0.1em;
+	padding-bottom: 1em;
+	margin-bottom: 0em;
+}
+
+#queryStatement #show_entry_indicator {
+	margin: 0.5em 0em 0em 0em;
+	font-size: 1em;
+}
+
+#people_results #queryStatement {
+	padding-left: 1em;
+	padding-bottom: 0.1em;
+	margin-bottom: 0em;
+}
+#queryStatement img {
+	height: 1em;
+	vertical-align: text-top;
+	padding: 0px;
+	margin: 0px;
+}
+
+#queryStatement strong 
+{
+	font-variant: small-caps;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.result .noneFound {
+	clear: both;
+	text-align: center;
+	font-family: "verdana", sans-serif;
+	font-size: 1.2em;
+	color: #336699;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#people_results #show_markup
+, #chronology_results #show_markup 
+, #tagsearch_results #show_markup 
+, #show_citation
+, #show_heading
+, #show_context
+, #hide_context
+, #build_new_chronology
+{
+	float: left;
+	font-size: 1.0em;
+
+	border: 1px solid #336699;
+	padding: 2px 1em 2px 1em;
+
+	text-align: center;
+
+	position: relative;
+	z-index: 5;
+}
+
+.build_new_chronology_div
+, .show_markup_div
+, .show_citation_div
+, .show_context_div
+, .hide_context_div
+, .show_heading_div 
+{
+	font-size: 1.0em;
+
+	padding-right: 1%;
+	margin: 2px 0px 2px 0px;
+
+	min-width: 20%;
+	width: 20%;
+
+	text-align: center;
+
+	clear: right;
+	float: right;
+}
+.build_new_chronology_div {
+	padding: 0em;
+	margin: -5px 0em 0em 0em;
+}
+
+.resultPageSelection {
+	/* width: 75%; */
+	/* float: left; */
+	clear: both;
+	width: 100%; 
+
+	font-weight:bold;
+	text-align: center;
+
+	margin-top: 0em;
+	padding-right: 0em;
+	margin-bottom: 1.0em;
+	padding-left: 0em;
+}
+
+#people_results #author_timeline .resultPageSelection {
+	width: 75%;
+	float: left;
+	clear: left;
+}
+
+.resultPageSelection_Bottom {
+	width: 100%;
+	/* float: left; */
+	clear: both;
+
+	font-weight: bold;
+	text-align: center;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+/* Search Result Screens: People Tabs*/
+/* --------------------------------------------------------------------------*/
+
+#people_results {
+}
+
+#people_results h1 {
+}
+
+.result #overview_tab  
+, .result #writing_tab
+, .result #life_tab
+, .result #parallel_tab
+, .result #worksby_tab
+, .result #author_timeline
+, .result #tagsearch_results
+{
+	clear:both;
+	margin: 1em;
+}
+
+.result #overview_tab  #author_summary_text {
+	padding: 0em 1em 0em 1em;
+}
+
+.result #overview_tab  #milestones {
+	width: 31%;
+	height: 100%;
+	float:left;
+	padding-right: 1%;
+}
+
+.result #writingTOC,
+.result #biographyTOC
+{
+	float:left;
+	width: 30%;
+	padding-right: 1%;
+}
+
+.result #overview_tab  #writingTOC {
+	width: 31%;
+	/*height: 100%;*/
+	float:left;
+	padding-left: 1%;
+}
+
+.result #overview_tab  #biographyTOC {
+	width: 31%;
+	/*height: 100%;*/
+	float:left;
+	padding-left: 1%;
+}
+
+.result #overview_tab #milestones .heading
+, .result #overview_tab  #writingTOC .heading
+, .result #writingTOC .heading 
+, .result #overview_tab  #biographyTOC .heading
+, .result #biographyTOC .heading 
+{
+	font-size: 1.2em;
+	padding: 0em 0px 0.5em 0px;
+}
+
+.result #overview_tab .div1_heading
+, .result #writingTOC .div1_heading
+, .result #biographyTOC .div1_heading
+{
+	font-size: 1.2em;
+	padding: 0px 0px 0.3em 0px;
+}
+
+.result #overview_tab .div2_heading
+, .result #writingTOC .div2_heading
+, .result #biographyTOC .div2_heading
+{
+	padding: 0px 0px 0.2em 15px;
+	font-size: 1.0em;
+}
+
+/* life and writing documents */
+
+#entry_doc_life {
+	width: 66%;
+	float:left;
+	padding-top: 0px;
+	padding-left: 1%; 
+}
+#entry_doc_writing {
+	width: 66%;
+	float:left;
+	padding-top: 0px;
+	padding-left:  1%;
+}
+
+#worksCitedCollapse {
+	display: block;
+}
+
+#worksCitedCollapse_life 
+, #worksCitedCollapse_writing {
+	margin-top: 1em;
+	display: block;
+}
+
+/* parallel tab */
+#people_results #parallel_writ {
+	width: 49%;
+	float: left;
+}
+
+#people_results #parallel_life {
+	width: 49%;
+	float: left;
+}
+
+#people_results #parallel_life #entry_doc_life 
+, #people_results #parallel_life #parallel_life_heading 
+, #people_results #parallel_writ #entry_doc_writing
+, #people_results #parallel_writ #parallel_writ_heading 
+{
+	width: 98%;
+	padding-left: 1%; 
+}
+
+#people_results #parallel_life #entry_doc_life 
+, #people_results #parallel_writ #entry_doc_writing
+{
+	height: 25em;
+	overflow:auto;
+}
+#people_results #parallel_life #parallel_life_heading 
+, #people_results #parallel_writ #parallel_writ_heading 
+{
+}
+
+/* timeline tab */
+.result #author_timeline {
+	padding-top: 0em;
+}
+
+.author_page {
+	clear: left;
+	float: left;
+	width: 100%;
+}
+
+
+/* Search Result Screens: Chronologies*/
+/* --------------------------------------------------------------------------*/
+#chronology_results
+{
+	margin-left:1em;
+	margin-right:1em;
+}
+
+.chron_result {
+	clear: both;
+}
+
+.chron_chroncolumn {
+    width: 25px;
+    float: left;
+}
+ 
+.chron_chronstruct {
+    margin: 0px 0px 0px 25px;
+}
+ 
+.chron_shortprose {
+}
+
+
+/* Search Result Screens: Tag Search*/
+/* --------------------------------------------------------------------------*/
+#tagsearch_results
+{
+	/*padding-left: 15px; */
+}
+
+/* Search Results: Tag Search -> text and context columns */
+/* --------------------------------------------------------------------------*/
+
+#tagsearch_results {
+	clear: both;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#tagsearch_results table {
+	clear: both;
+	width:100%;
+}
+	
+	
+#tagsearch_results .result_td {
+	padding-top: 0em;
+	padding-bottom: 1em;
+	width: 80%;
+}
+
+
+#tagsearch_results .result_xml_td {
+	width: 20%;
+}
+
+
+#tagsearch_results .result_page_selection_td {
+}
+
+
+
+/* Search Result Screens: Core-tag link results tab AKA "Wheel": */ 
+/* --------------------------------------------------------------------------*/
+
+#wheel {
+	padding-left: 15px; 
+	padding-right: 15px; 
+	/*border-top: 2px solid #000000;*/
+
+	/*width: 600px;*/
+}
+
+a.result.heading.Wheel {
+	margin: 0px;
+	padding: 0px;
+}
+
+#wheel #main_heading {
+	font-weight: bold;
+}
+
+#wheel #summary {
+	clear: both;
+	text-align:left;
+	padding-top: 1ex; 
+	padding-bottom: 1ex;
+}
+
+#wheel #life_hierarchy_heading
+, #wheel #writing_hierarchy_heading 
+{
+	padding-top: 1em;
+	font-size: 1.2em;
+	clear:both;
+}
+
+#wheel #tag_list_header 
+, #wheel #life_hierarchy
+, #wheel #writing_hierarchy 
+{
+	float:left;
+	width:40%;
+	padding-right: 10%;
+}
+
+#wheel #detail_list_header 
+, #wheel #life_details
+, #wheel #writing_details 
+{
+	float:left;
+	width:45%;
+}
+
+#wheel #life_details ul
+, #wheel #writing_details ul
+{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+#wheel #life_details li
+, #wheel #writing_details li
+{
+	padding-left: 0em;
+	margin-left: 2em;
+}
+
+
+#wheel ul {
+	list-style-type: none;
+}
+
+#wheel .count {
+	color:blue;
+}
+
+
+/* Search Result Screens: Show XML markup: */ 
+/* --------------------------------------------------------------------------*/
+
+#showmarkup_main {
+	color: inherit;
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+
+ #showmarkup_main table 
+{
+	clear: both;
+	width:100%;
+}
+#showmarkup_main table .result_td {
+	padding-top: 0em;
+	padding-bottom: 3em;
+}
+
+.showmarkup_tag, showmarkup_attribute {
+	color: #808080;
+	background-color: inherit;
+}
+
+.showmarkup_value {
+	color: #39803D;
+	background-color: inherit;
+}
+
+.showmarkup_gray {
+	color: #999999;
+	background-color: inherit;
+}
+
+.showmarkup_green {
+	color: #39803D;
+	background-color: inherit;
+}
+
+.showmarkup_black {
+	color: #000000;
+	background-color: inherit;
+}
+
+/* Search Result Screens: : */ 
+#links_results 
+{
+	margin-left:1em;
+	margin-right:1em;
+}
+
+/* Search Result Screens: Scholarly Notes: */ 
+/* --------------------------------------------------------------------------*/
+
+#scholarNote {
+	padding-left: 15px;
+}
+
+.scholarNote_Heading {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.scholarNote_Text {
+	padding-top: 1.0em;
+}
+
+/* Search Result Screens: Bibliographical Citations: */ 
+/* --------------------------------------------------------------------------*/
+
+.bibCit_Heading {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+#bibCit {
+	padding-left: 15px;
+}
+
+.bibCit_Text {
+}
+
+.biblCitation {
+	text-indent: -4.0em;
+	padding:0em 5.0em 0em 4.5em;
+	margin-top: 0em;
+	margin-bottom: 1em;
+}
+
+.bibliography_url
+{
+	word-wrap: break-word;
+}
+
+
+
+/* Buttons: */
+/* --------------------------------------------------------------------------*/
+
+.btn {
+	color: white;
+	background-color: #3C638A;
+	text-decoration: none;
+}
+
+.btnhov {
+	color: white;
+	background-color: #876483;
+	text-decoration: underline;
+}
+
+
+#people_main .button
+, #chronology_main .button
+, #tagsearch_main .button 
+, #history_main .button 
+{
+	background-color: #3C638A;
+	color: #FFFFFF; 
+	margin:0px;
+	padding:0px;
+	border: none;
+}
+
+
+
+
+/* Documentation (Help): */
+/* --------------------------------------------------------------------------*/
+
+#fullWindow #layout_column_doc_nav
+, #fullWindow #layout_column_doc_main
+{
+	min-height: 100%;
+	vertical-align: top;
+}
+
+#fullWindow #layout_column_doc_nav {
+	background-color: #336699;
+	color: #FFFFFF;
+	padding: 0.5em 0em 1em 0em;
+}
+
+#fullWindow #layout_column_doc_main {
+	width: 100%;
+	text-align: left;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 0em 1em 1em 1em;
+}
+
+#documentation_toc
+, #documentation_index
+{
+	font-size: 0.9em;
+	width: 220px;
+	height: 100%;
+}
+
+#documentation_toc .selected 
+, #documentation_index .selected
+{
+	text-decoration: underline;
+}
+
+#documentation_file {
+	padding: 0em;
+	height: 100%;
+	width: 40em; 
+	font-family: "Times New Roman", serif;
+}
+
+#documentation_file h1 
+, #documentation_file .paragraph1 
+{
+}
+#documentation_file h2 
+, #documentation_file .paragraph2 
+{
+}
+#documentation_file h3 
+, #documentation_file .paragraph3 
+{
+	margin-left: 20px;
+}
+#documentation_file h4 
+, #documentation_file .paragraph4 
+{
+	margin-left: 40px;
+}
+#documentation_file h5 
+, #documentation_file .paragraph5 
+{
+	margin-left: 60px;
+}
+#documentation_file h6 
+, #documentation_file .paragraph6 
+{
+	margin-left: 80px;
+}
+
+#documentation_file .paragraph1 
+, #documentation_file .paragraph2 
+, #documentation_file .paragraph3 
+, #documentation_file .paragraph4 
+, #documentation_file .paragraph5 
+, #documentation_file .paragraph6 
+{
+	margin-bottom: 1.0em;
+}
+
+#documentation_file h1 {
+	margin-top:0px;
+	font-size: 1.3em;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top:0.5em;
+	margin-bottom: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+#documentation_file h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	font-variant: small-caps;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+#documentation_file h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+#documentation_file h4 {
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+#documentation_file h5 {
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+#documentation_file h6 {
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+
+#documentation_file img {
+	/*
+	border-right: 10px solid #000000;
+	clear:left;
+	*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+#documentation_file img.BIBCIT {
+	margin: 0px;
+	display: inline;
+}
+
+#documentation_index_list
+, #documentation_toc_list  
+{
+	margin-left: 2.0em;
+	margin-right: 1.0em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.0em;
+}
+
+#documentation_toc_list ul 
+, #documentation_index_list ul
+{
+	margin-left: 1.0em;
+	margin-right: 0em;
+	padding: 0.0em;
+}
+
+#documentation_toc_list li 
+, #documentation_index_list li
+{
+	margin-bottom: 0.2em;
+}
+
+#documentation_toc .tab_group,
+#documentation_index .tab_group {
+	width: 100%;
+
+	clear:both;
+	font-size: 0em;
+	display: block;
+	margin: 2px 0px;
+	padding: 0px 0px;
+	border-bottom: 2px solid #000000;
+}
+
+#documentation_toc A:link ,
+#documentation_index A:link {
+	 font-weight: normal;
+}
+
+
+#documentation_file A:link {
+	color: #336699;  font-weight: bold; text-decoration: none; 
+}
+#documentation_file A:visited {
+	color: #336699;  font-weight: bold; text-decoration: none; 
+}
+#documentation_file A:hover {
+	 color:#336699; font-weight: bold; text-decoration: none; 
+}
+#documentation_file A:active {
+	 color: #336699;  font-weight: bold; text-decoration: none; 
+}
+
+#documentation_file .scholarNote {
+	display: inline;
+}
+
+.backToTop {
+	font-size: 0.8em;
+	float:right;
+	clear: both;
+}
+
+
+/* public Login Page */
+/* --------------------------------------------------------------------------*/
+
+#login_main {
+	clear: both;
+	padding: 1em;
+	min-width: 30em;
+	width: 33em;
+	max-width: 40em;
+	background-image: url('pics/oakTreeEmbossed.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}	
+
+
+#login_main #login_error {
+	border: 2px solid #336699;
+	margin: 1em 0em 1em 0em;
+	padding: 1em;
+}
+
+#login_main form label {
+	width: 33%;
+	float:left;
+	clear:left;
+	text-align: right;
+}
+#login_main form #pass 
+, #login_main form #user 
+{
+	width: 33%;
+	float:left;
+	clear:right;
+}
+#login_main form #login_button 
+{
+	width: 33%;
+	margin-left: 33%;
+	background-color: #336699;
+	color: #FFFFFF; 
+	text-align: center;
+}
+
+/* Admin Page: */
+/* --------------------------------------------------------------------------*/
+
+.adminpage {
+	color: inherit;
+	background-color: #dddddd;
+	background-image: none;
+	font-size: small;
+	font-family: "verdana", sans-serif;
+}
+
+/* IE 6.0 not inheriting font size (doctype is present) in datedelimit */
+/* IE 5.5 TD size */
+.adminpage SELECT, .adminpage TD, .adminpage INPUT {
+	font-size: small;
+	font-family: "verdana", sans-serif;
+}
+
+#admin_xsl {
+	background-image: url('http://www.ualberta.ca/ORLANDO/images/background/background.jpg');
+	background-color: #990000;
+	height: 100%;
+}
+
+#admin_xsl #submit {
+	background-color:#990000;
+	color:white;
+	font-family: "ariel", serif;
+	font-weight: bold;
+}
+
+#admin_xsl table, #admin_xsl form {
+	height: 100%;
+	width: 100%;
+}
+#admin_xsl #options, #admin_xsl #xsl_image
+{
+	height: 0%;
+}
+#admin_xsl #xsl_cell {
+	height: 100%;
+	vertical-align: top;
+}
+#admin_xsl #xsl_cell #xsl {
+	height: 100%;
+	width: 100%;
+}
+
+#admin_xsl textarea {
+	white-space: pre;
+}
+
+
+/* Global: */
+/* --------------------------------------------------------------------------*/
+
+/* 2004-08-05 remove if harms table.tabs */
+table, td, tr { /*main page*/
+	border-collapse:collapse;
+	border-spacing: 0px;
+	border: 0px none #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	clear: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+ul, li { /*main page*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+img {
+	border-width: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+IMG.actionItem
+, .actionItem 
+, button.actionItem
+{
+	cursor: pointer;
+}
+
+
+
+/* Orlando: Links uses .display_NoLink and .display_Hierarchy
+* to hide/show "document Links" by changing the className
+*/
+.display_NoLink {
+	display: none;
+}
+/* Orlando: Links uses .display_NoLink and .display_Hierarchy
+* to hide/show "document Links" by changing the className
+* .hierarchy used to pad (indent) the "contexts" under which
+* the "document links" reside
+*/
+.hierarchy, .display_Hierarchy {
+	display: block;
+}
+
+.block_Visible {
+	display: block !important;
+}
+
+.block_None {
+	display: none !important;
+}
+
+.block_Hidden {
+	visibility: hidden !important;
+}
+
+.block_Hidden_off {
+	visibility: visible !important;
+}
+
+.inline_None {
+	display: none !important;
+}
+.inline_Visible{
+	display: inline !important;
+}
+
+#footer_copyright
+, #back_to_top
+{
+	clear:both;
+	padding: 1em;
+	text-align:center;
+	padding: 3em 0em 1em 0em;
+	font-size: 0.9em;
+}
+
+#copyright 
+{
+	padding: 0em;
+	margin: 0em;
+}
+
+#back_to_top {
+	padding: 1em 3em 0em 3em;
+	text-align:right;
+}
+
+#loadingMsg {
+	font-family: "verdana", sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+
+	clear: both;
+	width: 100%;
+	height: 1.2em;
+    position: absolute;
+	top: 98px;
+	left: 0;
+    filter: alpha(opacity=80);
+    -moz-opacity: .80;
+    opacity:.80;
+    background-color: #FFFFFF;
+    color: #000000;
+	z-index: 0;
+
+	/*
+	clear: both;
+	width: 100%;
+	height: 8ex;
+    position: absolute;
+	top: 76px;
+	left: 0px;
+    filter: alpha(opacity=80);
+    -moz-opacity: .80;
+    opacity:.80;
+    background-color: #FFFFFF;
+    color: #000000;
+	z-index: 2;
+	*/
+}
+
+#people_main #loadingMsg {
+	position: relative;
+	top: 0px;
+	height: 2em;
+	line-height: 2em;
+}
+
+#loadingMsg #loadingMsgText {
+	text-align:center;
+	/*	
+	width: 100%;
+	text-align:center;
+	font-family: "verdana", sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	*/
+}
+
+
+/* Global: Result text presentation */
+/* --------------------------------------------------------------------------*/
+.paragraph {
+	/*margin-top: 1em; */
+	font-size: 1.0em;
+
+	margin-top : 0em;
+	margin-bottom: 1em;
+	padding-right: 3.0em;
+	padding-left: 3.0em;
+	background: inherit;
+	color: inherit;
+}
+
+.paragraph.chronstruct {
+	clear: right;
+	font-size: 1.0em;
+	padding-left: 45px;
+	text-indent: -30px;
+	margin-top : 0em;
+	margin-bottom: 1em;
+}
+
+#milestones .paragraph.chronstruct {
+	padding-left: 30px;
+	padding-right: 0px;
+	text-indent: -30px;
+}
+
+.personname_datastruct {
+	margin-bottom: 1em;
+}
+
+.blockquote {
+	margin-right: 3.0em;
+	margin-left: 3.0em;
+}
+
+address {
+	display: inline;
+	font-style: normal;
+}
+
+.normal, .normal_render {
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.highlight {
+	color: #0000FF;
+	background-color: inherit;
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.line_of_poetry {
+	margin-right: 0ex; 
+	margin-left: 5ex;
+}
+
+
+/* Global: Tab presentation */
+/* --------------------------------------------------------------------------*/
+.tabs_IMG, .tabs_IMG_Selected {
+	display: inline;
+	padding: 0px 0px 0px 0px ;
+	margin: 0px 0px 0px 0px;
+}
+
+.tabs_IMG img {
+	vertical-align: bottom;
+	/* no underline under selected tab */
+	margin: 0px 0px -1px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.tabs_IMG_Selected img {
+	vertical-align: bottom;
+	/* no underline under selected tab */
+	margin: 0px 0px -2px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.tab_underline {
+	width: 100%;
+	border-top: 2px solid #000000;
+
+	font-size: 0em;
+
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.tab_group {
+	width: 565px;
+
+	clear:both;
+	font-size: 0em;
+	display: block;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+
+
+
+

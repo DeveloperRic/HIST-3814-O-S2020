@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html class="js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="http://scottbot.net/xmlrpc.php">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Networks Demystified 9: Bimodal Networks – the scottbot irregular</title>
+<link rel="dns-prefetch" href="http://secure.gravatar.com/">
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="the scottbot irregular » Feed" href="http://scottbot.net/feed/">
+<link rel="alternate" type="application/rss+xml" title="the scottbot irregular » Comments Feed" href="http://scottbot.net/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="the scottbot irregular » Networks Demystified 9: Bimodal Networks Comments Feed" href="http://scottbot.net/networks-demystified-9-modality/feed/">
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/scottbot.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="twentysixteen-jetpack-css" href="twentysixteen.css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="style.css" media="all">
+<style id="wp-block-library-inline-css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="wp-block-library-theme-css" href="theme.css" media="all">
+<link rel="stylesheet" id="twentysixteen-fonts-css" href="css.css" media="all">
+<link rel="stylesheet" id="genericons-css" href="genericons.css" media="all">
+<link rel="stylesheet" id="twentysixteen-style-css" href="style_002.css" media="all">
+<style id="twentysixteen-style-inline-css">
+
+		/* Custom Link Color */
+		.menu-toggle:hover,
+		.menu-toggle:focus,
+		a,
+		.main-navigation a:hover,
+		.main-navigation a:focus,
+		.dropdown-toggle:hover,
+		.dropdown-toggle:focus,
+		.social-navigation a:hover:before,
+		.social-navigation a:focus:before,
+		.post-navigation a:hover .post-title,
+		.post-navigation a:focus .post-title,
+		.tagcloud a:hover,
+		.tagcloud a:focus,
+		.site-branding .site-title a:hover,
+		.site-branding .site-title a:focus,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-footer a:hover,
+		.entry-footer a:focus,
+		.comment-metadata a:hover,
+		.comment-metadata a:focus,
+		.pingback .comment-edit-link:hover,
+		.pingback .comment-edit-link:focus,
+		.comment-reply-link,
+		.comment-reply-link:hover,
+		.comment-reply-link:focus,
+		.required,
+		.site-info a:hover,
+		.site-info a:focus {
+			color: #dd8500;
+		}
+
+		mark,
+		ins,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.pagination .prev:hover,
+		.pagination .prev:focus,
+		.pagination .next:hover,
+		.pagination .next:focus,
+		.widget_calendar tbody a,
+		.page-links a:hover,
+		.page-links a:focus {
+			background-color: #dd8500;
+		}
+
+		input[type="date"]:focus,
+		input[type="time"]:focus,
+		input[type="datetime-local"]:focus,
+		input[type="week"]:focus,
+		input[type="month"]:focus,
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		input[type="url"]:focus,
+		input[type="password"]:focus,
+		input[type="search"]:focus,
+		input[type="tel"]:focus,
+		input[type="number"]:focus,
+		textarea:focus,
+		.tagcloud a:hover,
+		.tagcloud a:focus,
+		.menu-toggle:hover,
+		.menu-toggle:focus {
+			border-color: #dd8500;
+		}
+
+		@media screen and (min-width: 56.875em) {
+			.main-navigation li:hover > a,
+			.main-navigation li.focus > a {
+				color: #dd8500;
+			}
+		}
+	
+</style>
+<link rel="stylesheet" id="twentysixteen-block-style-css" href="blocks.css" media="all">
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='http://scottbot.net/wp-content/themes/twentysixteen/css/ie.css?ver=20170530' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='http://scottbot.net/wp-content/themes/twentysixteen/css/ie8.css?ver=20170530' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='http://scottbot.net/wp-content/themes/twentysixteen/css/ie7.css?ver=20170530' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="social-logos-css" href="social-logos.css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="jetpack.css" media="all">
+<script src="jquery.js"></script>
+<script src="jquery-migrate.js"></script>
+<script>
+var related_posts_js_options = {"post_heading":"h4"};
+</script>
+<script src="related-posts.js"></script>
+<!--[if lt IE 9]>
+<script src='http://scottbot.net/wp-content/themes/twentysixteen/js/html5.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="http://scottbot.net/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://scottbot.net/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://scottbot.net/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Digital History, Saturn’s Rings, and the Battle of Trafalgar" href="http://scottbot.net/digital-history-saturns-rings-and-the-battle-of-trafalgar/">
+<link rel="next" title="Culturomics 2: The Search for More Money" href="http://scottbot.net/culturomics-2-the-search-for-more-money/">
+<meta name="generator" content="WordPress 5.4.1">
+<link rel="canonical" href="http://scottbot.net/networks-demystified-9-modality/">
+<link rel="shortlink" href="https://wp.me/p7mQ6O-aHQ">
+<link rel="alternate" type="application/json+oembed" href="http://scottbot.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fscottbot.net%2Fnetworks-demystified-9-modality%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://scottbot.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fscottbot.net%2Fnetworks-demystified-9-modality%2F&amp;format=xml">
+
+<link rel="dns-prefetch" href="http://v0.wordpress.com/">
+<link rel="dns-prefetch" href="http://i0.wp.com/">
+<link rel="dns-prefetch" href="http://i1.wp.com/">
+<link rel="dns-prefetch" href="http://i2.wp.com/">
+<link rel="dns-prefetch" href="http://jetpack.wordpress.com/">
+<link rel="dns-prefetch" href="http://s0.wp.com/">
+<link rel="dns-prefetch" href="http://s1.wp.com/">
+<link rel="dns-prefetch" href="http://s2.wp.com/">
+<link rel="dns-prefetch" href="http://public-api.wordpress.com/">
+<link rel="dns-prefetch" href="http://0.gravatar.com/">
+<link rel="dns-prefetch" href="http://1.gravatar.com/">
+<link rel="dns-prefetch" href="http://2.gravatar.com/">
+<style type="text/css">img#wpstats{display:none}</style><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style id="custom-background-css">
+body.custom-background { background-color: #422600; }
+</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Networks Demystified 9: Bimodal Networks">
+<meta property="og:url" content="http://scottbot.net/networks-demystified-9-modality/">
+<meta property="og:description" content="What do you think, is a year long enough to wait between Networks Demystified posts? I don’t think so, which is why it’s been&nbsp;a year and a month. Welcome back! A recent twitter back-and…">
+<meta property="article:published_time" content="2015-01-21T00:15:17+00:00">
+<meta property="article:modified_time" content="2015-01-21T00:15:17+00:00">
+<meta property="og:site_name" content="the scottbot irregular">
+<meta property="og:image" content="http://scottbot.net/wp-content/uploads/2015/01/pitts21.jpg">
+<meta property="og:image:width" content="610">
+<meta property="og:image:height" content="500">
+<meta name="twitter:text:title" content="Networks Demystified 9: Bimodal Networks">
+<meta name="twitter:card" content="summary">
+
+<!-- End Jetpack Open Graph Tags -->
+<style type="text/css"></style><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="services.css"><script charset="utf-8" src="momenttimelinetweet.js"></script><script charset="utf-8" src="tweet.js"></script></head>
+
+<body class="post-template-default single single-post postid-41158 single-format-standard custom-background wp-embed-responsive">
+<div id="page" class="site">
+	<div class="site-inner">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-header-main">
+				<div class="site-branding">
+					
+											<p class="site-title"><a href="http://scottbot.net/" rel="home">the scottbot irregular</a></p>
+												<p class="site-description">data are everywhen</p>
+									</div><!-- .site-branding -->
+
+									<button id="menu-toggle" class="menu-toggle" aria-expanded="false">Menu</button>
+
+					<div id="site-header-menu" class="site-header-menu">
+													<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu" aria-expanded="false">
+								<div class="menu-top-menu-container"><ul id="menu-top-menu" class="primary-menu"><li id="menu-item-41548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41548"><a href="http://scottbot.net/i-am/">i am</a></li>
+<li id="menu-item-41546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41546"><a href="http://scottbot.net/pledges/">pledges</a></li>
+<li id="menu-item-41670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="http://scottbot.net/dh-quantified/">dh quantified</a></li>
+<li id="menu-item-41543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41543"><a href="http://scottbot.net/hired-gun/">hired gun</a></li>
+<li id="menu-item-41547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41547"><a href="http://scottbot.net/curated-syllabi/">curated syllabi</a></li>
+<li id="menu-item-41544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41544"><a href="http://scottbot.net/knowledge/">knowledge diagrams</a></li>
+<li id="menu-item-41545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41545"><a href="http://scottbot.net/curriculum-vitae/">curriculum vitae</a></li>
+</ul></div>							</nav><!-- .main-navigation -->
+						
+											</div><!-- .site-header-menu -->
+							</div><!-- .site-header-main -->
+
+					</header><!-- .site-header -->
+
+		<div id="content" class="site-content">
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		
+<article id="post-41158" class="post-41158 post type-post status-publish format-standard hentry category-method tag-complexity tag-data-analysis tag-digital-humanities tag-gephi tag-methodologies tag-network-analysis tag-networks-demystified tag-social-networks">
+	<header class="entry-header">
+		<h1 class="entry-title">Networks Demystified 9: Bimodal Networks</h1>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=Networks Demystified 9: Bimodal Networks&amp;rft.source=the scottbot irregular&amp;rft.date=2015-01-21&amp;rft.identifier=http://scottbot.net/networks-demystified-9-modality/&amp;rft.language=English&amp;rft.subject=method&amp;rft.au=scott b. weingart"></span><p>What
+ do you think, is a year long enough to wait between Networks 
+Demystified posts? I don’t think so, which is why it’s been&nbsp;a year 
+and a month. Welcome back! A recent <a href="https://twitter.com/electricarchaeo/status/557557096779378688">twitter back-and-forth</a>&nbsp;culminated in a request for a discussion of “bimodal networks”, and my <a href="http://www.scottbot.net/HIAL/?tag=networks-demystified">Networks Demystified series</a> seemed like a perfect place for just such a discussion.</p>
+<iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: absolute; visibility: hidden; display: block; width: 0px; height: 0px; padding: 0px; border: medium none;" frameborder="0"></iframe><blockquote class="twitter-tweet twitter-tweet-error" data-twitter-extracted-i1590544231697112015="true" lang="en"><p><a href="https://twitter.com/scott_bot">@scott_bot</a> what I need, I think, is a discussion of network metrics from a bimodal perspective.</p>
+<p>— Shawn Graham (@electricarchaeo) <a href="https://twitter.com/electricarchaeo/status/557565662017499137">January 20, 2015</a></p></blockquote>
+<p><script src="widgets.js" async="" charset="utf-8"></script>What’s a bimodal network, you ask? (Go on, ask aloud at your desk. Nobody will look at you funny, this is the age of Siri!) A <strong>bimodal network</strong> is one which connects two varieties of things. It’s also called a&nbsp;<strong>bipartite</strong>, <strong>2-partite</strong>,<strong>&nbsp;</strong>or<strong> 2-mode</strong>&nbsp;<strong>network</strong>.
+ A network of authors connected to the papers they write is bimodal, as 
+are networks of books to topics, and people to organizations they are 
+affiliated with.</p>
+<figure id="attachment_41159" aria-describedby="caption-attachment-41159" style="width: 306px" class="wp-caption aligncenter"><img class="wp-image-41159" src="bimodal-228x300.png" alt="A bimodal network." width="306" height="28"><figcaption id="caption-attachment-41159" class="wp-caption-text">A bimodal network.</figcaption></figure>
+<p>This is a bimodal network which connects people and the clubs they belong to. <span style="color: #339966;">Alice</span> is a member of the <span style="color: #0000ff;">Network Club</span> and the <span style="color: #0000ff;">We Love History Society</span>, <span style="color: #339966;">Bob</span>‘s in the <span style="color: #0000ff;">Network Club</span> and the <span style="color: #0000ff;">No Adults Allowed Club</span>, and <span style="color: #339966;">Carol</span>‘s in the <span style="color: #0000ff;">No Adults Allowed Club</span>.</p>
+<p>If this makes no sense, read <a href="http://www.scottbot.net/HIAL/?tag=networks-demystified">my earlier Networks Demystified posts</a>&nbsp;(the first two posts), or the our&nbsp;<a href="http://www.themacroscope.org/?page_id=337">Historian’s Macroscope chapter</a>,
+ for a primer on networks. If it does make sense, excellent! The rest of
+ this post will hopefully take you out of your comfort zone, but remain 
+understandable to someone who doesn’t speak math.</p>
+<h3><em>k</em>-partite Networks &amp; Projections</h3>
+<p>Bimodal networks are part of a larger class of&nbsp;<a href="http://en.wikipedia.org/wiki/Multipartite_graph"><em>k</em>-partite</a>
+ networks. Unipartite/unimodal networks have only one type of node 
+(remember, nodes are the stuff being connected by the edges), 
+bipartite/bimodal networks have two types of nodes, tripartite/trimodal 
+networks have three types of node, and so on to infinity.</p>
+<p>The most common networks you’ll see being researched are unipartite. 
+Who follows whom on Twitter? Who’s writing to whom in early modern 
+Europe? What articles cite which other articles? All&nbsp;are examples 
+of unipartite networks. It’s important to realize this isn’t necessarily
+ determined by the dataset, but by the researcher doing the studying. 
+For example, you can use the same organization affiliation 
+dataset&nbsp;to create a unipartite network of who is in a 
+club&nbsp;with whom, or a bipartite network of which person&nbsp;is 
+affiliated with each organization.</p>
+<figure id="attachment_41164" aria-describedby="caption-attachment-41164" style="width: 700px" class="wp-caption aligncenter"><img class="size-large wp-image-41164" src="bimodalprojection-1024x591.png" alt="The same dataset used to create a unipartite (left) and a bipartite (right) network." width="429" height="56"><figcaption id="caption-attachment-41164" class="wp-caption-text">The same dataset used to create a unipartite (left) and a bipartite (right) network.</figcaption></figure>
+<p>The above illustration shows the same dataset used to create a 
+unimodal and a bimodal network. The process of turning a pre-existing 
+bimodal network into a unimodal network is called a <a href="http://en.wikipedia.org/wiki/Bipartite_network_projection">bimodal projection</a>. This process collapses one set of nodes into edges connecting the other set. In this case, because <span style="color: #339966;">Alice</span> and <span style="color: #339966;">Bob</span> are both members of the <span style="color: #3366ff;">Network Club</span>, the <span style="color: #3366ff;">Network Club</span> collapses&nbsp;into becoming an edge between those two people. The <span style="color: #3366ff;">No Adults Allowed Club</span> collapses into an edge between <span style="color: #339966;">Bob</span> and <span style="color: #339966;">Carol</span>.&nbsp;Because only <span style="color: #339966;">Alice</span> is a member of the <span style="color: #3366ff;">We Love History Society</span>, it does not collapse into an edge connecting any people.</p>
+<p>You can also collapse the network in the opposite direction, connecting organizations who share people. <span style="color: #3366ff;">No Adults Allowed</span> and <span style="color: #3366ff;">Network Club</span> would share an edge (<span style="color: #339966;">Bob</span>), as would <span style="color: #3366ff;">Network Club</span> and <span style="color: #3366ff;">We Love History Society</span> (<span style="color: #339966;">Alice</span>).</p>
+<h3><em>Why</em> Bimodal Networks?</h3>
+<p>If the same dataset can be described with unimodal networks, which 
+are less complex, why go to bi-, tri-, or multimodal?&nbsp;The answer to
+ that is in your research question: different network representations 
+suit different questions better.</p>
+<p>Collaboration is a hot topic in bibliometrics. Who collaborates with 
+whom? Why? Do your collaborators affect your future collaborations? 
+Co-authorship networks are well-suited to some of these questions, since
+ they directly connect collaborators who author a piece together. This 
+is a unimodal network: I wrote&nbsp;<em>The Historian’s Macroscope&nbsp;</em>with Shawn Graham and Ian Milligan, so we draw an edge connecting each of us together.</p>
+<p>Some of the more focused questions of collaboration, however, require
+ a more nuanced view of the data. Let’s say you want to know how 
+individual instances of collaboration affect individual research 
+patterns going forward. In this case, you want to know more than the 
+fact that I’ve co-authored two pieces with Shawn and Ian, and they’ve 
+co-authored three pieces together.</p>
+<p>For this added nuance, we can draw an edge from&nbsp;each of us to&nbsp;<em>The Historian’s Macroscope</em> (rather than each-other), then another set edges&nbsp;to the piece we co-authored&nbsp;in&nbsp;<em>The Programming Historian</em>, and a last set of edges going from Shawn and Ian to the piece they wrote in the&nbsp;<em>Journal of Digital Humanities.&nbsp;</em>That’s three people nodes and three publication nodes.</p>
+<figure id="attachment_41168" aria-describedby="caption-attachment-41168" style="width: 228px" class="wp-caption aligncenter"><img class="size-medium wp-image-41168" src="collaboration-228x300.png" alt="Scott, Ian, and Shawn's co-authorship network" width="228" height="56"><figcaption id="caption-attachment-41168" class="wp-caption-text">Scott, Ian, and Shawn’s co-authorship network</figcaption></figure>
+<h3>Why <em>Not</em> Bimodal Networks?</h3>
+<p>Humanities data are often a rich array of node types: people, places,
+ things, ideas, all connected to each other via a complex network.&nbsp;<strong>The trade-off is, the more complex and multimodal your dataset, the less you can reasonably do with it</strong>.
+ This is one of the fundamental tensions between computational and 
+traditional humanities. More categories lead to&nbsp;a richer 
+understanding of the diversity of human experience, but are incredibly 
+unhelpful when you want to count things.</p>
+<p>Consider two pie-charts showing the religious makeup of the United 
+States. The first chart groups together religions that fall under a 
+similar umbrella, and&nbsp;the second does not. That is, the first chart
+ groups religions like Calvinists and Lutherans together into the same 
+pie slice (Protestants), and the second splits them into separate 
+slices. The second, more complex chart obviously presents a richer 
+picture of religious diversity in the United States, but it’s also 
+significantly more difficult to read. It&nbsp;might trick you into 
+thinking there are more Catholics than Protestants in the country, due 
+to how the pie is split.</p>
+<p>The same is true in network analysis. <strong>By&nbsp;creating a 
+dataset with a hundred varieties of nodes, you lose your ability to see a
+ bigger picture through meaningful aggregations</strong>.</p>
+<p><a href="https://www.youtube.com/watch?v=0A5t5_O8hdA">Surely</a>, 
+you’re thinking, bimodal networks, with only two categories, should be 
+fine! Wellllll, yes and no. You don’t bump into the same aggregation 
+problem you do with very&nbsp;multimodal networks; instead, you bump 
+into technical and mathematical issues. These issues are why I <a href="http://www.scottbot.net/HIAL/?p=6526">often</a> warn non-technical researchers <a href="http://www.scottbot.net/HIAL/?p=39600">away</a>
+ from bimodal networks in research. They’re not theoretically unsound, 
+they’re just difficult to work with properly unless you know what 
+changes when you’re working with these complex networks.</p>
+<p>The following section will discuss a few network metrics you may be familiar with, and what they mean for bimodal networks.</p>
+<h3>Network Metrics and Bimodality</h3>
+<p>The easiest thing to measure in a network is a node’s <strong>degree centrality</strong>.
+ You’ll recall this is a measurement of how many edges are attached to a
+ node, which gives a rough proxy for this concept we’ve come to call 
+network “<a href="http://en.wikipedia.org/wiki/Centrality">centrality</a>“.
+ It means different things depending on your data and your question: the
+ most important or well-connected person in your social network; the 
+point in the U.S. electrical grid which is most vulnerable to attack; 
+the book that shares the most concepts with other books (the 
+encyclopedia?); the city that the most traders pass through to get to 
+their destination. These are all highly “central” in the networks they 
+occupy.</p>
+<figure id="attachment_41169" aria-describedby="caption-attachment-41169" style="width: 283px" class="wp-caption aligncenter"><img data-attachment-id="41169" data-permalink="http://scottbot.net/networks-demystified-9-modality/selfloop1/" data-orig-file="https://i2.wp.com/scottbot.net/wp-content/uploads/2015/01/SelfLoop1.png?fit=283%2C169" data-orig-size="283,169" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="SelfLoop[1]" data-image-description="" data-medium-file="https://i2.wp.com/scottbot.net/wp-content/uploads/2015/01/SelfLoop1.png?fit=283%2C169" data-large-file="https://i2.wp.com/scottbot.net/wp-content/uploads/2015/01/SelfLoop1.png?fit=283%2C169" class="size-full wp-image-41169" src="SelfLoop1.png" alt="A network with each node labeled with its degree centrality." width="283" height="56"><figcaption id="caption-attachment-41169" class="wp-caption-text">A network with each node labeled with its degree centrality, via Wikipedia.</figcaption></figure>
+<p>Degree centrality is the easiest such proxy to compute: how many 
+connections does a node have? The idea is that nodes that are more 
+highly connected are more central. The assumption only goes so far, and 
+it’s easy to come up with nodes that are central that do not have a 
+&nbsp;high degree, as with the network below.</p>
+<p></p><figure id="attachment_41170" aria-describedby="caption-attachment-41170" style="width: 277px" class="wp-caption aligncenter"><img class="size-medium wp-image-41170" src="1471-2105-7-219-1-l1-277x300.jfif" alt="The blue node is highly central, but only has a degree centrality of 3. [via]" width="277" height="56"><figcaption id="caption-attachment-41170" class="wp-caption-text">The blue node is highly central, but only has a degree centrality of 3. [<a href="http://www.biomedcentral.com/1471-2105/7/219/figure/F1?highres=y">via</a>]</figcaption></figure>That’s
+ the thing with these metrics: if you know how they work, you know which
+ networks they apply well to, and which they do not. If what you mean by
+ “centrality” is “has more friends”, and we’re talking about a Facebook 
+network, then degree centrality is a perfect metric for the job.<p></p>
+<p>If what you mean is “an important stop for river trade”, and we’re 
+talking about 12th century Russia, then degree centrality sucks. The 
+below is an illustration of such a network by <a href="http://www.analytictech.com/networks/pitts.htm">Pitts (1978)</a>:</p>
+<figure id="attachment_41171" aria-describedby="caption-attachment-41171" style="width: 610px" class="wp-caption aligncenter"><img data-attachment-id="41171" data-permalink="http://scottbot.net/networks-demystified-9-modality/pitts21/" data-orig-file="https://i1.wp.com/scottbot.net/wp-content/uploads/2015/01/pitts21.jpg?fit=610%2C500" data-orig-size="610,500" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pitts2[1]" data-image-description="" data-medium-file="https://i1.wp.com/scottbot.net/wp-content/uploads/2015/01/pitts21.jpg?fit=300%2C246" data-large-file="https://i1.wp.com/scottbot.net/wp-content/uploads/2015/01/pitts21.jpg?fit=610%2C500" class="size-full wp-image-41171" src="pitts21.jfif" alt="Russian river trade routes. Numbers/nodes are cities, and edges are rivers between them." srcset="https://i1.wp.com/scottbot.net/wp-content/uploads/2015/01/pitts21.jpg?w=610 610w, https://i1.wp.com/scottbot.net/wp-content/uploads/2015/01/pitts21.jpg?resize=300%2C246 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" width="429" height="56"><figcaption id="caption-attachment-41171" class="wp-caption-text">Russian river trade routes. Numbers/nodes are cities, and edges are rivers between them.</figcaption></figure>
+<p>Moscow is number 35, and pretty clearly the most central according to
+ the above criteria (you’ll likely pass through it to reach other 
+destinations). But it only has a degree centrality of four! Node 9 also 
+has a degree centrality of four, but clearly doesn’t play as important a
+ structural role as Moscow in this network.</p>
+<p>We already see that depending on your question, your definitions, and
+ your dataset, specific&nbsp;metrics will either be useful or not. 
+Metrics may change meanings entirely from one network to the next&nbsp;–
+ for example, looking at bimodal rather than unimodal networks.</p>
+<p>Consider what degree centrality means for the Alice, Bob, and Carol’s
+ bimodal affiliation network above, where each is associated with a 
+different set of clubs. Calculate the degree centralities in your head 
+(hint: if you can’t, you haven’t learned what degree centrality means 
+yet. Try again.).</p>
+<p>Alice and Bob have a degree of 2, and Carol has a degree of 1. Is 
+this saying anything about how central each is to the network? <em>Not at all</em>. Compare this to the unimodal projection, and you’ll see Bob is clearly the only structurally central actor in the network. <strong>In a bimodal network, degree centrality is nothing more than a count of affiliations with the other half of the network.</strong> It is much less likely to tell you something structurally useful than if you were looking at a unimodal network.</p>
+<p>Consider another common measurement:&nbsp;<strong>clustering coefficient</strong>. You’ll recall that a node’s <a href="http://en.wikipedia.org/wiki/Clustering_coefficient#Local_clustering_coefficient">local clustering coefficient</a>
+ is the extent to which its neighbors are neighbors to one 
+another.&nbsp;If all my Facebook friends know each other, I have a high 
+clustering coefficient; if none of them know each other, I have a low 
+clustering coefficient. If all of a power plant’s neighbors directly 
+connect to one another, it has a high clustering coefficient, and if 
+they don’t, it has a low clustering coefficient.</p>
+<p></p><figure id="attachment_41172" aria-describedby="caption-attachment-41172" style="width: 220px" class="wp-caption aligncenter"><img data-attachment-id="41172" data-permalink="http://scottbot.net/networks-demystified-9-modality/220px-clustering_coefficient_example-svg1/" data-orig-file="https://i2.wp.com/scottbot.net/wp-content/uploads/2015/01/220px-Clustering_coefficient_example.svg1_.png?fit=220%2C924" data-orig-size="220,924" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="220px-Clustering_coefficient_example.svg[1]" data-image-description="" data-medium-file="https://i2.wp.com/scottbot.net/wp-content/uploads/2015/01/220px-Clustering_coefficient_example.svg1_.png?fit=71%2C300" data-large-file="https://i2.wp.com/scottbot.net/wp-content/uploads/2015/01/220px-Clustering_coefficient_example.svg1_.png?fit=220%2C924" class="size-full wp-image-41172" src="220px-Clustering_coefficient_example.png" alt="Clustering coefficient, from largest to smallest. [via]" width="220" height="56"><figcaption id="caption-attachment-41172" class="wp-caption-text">Clustering coefficient, from largest to smallest. [<a href="http://en.wikipedia.org/wiki/Clustering_coefficient">via</a>]</figcaption></figure>This
+ measurement winds up being important for all sorts of reasons, but one 
+way to interpret its meaning is as a proxy for the extent to which a 
+node bridges diverse communities, the extent to which it is an important
+ broker. In the 17th century, Henry Oldenburg was an important broker 
+between disparate scholarly communities, in that he corresponded with 
+people all across Europe, many of whom would never meet one another. The
+ fact that they’d never meet is represented by the local clustering 
+coefficient. It’s low, so we know his neighbors were unlikely to be 
+neighbors of one another.<p></p>
+<p>You can get creative (and network scientists often are) with what 
+this metric means in the context of your own dataset. As long as you 
+know how the algorithm works (taking the fraction of neighbors who are 
+neighbors to one another), and the structural assumptions underlying 
+your dataset, you can argue why clustering coefficient is a useful proxy
+ for answering whatever question you’re asking.</p>
+<p>Your argument may be pretty good, like if you say clustering 
+coefficient is a decent (but not the best) proxy for revealing nodes 
+that broker between disparate sections of a unimodal 
+social&nbsp;network. Or your argument may be bad, like if you say 
+clustering coefficient is a good proxy for organizational cohesion on 
+the bimodal Alice, Bob, and Carol affiliation network above.</p>
+<p>A thorough glance at the network, and a realization of our earlier 
+definition of clustering coefficient (taking the fraction of neighbors 
+who are neighbors to one another), should reveal why this is a bad 
+justification. Alice’s clustering coefficient is zero. As is Bob’s. As 
+is the Network Club’s. Every node has a clustering coefficient of zero, 
+because no node’s neighbors connect to each other. That’s just the 
+nature of bimodal networks: they connect across, rather than between, 
+modes. Alice can never connect directly with Bob, and the Network Club 
+can never connect directly with the We Love History Society.</p>
+<p>Bob’s neighbors (the organizations) can never be neighbors with each 
+other. There will never be a clustering coefficient as we defined it.</p>
+<p>In short, <strong>the simplest definition of clustering coefficient doesn’t work on bimodal networks</strong>.
+ It’s obvious if you know how your network works, and how clustering 
+coefficient is calculated, but if you don’t think about it before you 
+press the easy “clustering coefficient” button in Gephi, you’ll be lead 
+astray.</p>
+<p>Gephi doesn’t know if your network is bimodal or unimodal 
+or&nbsp;∞modal. Gephi doesn’t care. Gephi just does what you tell it to.
+ You want Gephi to tell you the degree centralities in a bimodal 
+network? Here ya go! You want it to give you the local clustering 
+coefficients of nodes in a bimodal network? Voila! Everything still 
+works as though these metrics would produce meaningful, sensible 
+results.</p>
+<p>But they won’t be meaningful on your network. <strong>You need to be your own network’s sanity check, and not rely on software to tell you something’s a bad idea</strong>.
+ Think about your network, think about your algorithm, and try to work 
+through what an algorithm means in the context of your data.</p>
+<h3>Using Bimodal Networks</h3>
+<p>This doesn’t mean you should stop using bimodal networks. Most of the
+ easy network software out there comes with algorithms made for unimodal
+ networks, but other algorithms exist and are available for more complex
+ networks. Very occasionally, but by no means always,&nbsp;you can 
+project your bimodal network to a unimodal network, as described above, 
+and run your unimodal algorithms on that new network projection.</p>
+<p>There are a number of times when this doesn’t work well. At 2,300 
+words, this tutorial is already too long, so I’ll leave thinking through
+ why as an exercise for the reader. It’s less complicated than you’d 
+expect, if you have a pen and paper and know how fractions work.</p>
+<p>The better solution, usually, is to use an algorithm meant for bi- or multimodal networks. <a href="http://toreopsahl.com/tnet/two-mode-networks/clustering/">Tore Opsahl has put together a good primer on the subject</a>
+ with regard to clustering coefficient (slightly mathy, but you can get 
+through it with&nbsp;ample use of Wikipedia). He argues that projection 
+isn’t an optimal solution, but gives a simple algorithm for a 
+finding&nbsp;bimodal clustering coefficients, and directions to do so in
+ R. Essentially the algorithm extends the visibility of the clustering 
+coefficient, asking whether&nbsp;a node’s neighbors 2 hops away can 
+reach the others via 2 hops as well. Put another way, I don’t want to 
+know what clubs Bob&nbsp;belongs to, but rather 
+whether&nbsp;Alice&nbsp;and Carol can also connect to one another 
+through a club.</p>
+<p>It’s a bit difficult to write without the use of formulae, but 
+looking at the bimodal network and thinking about what clustering 
+coefficient ought to mean should get you on the right track.</p>
+<p>Bimodal networks aren’t an unsolved problem. If you&nbsp;<a href="http://scholar.google.com/scholar?hl=en&amp;q=bimodal%7Cbipartite%7C2-mode+network&amp;btnG=&amp;as_sdt=1%2C31&amp;as_sdtp=">search Google Scholar for bimodal, bipartite, and 2-mode networks</a>,
+ you’ll discover all sorts of clever&nbsp;methods for analyzing bimodal 
+networks, including some great introductory texts by Borgatti and 
+Everett.</p>
+<p>The issue is there aren’t easy solutions through platforms like 
+Gephi, and that’s probably on us as Digital Humanists. &nbsp;I’ve found 
+that DHers are much more likely to have bi- or multimodal datasets than 
+most network researchers. If we want to be able to analyze them easily, 
+we need to start developing our own plugins to Gephi, or our own tools, 
+to do so. Push-button solutions are great&nbsp;<em>if you know what’s happening when you push the button</em>.</p>
+<p>So let this be an addendum to my previous warnings against using 
+bimodal networks: by all means, use them, but make sure you really think
+ about the algorithms and your data, and what any given metric might 
+imply when run on your network specifically. There are all sorts of free
+ resources online you can find by googling your favorite algorithm. Use 
+them.</p>
+<hr>
+<p>For more information, read up on specific algorithms, methods, interpretations, etc. for two-mode networks from <a href="http://toreopsahl.com/tnet/two-mode-networks/">Tore Opsahl</a>.</p>
+<p>&nbsp;</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-41158" class="share-twitter sd-button share-icon no-text" href="http://scottbot.net/networks-demystified-9-modality/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-41158" class="share-facebook sd-button share-icon no-text" href="http://scottbot.net/networks-demystified-9-modality/?share=facebook&amp;nb=1" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal jp-relatedposts-grid "><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="6279" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="http://scottbot.net/lets-talk-about-networks/" title="Demystifying Networks
+
+Part 1 of n: An Introduction A bunch of my recent posts have mentioned networks. Elijah Meeks not-so-subtly hinted that it might be a good idea to discuss some of the basics of networks on this blog, and I'm happy to oblige. He already introduced network visualizations on his own…" data-origin="41158" data-position="0">Demystifying Networks</a></span><span class="jp-relatedposts-post-date">December 14, 2011</span><span class="jp-relatedposts-post-context">In "method"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="38272" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="http://scottbot.net/networks-demystified-4-co-citation-analysis/" title="Networks Demystified 4: Co-Citation Analysis
+
+This installment of Networks Demystified is the first one that's actually applied. A few days ago, a discussion arose over twitter involving citation networks, and this post fills the dual purpose of continuing that discussion, and teaching a bit about basic citation analysis. If you're looking for the very basics…" data-origin="41158" data-position="1">Networks Demystified 4: Co-Citation Analysis</a></span><span class="jp-relatedposts-post-date">June 30, 2013</span><span class="jp-relatedposts-post-context">In "method"</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="23755" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="http://scottbot.net/topic-nets/" title="Topic nets
+
+I'm sorry. I love you (you know who you are, all of you). I really do. I love your work, I think it's groundbreaking and transformative, but the network scientist / statistician in me twitches uncontrollably whenever he sees someone creating a network out of a topic model by picking…" data-origin="41158" data-position="2">Topic nets</a></span><span class="jp-relatedposts-post-date">October 11, 2012</span><span class="jp-relatedposts-post-context">In "method"</span></p></div></div>	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><img alt="" src="c2c3f37244ba2c8146a1ddfbaf9aa197.jfif" srcset="http://0.gravatar.com/avatar/c2c3f37244ba2c8146a1ddfbaf9aa197?s=98&amp;d=mm&amp;r=g 2x" class="avatar avatar-49 photo grav-hashed grav-hijack" id="grav-c2c3f37244ba2c8146a1ddfbaf9aa197-0" width="49" height="49"><span class="screen-reader-text">Author </span> <a class="url fn n" href="http://scottbot.net/author/admin/">scott b. weingart</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://scottbot.net/networks-demystified-9-modality/" rel="bookmark"><time class="entry-date published updated" datetime="2015-01-21T00:15:17+00:00">January 21, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://scottbot.net/category/method/" rel="category tag">method</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://scottbot.net/tag/complexity/" rel="tag">complexity</a>, <a href="http://scottbot.net/tag/data-analysis/" rel="tag">data analysis</a>, <a href="http://scottbot.net/tag/digital-humanities/" rel="tag">digital humanities</a>, <a href="http://scottbot.net/tag/gephi/" rel="tag">gephi</a>, <a href="http://scottbot.net/tag/methodologies/" rel="tag">methodologies</a>, <a href="http://scottbot.net/tag/network-analysis/" rel="tag">network analysis</a>, <a href="http://scottbot.net/tag/networks-demystified/" rel="tag">networks demystified</a>, <a href="http://scottbot.net/tag/social-networks/" rel="tag">social networks</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-41158 -->
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			3 thoughts on “Networks Demystified 9: Bimodal Networks”		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-374" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href="http://www.lagado.name/blog/?p=342" rel="external nofollow ugc" class="url">Directed Probabilistic Topic Networks | The Frame of Lagado</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-375" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href="http://www.lagado.name/blog/?p=126" rel="external nofollow ugc" class="url">Deriving Browsing Similarity | The Frame of Lagado</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-376" class="comment even thread-even depth-1">
+			<article id="div-comment-376" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="9H5GWFMj_normal.html" srcset="http://2.gravatar.com/avatar/b29834cdf368d0a68f511a2d97217ed1?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" width="42" height="42">						<b class="fn"><a href="http://twitter.com/judithmp" rel="external nofollow ugc" class="url">Judith Mühlenhoff (@judithmp)</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/networks-demystified-9-modality/#comment-376">
+							<time datetime="2015-11-23T19:11:57+00:00">
+								November 23, 2015 at 7:11 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>This is so useful because it’s not just theoretical explanation 
+and links to my questions and what to consider when applying network 
+analysis. Many thanks!<br>
+Re the 2nd illustration: I think you mixed up the description in the 
+illustration – on the left is the bipartite graph and on the right is 
+the unipartite graph, right?!<br>
+Do you have a web link or could you give another clue when bimodal to 
+unimodal projection doesn’t work? I’m curious, but the hint with the 
+fractions doesn’t help me a lot (and I don’t like fractions).</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://scottbot.net/networks-demystified-9-modality/?replytocom=376#respond" data-commentid="376" data-postid="41158" data-belowelement="div-comment-376" data-respondelement="respond" aria-label="Reply to Judith Mühlenhoff (@judithmp)">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+	
+	
+		<div id="respond" class="comment-respond">
+							<h3 id="reply-title" class="comment-reply-title">Leave a Reply					<small><a rel="nofollow" id="cancel-comment-reply-link" href="http://scottbot.net/networks-demystified-9-modality/#respond" style="display:none;">Cancel reply</a></small>
+				</h3>
+						<form id="commentform" class="comment-form">
+				<iframe title="Comment Form" src="https://jetpack.wordpress.com/jetpack-comment/?blogid=108877878&amp;postid=41158&amp;comment_registration=0&amp;require_name_email=1&amp;stc_enabled=1&amp;stb_enabled=1&amp;show_avatars=1&amp;avatar_default=mystery&amp;greeting=Leave+a+Reply&amp;greeting_reply=Leave+a+Reply+to+%25s&amp;color_scheme=light&amp;lang=en&amp;jetpack_version=8.5&amp;show_cookie_consent=10&amp;has_cookie_consent=0&amp;token_key=%3Bnormal%3B&amp;sig=b1ae2f63de4f8311f375e0aee3f0d7d40afa48d9#parent=http%3A%2F%2Fscottbot.net%2Fnetworks-demystified-9-modality%2F" style="width:100%; height: 430px; border:0;" name="jetpack_remote_comment" class="jetpack_remote_comment" id="jetpack_remote_comment" sandbox="allow-same-origin allow-top-navigation allow-scripts allow-forms allow-popups" scrolling="no"></iframe>
+									<!--[if !IE]><!-->
+					<script>
+						document.addEventListener('DOMContentLoaded', function () {
+							var commentForms = document.getElementsByClassName('jetpack_remote_comment');
+							for (var i = 0; i < commentForms.length; i++) {
+								commentForms[i].allowTransparency = false;
+								commentForms[i].scrolling = 'no';
+							}
+						});
+					</script>
+					<!--<![endif]-->
+							<input id="ak_js" name="ak_js" value="1590544231701" type="hidden"></form>
+		</div>
+
+		
+		<input name="comment_parent" id="comment_parent" value="" type="hidden">
+
+		
+</div><!-- .comments-area -->
+
+	<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://scottbot.net/digital-history-saturns-rings-and-the-battle-of-trafalgar/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">Digital History, Saturn’s Rings, and the Battle of Trafalgar</span></a></div><div class="nav-next"><a href="http://scottbot.net/culturomics-2-the-search-for-more-money/" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">Culturomics 2: The Search for More Money</span></a></div></div>
+	</nav>
+	</main><!-- .site-main -->
+
+	
+</div><!-- .content-area -->
+
+
+	<aside id="secondary" class="sidebar widget-area" role="complementary">
+		<section id="text-3" class="widget widget_text"><h2 class="widget-title">scott b. weingart</h2>			<div class="textwidget"><img src="20081619522_b6947a66d9_o.jfif" width="24" height="24">
+<br><br>historian of science, juggler, OA advocate, &amp; carnegie mellon university's DH specialist.</div>
+		</section><section id="wpcom_social_media_icons_widget-3" class="widget widget_wpcom_social_media_icons_widget"><h2 class="widget-title">scottbot elsewhere</h2><ul><li><a href="https://www.facebook.com/scottbot/" class="genericon genericon-facebook" target="_blank"><span class="screen-reader-text">View scottbot’s profile on Facebook</span></a></li><li><a href="https://twitter.com/scott_bot/" class="genericon genericon-twitter" target="_blank"><span class="screen-reader-text">View scott_bot’s profile on Twitter</span></a></li><li><a href="https://www.linkedin.com/in/scott-weingart-419b8316/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">View scott-weingart-419b8316’s profile on LinkedIn</span></a></li><li><a href="https://github.com/scottbot/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">View scottbot’s profile on GitHub</span></a></li><li><a href="https://plus.google.com/u/0/+ScottWeingart0/" class="genericon genericon-googleplus" target="_blank"><span class="screen-reader-text">View ScottWeingart0’s profile on Google+</span></a></li></ul></section>		<section id="recent-posts-4" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+											<li>
+					<a href="http://scottbot.net/a-thousand-little-fires/">a thousand little fires</a>
+									</li>
+											<li>
+					<a href="http://scottbot.net/seeking-new-physics/">Seeking New Physics</a>
+									</li>
+											<li>
+					<a href="http://scottbot.net/releasing-the-digital-humanities-literacy-guidebook/">Releasing the Digital Humanities Literacy Guidebook</a>
+									</li>
+											<li>
+					<a href="http://scottbot.net/modeling-space-ships-from-ocean-liners/">Modeling Space Ships from Ocean Liners</a>
+									</li>
+											<li>
+					<a href="http://scottbot.net/the-route-of-a-text-message/">The Route of a Text Message</a>
+									</li>
+					</ul>
+		</section><section id="archives-4" class="widget widget_archive"><h2 class="widget-title">archives</h2>		<label class="screen-reader-text" for="archives-dropdown-4">archives</label>
+		<select id="archives-dropdown-4" name="archive-dropdown">
+			
+			<option value="" selected="selected">Select Month</option>
+				<option value="http://scottbot.net/2020/03/"> March 2020 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2019/09/"> September 2019 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2019/01/"> January 2019 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2018/11/"> November 2018 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2017/11/"> November 2017 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2017/07/"> July 2017 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2017/02/"> February 2017 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2016/11/"> November 2016 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2016/10/"> October 2016 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2016/06/"> June 2016 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2016/05/"> May 2016 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2016/04/"> April 2016 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2016/03/"> March 2016 &nbsp;(4)</option>
+	<option value="http://scottbot.net/2015/12/"> December 2015 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2015/11/"> November 2015 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2015/08/"> August 2015 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2015/07/"> July 2015 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2015/06/"> June 2015 &nbsp;(4)</option>
+	<option value="http://scottbot.net/2015/03/"> March 2015 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2015/01/"> January 2015 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2014/12/"> December 2014 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2014/11/"> November 2014 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2014/09/"> September 2014 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2014/04/"> April 2014 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2014/03/"> March 2014 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2014/02/"> February 2014 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2014/01/"> January 2014 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2013/12/"> December 2013 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2013/11/"> November 2013 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2013/10/"> October 2013 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2013/09/"> September 2013 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2013/08/"> August 2013 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2013/07/"> July 2013 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2013/06/"> June 2013 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2013/04/"> April 2013 &nbsp;(6)</option>
+	<option value="http://scottbot.net/2012/12/"> December 2012 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2012/11/"> November 2012 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2012/10/"> October 2012 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2012/09/"> September 2012 &nbsp;(6)</option>
+	<option value="http://scottbot.net/2012/08/"> August 2012 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2012/07/"> July 2012 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2012/06/"> June 2012 &nbsp;(1)</option>
+	<option value="http://scottbot.net/2012/05/"> May 2012 &nbsp;(2)</option>
+	<option value="http://scottbot.net/2012/03/"> March 2012 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2012/02/"> February 2012 &nbsp;(5)</option>
+	<option value="http://scottbot.net/2012/01/"> January 2012 &nbsp;(4)</option>
+	<option value="http://scottbot.net/2011/12/"> December 2011 &nbsp;(3)</option>
+	<option value="http://scottbot.net/2011/11/"> November 2011 &nbsp;(6)</option>
+	<option value="http://scottbot.net/2011/10/"> October 2011 &nbsp;(6)</option>
+	<option value="http://scottbot.net/2011/01/"> January 2011 &nbsp;(1)</option>
+
+		</select>
+
+<script>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-4" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+
+		</section><section id="tag_cloud-3" class="widget widget_tag_cloud"><h2 class="widget-title">Tags</h2><div class="tagcloud"><ul class="wp-tag-cloud" role="list">
+	<li><a href="http://scottbot.net/tag/abms/" class="tag-cloud-link tag-link-9 tag-link-position-1" style="font-size: 1em;">ABMs</a></li>
+	<li><a href="http://scottbot.net/tag/academia/" class="tag-cloud-link tag-link-10 tag-link-position-2" style="font-size: 1em;">academia</a></li>
+	<li><a href="http://scottbot.net/tag/alt-ac/" class="tag-cloud-link tag-link-12 tag-link-position-3" style="font-size: 1em;">alt-ac</a></li>
+	<li><a href="http://scottbot.net/tag/appreciability/" class="tag-cloud-link tag-link-13 tag-link-position-4" style="font-size: 1em;">appreciability</a></li>
+	<li><a href="http://scottbot.net/tag/archives/" class="tag-cloud-link tag-link-14 tag-link-position-5" style="font-size: 1em;">archives</a></li>
+	<li><a href="http://scottbot.net/tag/bias/" class="tag-cloud-link tag-link-16 tag-link-position-6" style="font-size: 1em;">bias</a></li>
+	<li><a href="http://scottbot.net/tag/big-data/" class="tag-cloud-link tag-link-17 tag-link-position-7" style="font-size: 1em;">big data</a></li>
+	<li><a href="http://scottbot.net/tag/blogging/" class="tag-cloud-link tag-link-18 tag-link-position-8" style="font-size: 1em;">blogging</a></li>
+	<li><a href="http://scottbot.net/tag/complexity/" class="tag-cloud-link tag-link-23 tag-link-position-9" style="font-size: 1em;">complexity</a></li>
+	<li><a href="http://scottbot.net/tag/data-analysis/" class="tag-cloud-link tag-link-26 tag-link-position-10" style="font-size: 1em;">data analysis</a></li>
+	<li><a href="http://scottbot.net/tag/dhconf/" class="tag-cloud-link tag-link-28 tag-link-position-11" style="font-size: 1em;">dhconf</a></li>
+	<li><a href="http://scottbot.net/tag/diffusion/" class="tag-cloud-link tag-link-29 tag-link-position-12" style="font-size: 1em;">diffusion</a></li>
+	<li><a href="http://scottbot.net/tag/digital-humanities/" class="tag-cloud-link tag-link-30 tag-link-position-13" style="font-size: 1em;">digital humanities</a></li>
+	<li><a href="http://scottbot.net/tag/disciplinarity/" class="tag-cloud-link tag-link-31 tag-link-position-14" style="font-size: 1em;">disciplinarity</a></li>
+	<li><a href="http://scottbot.net/tag/diversity/" class="tag-cloud-link tag-link-33 tag-link-position-15" style="font-size: 1em;">diversity</a></li>
+	<li><a href="http://scottbot.net/tag/full-stack-dev/" class="tag-cloud-link tag-link-90 tag-link-position-16" style="font-size: 1em;">full-stack dev</a></li>
+	<li><a href="http://scottbot.net/tag/gender/" class="tag-cloud-link tag-link-37 tag-link-position-17" style="font-size: 1em;">gender</a></li>
+	<li><a href="http://scottbot.net/tag/gephi/" class="tag-cloud-link tag-link-39 tag-link-position-18" style="font-size: 1em;">gephi</a></li>
+	<li><a href="http://scottbot.net/tag/gis/" class="tag-cloud-link tag-link-40 tag-link-position-19" style="font-size: 1em;">GIS</a></li>
+	<li><a href="http://scottbot.net/tag/history/" class="tag-cloud-link tag-link-42 tag-link-position-20" style="font-size: 1em;">history</a></li>
+	<li><a href="http://scottbot.net/tag/history-of-science/" class="tag-cloud-link tag-link-43 tag-link-position-21" style="font-size: 1em;">history of science</a></li>
+	<li><a href="http://scottbot.net/tag/human-dynamics/" class="tag-cloud-link tag-link-44 tag-link-position-22" style="font-size: 1em;">human dynamics</a></li>
+	<li><a href="http://scottbot.net/tag/humnets/" class="tag-cloud-link tag-link-45 tag-link-position-23" style="font-size: 1em;">humnets</a></li>
+	<li><a href="http://scottbot.net/tag/interdisciplinarity/" class="tag-cloud-link tag-link-46 tag-link-position-24" style="font-size: 1em;">interdisciplinarity</a></li>
+	<li><a href="http://scottbot.net/tag/literary-history/" class="tag-cloud-link tag-link-48 tag-link-position-25" style="font-size: 1em;">literary history</a></li>
+	<li><a href="http://scottbot.net/tag/macroanalysis/" class="tag-cloud-link tag-link-49 tag-link-position-26" style="font-size: 1em;">macroanalysis</a></li>
+	<li><a href="http://scottbot.net/tag/methodologies/" class="tag-cloud-link tag-link-52 tag-link-position-27" style="font-size: 1em;">methodologies</a></li>
+	<li><a href="http://scottbot.net/tag/network-analysis/" class="tag-cloud-link tag-link-55 tag-link-position-28" style="font-size: 1em;">network analysis</a></li>
+	<li><a href="http://scottbot.net/tag/networks-demystified/" class="tag-cloud-link tag-link-56 tag-link-position-29" style="font-size: 1em;">networks demystified</a></li>
+	<li><a href="http://scottbot.net/tag/open-access/" class="tag-cloud-link tag-link-58 tag-link-position-30" style="font-size: 1em;">open access</a></li>
+	<li><a href="http://scottbot.net/tag/philosophy-of-science/" class="tag-cloud-link tag-link-60 tag-link-position-31" style="font-size: 1em;">philosophy of science</a></li>
+	<li><a href="http://scottbot.net/tag/republic-of-letters/" class="tag-cloud-link tag-link-67 tag-link-position-32" style="font-size: 1em;">republic of letters</a></li>
+	<li><a href="http://scottbot.net/tag/review/" class="tag-cloud-link tag-link-68 tag-link-position-33" style="font-size: 1em;">review</a></li>
+	<li><a href="http://scottbot.net/tag/scholarly-communication/" class="tag-cloud-link tag-link-69 tag-link-position-34" style="font-size: 1em;">scholarly communication</a></li>
+	<li><a href="http://scottbot.net/tag/sci2/" class="tag-cloud-link tag-link-70 tag-link-position-35" style="font-size: 1em;">sci2</a></li>
+	<li><a href="http://scottbot.net/tag/scientonomy/" class="tag-cloud-link tag-link-71 tag-link-position-36" style="font-size: 1em;">scientonomy</a></li>
+	<li><a href="http://scottbot.net/tag/social-networks/" class="tag-cloud-link tag-link-73 tag-link-position-37" style="font-size: 1em;">social networks</a></li>
+	<li><a href="http://scottbot.net/tag/social-science/" class="tag-cloud-link tag-link-74 tag-link-position-38" style="font-size: 1em;">social science</a></li>
+	<li><a href="http://scottbot.net/tag/statistics/" class="tag-cloud-link tag-link-76 tag-link-position-39" style="font-size: 1em;">statistics</a></li>
+	<li><a href="http://scottbot.net/tag/text-analysis/" class="tag-cloud-link tag-link-77 tag-link-position-40" style="font-size: 1em;">text analysis</a></li>
+	<li><a href="http://scottbot.net/tag/theory/" class="tag-cloud-link tag-link-78 tag-link-position-41" style="font-size: 1em;">theory</a></li>
+	<li><a href="http://scottbot.net/tag/topic-modeling/" class="tag-cloud-link tag-link-80 tag-link-position-42" style="font-size: 1em;">topic modeling</a></li>
+	<li><a href="http://scottbot.net/tag/two-cultures/" class="tag-cloud-link tag-link-81 tag-link-position-43" style="font-size: 1em;">two cultures</a></li>
+	<li><a href="http://scottbot.net/tag/visualizations/" class="tag-cloud-link tag-link-83 tag-link-position-44" style="font-size: 1em;">visualizations</a></li>
+	<li><a href="http://scottbot.net/tag/zotero/" class="tag-cloud-link tag-link-86 tag-link-position-45" style="font-size: 1em;">zotero</a></li>
+</ul>
+</div>
+</section>	</aside><!-- .sidebar .widget-area -->
+
+		</div><!-- .site-content -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+							<nav class="main-navigation" role="navigation" aria-label="Footer Primary Menu">
+					<div class="menu-top-menu-container"><ul id="menu-top-menu-1" class="primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41548"><a href="http://scottbot.net/i-am/">i am</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41546"><a href="http://scottbot.net/pledges/">pledges</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="http://scottbot.net/dh-quantified/">dh quantified</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41543"><a href="http://scottbot.net/hired-gun/">hired gun</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41547"><a href="http://scottbot.net/curated-syllabi/">curated syllabi</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41544"><a href="http://scottbot.net/knowledge/">knowledge diagrams</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41545"><a href="http://scottbot.net/curriculum-vitae/">curriculum vitae</a></li>
+</ul></div>				</nav><!-- .main-navigation -->
+			
+			
+			<div class="site-info">
+								<span class="site-title"><a href="http://scottbot.net/" rel="home">the scottbot irregular</a></span>
+								<a href="https://wordpress.org/" class="imprint">
+					Proudly powered by WordPress				</a>
+			</div><!-- .site-info -->
+		</footer><!-- .site-footer -->
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<img alt="css.php" src="css.gif" width="1" height="1">	<div style="display:none">
+	<div class="grofile-hash-map-c2c3f37244ba2c8146a1ddfbaf9aa197">
+	</div>
+	<div class="grofile-hash-map-b29834cdf368d0a68f511a2d97217ed1">
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"http:\/\/scottbot.net\/networks-demystified-9-modality\/":41158};
+	</script>
+				<script src="photon.js"></script>
+<script src="gprofiles.js"></script>
+<script>
+var WPGroHo = {"my_hash":""};
+</script>
+<script src="wpgroho.js"></script>
+<script src="skip-link-focus-fix.js"></script>
+<script src="comment-reply.js"></script>
+<script>
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+</script>
+<script src="functions.js"></script>
+<script src="wp-embed.js"></script>
+<script src="spin.js"></script>
+<script src="jquery_002.js"></script>
+<script>
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/scottbot.net\/wp-admin\/admin-ajax.php","nonce":"f19c4a4389","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"http:\/\/scottbot.net\/login\/?redirect_to=http%3A%2F%2Fscottbot.net%2Fnetworks-demystified-9-modality%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+</script>
+<script src="jetpack-carousel.js"></script>
+<script async="async" src="form.js"></script>
+<script>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+</script>
+<script src="sharing.js"></script>
+<script>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+</script>
+
+		<!--[if IE]>
+		<script type="text/javascript">
+			if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
+				// window.location.reload() doesn't respect the Hash in IE
+				window.location.hash = window.location.hash;
+			}
+		</script>
+		<![endif]-->
+		<script type="text/javascript">
+			(function () {
+				var comm_par_el = document.getElementById( 'comment_parent' ),
+					comm_par = ( comm_par_el && comm_par_el.value ) ? comm_par_el.value : '',
+					frame = document.getElementById( 'jetpack_remote_comment' ),
+					tellFrameNewParent;
+
+				tellFrameNewParent = function () {
+					if ( comm_par ) {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=108877878&postid=41158&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en&jetpack_version=8.5&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=b1ae2f63de4f8311f375e0aee3f0d7d40afa48d9#parent=http%3A%2F%2Fscottbot.net%2Fnetworks-demystified-9-modality%2F" + '&replytocom=' + parseInt( comm_par, 10 ).toString();
+					} else {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=108877878&postid=41158&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en&jetpack_version=8.5&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=b1ae2f63de4f8311f375e0aee3f0d7d40afa48d9#parent=http%3A%2F%2Fscottbot.net%2Fnetworks-demystified-9-modality%2F";
+					}
+				};
+
+				
+				if ( 'undefined' !== typeof addComment ) {
+					addComment._Jetpack_moveForm = addComment.moveForm;
+
+					addComment.moveForm = function ( commId, parentId, respondId, postId ) {
+						var returnValue = addComment._Jetpack_moveForm( commId, parentId, respondId, postId ),
+							cancelClick, cancel;
+
+						if ( false === returnValue ) {
+							cancel = document.getElementById( 'cancel-comment-reply-link' );
+							cancelClick = cancel.onclick;
+							cancel.onclick = function () {
+								var cancelReturn = cancelClick.call( this );
+								if ( false !== cancelReturn ) {
+									return cancelReturn;
+								}
+
+								if ( ! comm_par ) {
+									return cancelReturn;
+								}
+
+								comm_par = 0;
+
+								tellFrameNewParent();
+
+								return cancelReturn;
+							};
+						}
+
+						if ( comm_par == parentId ) {
+							return returnValue;
+						}
+
+						comm_par = parentId;
+
+						tellFrameNewParent();
+
+						return returnValue;
+					};
+				}
+
+				
+				// Do the post message bit after the dom has loaded.
+				document.addEventListener( 'DOMContentLoaded', function () {
+					var iframe_url = "https:\/\/jetpack.wordpress.com";
+					if ( window.postMessage ) {
+						if ( document.addEventListener ) {
+							window.addEventListener( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						} else if ( document.attachEvent ) {
+							window.attachEvent( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						}
+					}
+				})
+
+			})();
+		</script>
+
+		<script type="text/javascript" src="e-202022.js" async="async" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.5',blog:'108877878',post:'41158',tz:'0',srv:'scottbot.net'} ]);
+	_stq.push([ 'clickTrackerInit', '108877878', '41158' ]);
+</script>
+
+
+<iframe scrolling="no" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=http%3A%2F%2Fscottbot.net" title="Twitter settings iframe" style="display: none;" frameborder="0"></iframe><img src="g.gif" alt=":)" id="wpstats" width="6" height="5"></body></html>

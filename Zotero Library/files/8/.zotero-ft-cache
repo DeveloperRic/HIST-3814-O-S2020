@@ -1,0 +1,284 @@
+
+Skip to content
+
+Cameron Blevins
+Primary Menu
+
+    About
+    Research
+    Teaching
+    C.V.
+    Posts
+    Resources
+
+Topic Modeling Martha Ballard’s Diary
+Posted on April 1, 2010 by Cameron Blevins
+
+In A Midwife’s Tale , Laurel Ulrich describes the challenge of analyzing Martha Ballard’s exhaustive diary , which records daily entries over the course of 27 years: “The problem is not that the diary is trivial but that it introduces more stories than can be easily recovered and absorbed.” (25) This fundamental challenge is the one I’ve tried to tackle by analyzing Ballard’s diary using text mining. There are advantages and disadvantages to such an approach – computers are very good at counting the instances of the word “God,” for instance, but less effective at recognizing that “the Author of all my Mercies” should be counted as well. The question remains, how does a reader (computer or human) recognize and conceptualize the recurrent themes that run through nearly 10,000 entries?
+
+One answer lies in topic modeling, a method of computational linguistics that attempts to find words that frequently appear together within a text and then group them into clusters. I was introduced to topic modeling through a separate collaborative project that I’ve been working on under the direction of  Matthew Jockers (who also recently topic-modeled posts from Day in the Life of Digital Humanities 2010 ). Matt, ever-generous and enthusiastic, helped me to install  MALLET (Machine Learning for LanguagE ToolkiT), developed by Andrew McCallum at UMass as “a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.” MALLET allows you to feed in a series of text files, which the machine will then process and generate a user-specified number of word clusters it thinks are related topics. I don’t pretend to have a firm grasp on the inner statistical/computational plumbing of how MALLET produces these topics, but in the case of Martha Ballard’s diary, it worked. Beautifully.
+
+With some tinkering, MALLET generated a list of thirty topics comprised of twenty words each, which I then labeled with a descriptive title. Below is a quick sample of what the program “thinks” are some of the topics in the diary:
+
+    MIDWIFERY: birth deld safe morn receivd calld left cleverly pm labour fine reward arivd infant expected recd shee born patient
+    CHURCH:  meeting attended afternoon reverend worship foren mr famely performd vers attend public supper st service lecture discoarst administred supt
+    DEATH:  day yesterday informd morn years death ye hear expired expird weak dead las past heard days drowned departed evinn
+    GARDENING:  gardin sett worked clear beens corn warm planted matters cucumbers gatherd potatoes plants ou sowd door squash wed seeds
+    SHOPPING:  lb made brot bot tea butter sugar carried oz chees pork candles wheat store pr beef spirit churnd flower
+    ILLNESS:  unwell mr sick gave dr rainy easier care head neighbor feet relief made throat poorly takeing medisin ts stomach
+
+When I first ran the topic modeler, I was floored. A human being would intuitively lump words like attended , reverend , and worship together based on their meanings. But MALLET is completely unconcerned with the meaning of a word (which is fortunate, given the difficulty of teaching a computer that, in this text, discoarst actually means discoursed ). Instead, the program is only concerned with how the words are used in the text, and specifically what words tend to be used similarly.
+
+Besides a remarkably impressive ability to recognize cohesive topics, MALLET also allows us to track those topics across the text. With help from Matt and using the statistical package R , I generated a matrix with each row as a separate diary entry, each column as a separate topic, and each cell as a “score” signaling the relative presence of that topic. For instance, on November 28, 1795, Ballard attended the delivery of Timothy Page’s wife. Consequently, MALLET’s score for the MIDWIFERY topic jumps up significantly on that day. In essence, topic modeling accurately recognized, in a mere 55 words (many abbreviated into a jumbled shorthand), the dominant theme of that entry:
+
+    “Clear and pleasant. I am a t mr Pages, had another fitt of y e Cramp, not So Severe as that y e night pas t . mrss Pages illness Came on a t Evng and Shee was Deliverd a t 11 h of a Son which waid 12 lb. I tarried all night She was Some faint a little while after Delivery.”
+
+The power of topic modeling really emerges when we examine thematic trends across the entire diary. As a simple barometer of its effectiveness, I used one of the generated topics that I labeled COLD WEATHER, which included words such as cold , windy , chilly , snowy , and  air . When its entry scores are aggregated into months of the year, it shows exactly what one would expect over the course of a typical year:
+Cold Weather
+
+As a barometer, this made me a lot more confident in MALLET’s accuracy. From there, I looked at other topics. Two topics seemed to deal largely with HOUSEWORK :
+
+1. house work clear knit wk home wool removd washing kinds pickt helping banking chips taxes picking cleaning pikt pails
+
+2. home clear washt baked cloaths helped washing wash girls pies cleand things room bak kitchen ironed apple seller scolt
+
+When charted over the course of the diary, these two topics trace how frequently Ballard mentions these kinds of daily tasks:
+
+Housework
+
+Both topics moved in tandem, with a high correlation coefficient of 0.83, and both steadily increased as she grew older (excepting a curious divergence in the last several years of the diary). This is somewhat counter-intuitive, as one would think the household responsibilities for an aging grandmother with a large family would decrease over time. Yet this pattern bolsters the argument made by Ulrich in A Midwife’s Tale , in which she points out that the first half of the diary was “written when her family’s productive power was at its height.” (285) As her children married and moved into different households, and her own husband experienced mounting legal and financial troubles, her daily burdens around the house increased. Topic modeling allows us to quantify and visualize this pattern, a pattern not immediately visible to a human reader.
+
+Even more significantly, topic modeling allows us a glimpse not only into Martha’s tangible world (such as weather or housework topics), but also into her abstract world. One topic in particular leaped out at me:
+
+feel husband unwel warm feeble felt god great fatagud fatagued thro life time year dear rose famely bu good
+
+The most descriptive label I could assign this topic would be EMOTION – a tricky and elusive concept for humans to analyze, much less computers. Yet MALLET did a largely impressive job in identifying when Ballard was discussing her emotional state. How does this topic appear over the course of the diary?
+Emotion
+
+Like the housework topic, there is a broad increase over time. In this chart, the sharp changes are quite revealing. In particular, we see Martha more than double her use of EMOTION words between 1803 and 1804. What exactly was going on in her life at this time? Quite a bit. Her husband was imprisoned for debt and her son was indicted by a grand jury for fraud, causing a cascade effect on Martha’s own life – all of which Ulrich describes as “the family tumults of 1804-1805.” (285) Little wonder that Ballard increasingly invoked “God” or felt “fatagued” during this period.
+
+I am absolutely intrigued by the potential for topic modeling in historic source material. In many ways, it seems that Martha Ballard’s diary is ideally suited for this kind of analysis. Short, content-driven entries that usually touch upon a limited number of topics appear to produce remarkably cohesive and accurate topics. In some cases (especially in the case of the EMOTION topic), MALLET did a better job of grouping words than a human reader. But the biggest advantage lies in its ability to extract unseen patterns in word usage. For instance, I would not have thought that the words “ informed ” or “ hear” would cluster so strongly into the DEATH topic. But they do, and not only that, they do so more strongly within that topic than the words dead , expired , or departed . This speaks volumes about the spread of information – in Martha Ballard’s diary, death is largely written about in the context of news being disseminated through face-to-face interactions. When used in conjunction with traditional close reading of the diary and other forms of text mining (for instance, charting Ballard’s social network), topic modeling offers a new and valuable way of interpreting the source material.
+
+I’ll end my post with a topic near and dear to Martha Ballard’s heart: her garden. To a greater degree than any other topic, GARDENING words boast incredible thematic cohesion (gardin sett worked clear beens corn warm planted matters cucumbers gatherd potatoes plants ou sowd door squash wed seeds) and over the course of the diary’s average year they also beautifully depict the fingerprint of Maine’s seasonal cycles:
+Gardening
+
+Note: this post is part of an ongoing series detailing my work on text mining Martha Ballard’s diary.
+Posted in Digital History , Digital Scholarship Tagged Martha Ballard , Programming , Text analysis , Text Mining , Topic Modeling
+Post navigation
+Review: White Flight: Atlanta and The Making of Modern Conservatism
+Getting Under the Hood of Graduate Coursework
+48 thoughts on “ Topic Modeling Martha Ballard’s Diary ”
+
+    Jason Boyd says:
+    April 1, 2010 at 8:30 am
+
+    Fascinating. I work for Records of Early Drama (REED) — we publish collections of pre-1642 documents, and I was very interested to see how effective MALLET was in dealing with a linguistically complex text like Martha Ballard’s diary. Was the diary text you used marked up at all? Or was it a plain text file? Another question: although MALLET is unconcerned with word meanings, instead focussing on patterns of word usage, how does it overcome the problem of text that predates standardized spelling, punctuation, and grammar? Could it handle texts that were authored by numerous people over time, each of whom had their particular idiosyncrasies?
+    Reply
+        Cameron Blevins says:
+        April 1, 2010 at 8:56 am
+
+        Jason,
+
+        All good questions.
+
+        1. The diary was not marked up at all. It was processed using Python into a basic list/array (with date, day of the week, text from the entry, etc.). From there I just exported the main text from each entry into ~10,000 separate .txt files, which MALLET could then treat as separate documents. Tracking them over time was a matter of naming the txt files by their date, such as 18070225.txt (2/25/1807).
+
+        2. I was pleasantly shocked at how well MALLET handled the messiness of Ballard’s shorthand style of writing. I think there were a few factors that contributed to this:
+
+        – Stretched over 10,000 entries and 27 entries, the vagaries of different spellings tend to smooth out. Big data can overcome a lot of problems.
+
+        – In a way, MALLET has an advantage in overcoming spelling variances. Provided the variances are somewhat consistent, it doesn’t care whether the word is “delivd” or “delivered,” all it knows is that particular string of characters tends to appear alongside “birth” words.
+
+        3. MALLET can handle many different texts/authors – in fact, that’s precisely what Matt Jockers has been doing. This has particular potential for clustering different authors together. The downside is that you tend to get “topics” that form based on unique words in an author’s vocabulary. If you were to feed it contemporary British fiction, for instance, you’d probably get a topic of words like “Potter” “Hogwarts” and “Quidditch” – not particularly useful for analyzing trends your entire corpus. It all probably depends on just how variant the particular idiosyncrasies are from author to author.
+
+        Hope this helps.
+
+        -Cameron
+        Reply
+    erik steiner says:
+    April 2, 2010 at 5:11 pm
+
+    Cameron,
+
+    This is awesome. I’m very intrigued by the possibility that this approach can be used to accurately model geographically varying patterns – such as climate. It would be very cool to track down actual weather data and correlate it with her references – or at least overlay it on your graphs. In theory, you could also reverse-geocode diaries (or newspapers) to determine based on their content where they were from. Since you know the locations of newspapers, it might be an interesting way to test this idea.
+
+    Also, I’m wondering about MALLET and the topics it defines – does it tell you how related two topics are to one another, and can you see this change over time? It would be interesting, for example, to see if Martha becomes has less EMOTION around DEATH as she gets older.
+
+    Great work. I look forward to more cool stuff from this.
+
+    -erik
+    Reply
+        Cameron Blevins says:
+        April 2, 2010 at 11:32 pm
+
+        Erik,
+
+        Thanks for the feedback. I really like the idea of reverse-geocoding, especially if you had a known-location training corpus for the program to work with.
+
+        MALLET doesn’t necessarily tell you how related two topics are to one another (at least I think, like I said I’m pretty shaky on how it works from a technical standpoint). But since I have all the temporal data associated with their “scores” for each entry, it’s easy to do. I’ve actually played around a bit and set up a correlation matrix to see which topics move in tandem or apart. Mixed results so far, but it was interesting to see one topic that I was having trouble identifying move almost exactly opposite (coefficient of -0.9) with the COLD WEATHER topic over the course of a typical year. I still don’t really know what the topic is (weakly associated with rainy weather?), but whatever it is seems to appear in the warmer months:
+
+        cloudy afternoon rain home foren fore flax shower tn showers thunder af aft combd heavy turns misty dress pulld
+
+        -Cameron
+        Reply
+    david blei says:
+    April 6, 2010 at 10:01 am
+
+    this is fascinating.
+
+    re: geocoding. i work a lot on developing topic modeling tools. we recently developed a topic model that might account for location, by associating each document with a location and encoding which locations are adjacent to each other. (it’s not exactly geocoding, but it kind of gets you there…)
+
+    we wrote about it in this paper, which is forthcoming from the annals of applied statistics:
+
+    http://www.cs.princeton.edu/~blei/papers/ChangBlei2010.pdf
+
+    the code is implemented in the “lda” R package. (in fact, this package lets you fit a number of types of topic models.)
+
+    best
+    dave
+    Reply
+        Cameron Blevins says:
+        April 6, 2010 at 9:11 pm
+
+        Dave,
+
+        Thanks for the comment! Although most of your paper was a bit over my non-quanty humanities head, it was interesting to see the intersection of topic modeling and geographic analysis. I’ll also be sure to check out the LDA package, thanks for the suggestion.
+
+        -Cameron
+        Reply
+    Lisa says:
+    April 17, 2010 at 12:50 pm
+
+    Hi Cameron:
+
+    Thanks to you and Matt for introducing MALLET — I found your analysis of the product very interesting. I’m curious to know whether MALLET would also work for languages/scripts other than English? Say, Chinese?
+
+    By the way, the Archivist of the United States’ most recent blog entry on the Library of Congress’ acquisition of Twitter. He references Martha Ballard’s Diary.
+    http://blogs.archives.gov/aotus/?p=172
+
+    Thanks again for a fascinating read.
+    Reply
+        Cameron Blevins says:
+        April 19, 2010 at 9:31 am
+
+        Lisa,
+
+        I’d be interested to see if it works on other languages, could have some fascinating potential there.
+
+        Thanks for the link to the Archivist post, that was an interesting analogy between Ballard’s diary entries as tweets.
+
+        -Cameron
+        Reply
+    Pingback: Castanet: automatically generating a browsing structure for a collection « Text Mining and the Digital Humanities
+    Pingback: Topic Modeling, Auto-Classification and Archival Description - Spellbound Blog
+    Pingback: Castanet: automatically generating a browsing structure for a collection « Text Mining and the Digital Humanities
+    David Mimno says:
+    May 18, 2010 at 7:20 am
+
+    Hi Cameron,
+
+    Thanks for using our MALLET topic modeling tools! This is exactly the type of research that got me interested in statistical text mining.
+
+    Regarding irregular spellings: I’ve run this code on large early English collections, and it tends to find “clusters” of spelling variations, rather than smoothing over all variation and all time. For example you usually don’t get 17th century spellings mixed with fully modern orthography. For a single-author corpus like this diary, it should work very well even with substantial variation.
+
+    On multiple languages: MALLET will support any language, although you may need to do some extra work creating “stoplists” of very common words and tokenizing the text (for example using the Stanford Chinese word segmenter). If you have documents aligned across multiple languages (such as wikipedia articles), MALLET also supports “polylingual” topic modeling: use the option –language-inputs instead of –input to learn topics in many languages simultaneously.
+
+    -David
+    Reply
+        Cameron Blevins says:
+        May 18, 2010 at 8:03 pm
+
+        David,
+
+        And thanks to you all at UMASS for building and maintaining such a great tool.
+
+        I’m interested to hear about your experience with different corpora, especially ones that encompass several centuries. Do you think it’s finding clusters of spelling variations because of the actual spelling patterns themselves, or their placement in the text? I think one reason MALLET seems to work so well on this is the fact that it’s a single author, but I haven’t had much experience with larger (and broader, or polylingual) corpora.
+
+        Please send along my appreciation to the rest of the MALLET team.
+
+        -Cameron
+        Reply
+    Pingback: How much would it cost to digitize all the UK’s archaeological grey literature? « Electric Archaeology: Digital Media for Learning and Research
+    Pingback: Tools for Exploring Text: Natural Language Processing « Text Mining and the Digital Humanities
+    Steven says:
+    September 8, 2010 at 11:18 pm
+
+    Hey,
+
+    One question anyone used MALLET on Social Media data specifically on blogs?
+
+    FM
+    Reply
+    Pingback: What To Do With Too Much Text « Work Product
+    Pingback: Muckle Ado » Blog Archive » An intro to text mining
+    Pingback: Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities
+    Pingback: Getting Started with MALLET and Topic Modeling « Electric Archaeology: Digital Media for Learning and Research
+    Pingback: What are some current industrial applications of topic models? - Quora
+    Ron says:
+    October 4, 2011 at 5:08 am
+
+    Any particular reason to use the one “l” spelling of “Topic Modeling”?
+    Reply
+    Pingback: Empirical study: In early America, Emotion increased with age | bobmorrissey
+    Pingback: March 2: Learning to Model Topics « Digital Experiments
+    Pingback: Introducing Topic Models | anthrocritic
+    Pingback: Workshop on Text Mining Tools » THATCamp Southern California 2012
+    Pingback: Topic Modeling: A Basic Introduction | clio 3 blog
+    Pingback: Topic Modeling Martha Ballard’s Diary | Digital History Review
+    Pingback: Castanet: automatically generating a browsing structure for a collection | WordSeer Project Page
+    Pingback: Topic Modeling and the Sanger Papers | Margaret Sanger Papers Project
+    Pingback: On metadata » | Anouk Lang |
+    Pingback: » On metadata Twentieth-Century Literary Letters
+    Pingback: Introducing myself to MALLET - Emerging Tech in Libraries
+    Pingback: Introducing myself to MALLET | The weblog of Robin Camille Davis
+    Pingback: Reading the Archive | Gleanings from Digital History for the Reading of Sources
+    Pingback: What Digital Humanists Do |
+    Pingback: Text Analysis. | Introduction to Digital History
+    Datafiend says:
+    April 14, 2014 at 4:31 am
+
+    Reblogged this on Austen, Morgan and Me and commented:
+    Detailed blog post exploring the use of MALLET to topic model a diary.
+    Reply
+    Pingback: Clionauta: Blog de Historia – Historia Digital versus Humanidades Digitales (1)
+    Pingback: Topic Modeling and (Small) Digital Texts | Texts, Maps, and Networks
+    Pingback: Digital Humanities Summer Scholars » 2016 Tool Reviews
+    Pingback: Print Project: Text Analysis of Earl Shaffer’s Appalachian Trail Thru-Hike Journals | Digital Preservation
+    Pingback: DH- Workshops in Tübingen: Publishing Data und Topic Modeling | DHd-Blog
+    Oren says:
+    May 4, 2018 at 9:36 pm
+
+    I am genuinely thankful to the owner of this web page who has
+    shared this impressive piece of writing at at this place.
+    Reply
+    Pingback: From Text to Insight: A Graduate "Intro to DH" Summer 2018 Course | Ashley R. Sanders
+    Pingback: Introducing Polo: Exploring Topic Models as Database and Hypertext – DH 2018
+    jherry says:
+    January 20, 2020 at 12:54 am
+
+    Hello ,
+    I’m Jherry.
+    If you’ve ever been too tired and couldn’t finish a research assignment , then you’ve come to the right place. I assist students in all areas of the writing technique. I can also write the paper from start to finish.
+    My career as an academic writer started during my school years . After learning that I was very skilled in the field of academic writing, I decided to take it up as a job .
+
+    Talented Academic Writer- Jherry Hogan- http://www.essickwrite.com Confederation
+    Reply
+    Pingback: text mining, topic modeling and visualization – Marisa Kutter
+
+Leave a Reply Cancel reply
+
+Your email address will not be published. Required fields are marked *
+
+Comment
+
+Name *
+
+Email *
+
+Website
+
+Notify me of follow-up comments by email.
+
+Notify me of new posts by email.
+
+:) 

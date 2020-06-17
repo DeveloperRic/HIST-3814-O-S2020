@@ -1,0 +1,156 @@
+
+cradledincaricature
+Search
+Primary Menu Skip to content
+
+    James Baker
+        About the blog
+        CV & Publications
+
+Search for:
+Caricature , DHums , History
+The hard digital history that underpins my book
+06/06/2017 jwbaker 1 Comment
+
+In my last blog I wrote about the ‘soft’ Digital History – or digital/’digital’/Digital [hH]istory – that went into my recent book on making and selling of satirical prints in Britain during the late eighteenth and early nineteenth centuries. ‘Hidden’ might have been more appropriate nomenclature for, as I discussed, that ‘soft’ computational work – making maps – was vital to how I constructed my mental model of the businesses whose labours contributed to the making of satirical prints in this period. Even hidden, however, may be inappropriate. I didn’t hide this digital work, rather much like a great deal of the other research that goes into a monograph, not everything made it to the surface of the final product. As I always tell my students, good History writing is concise, precise, and selective: not telling your reader everything you know is central to how we present interpretations of the past. The point is, I didn’t leave this digital stuff out because it was digital but rather because leaving stuff out is what we do in the process of turning research into publication.
+
+In this post I discuss the Digital History that did make the cut, the ‘hard’ Digital History. As you will see, ‘visible’ is probably a better word for this as there is nothing ‘hard’ about the Digital History on offer: it doesn’t tell any truths, it doesn’t solve any problems, it doesn’t sit outside of interpretation. Rather – much like any abstraction from primary sources – it does work that I found useful. The only difference is that, on this occasion, I decided to select this work for inclusion in my presentation of the past I care about because it – in part – substantiated my interpretation of that past.
+
+The ‘it’ of which I speak are outputs of network analysis in the form of data and visualisations. Network analysis has been an influential method in Digital Humanities research. The first edition of the now defunct Journal of Digital Humanities contained an article on formal network analysis by Scott Weingart (which was somewhat cautionary in tone, more on which later..). Ruth and Sebastian Ahnert’s work on Tudor letter writing is underpinned by their interpretation of network analysis. Projects like Six Degrees of Francis Bacon and Mapping the Republic of Letters encourage us to explore, interrogate, and visualise networks. The Programming Historian has one existing and a number of forthcoming lessons on the subject. And network analysis is a regular feature of the Oxford Digital Humanities Summer School and the Digital Humanities Summer Institute .
+
+I used network analysis during my research into the types of satirical wares that printsellers made and sold. The results of that analysis appear in chapter 8 of The Business of Satirical Prints in Late-Georgian England . The scope of this chapter – per the chapter abstract – is a follows:
+
+    This chapter explores the relationship between shops and stock. It uses the diverse and voluminous publishing career of Isaac Cruikshank to explore how stock came to market. It argues that the degradation of plates, the technological constraints that hindered swift responses to scandal and sensation, and a thriving market in illegal copies of various forms, required publishers of satirical prints to be flexible in how they approached purchasing plates, making reproductions, and selling impressions. It takes a corpus level quantitative approach to Isaac Cruikshank’s work as a window into the ideas that print publishers believed the market could bear, the chain of patronage an artist-engraver relied upon to make profitable his part of the business of satirical prints.
+
+Network analysis is the ‘corpus level quantitative’ work. Or at least network analysis was the final stage of a longer process of corpus level thinking. At a early stage in the research into this chapter I grappled with how to think about why satirical artist-engravers produced different content for different London-based publishers: say, for example, light satires on lecherous masters for Laurie & Whittle of Fleet Street and bawdy satires on the whoring Prince of Wales for Samuel Fores of Piccadilly.
+Smothering a rabbit with onions (Laurie & Whittle, 1801) © The Lewis Walpole Library http://images.library.yale.edu/walpoleweb/oneitem.asp?imageId=lwlpr10203
+Oh! Che boccone! (Samuel Fores, 1795) © The British Museum http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=1647285&partId=1
+
+Most explanations for this boil down to the same answer: caricaturists like Isaac Cruikshank did not have free hands in the satires they designed, but rather they made designs that they thought were likely to appeal to the anticipated audiences of one or more prospective publishers. Now I could – and do in the book – support this claim by analysis of the prints that Isaac Cruikshank made for different publishers. But doing so runs into problems of selection and representativity. I’d be loath to say that any argument could be made from the satires that Isaac Cruikshank designed, but many differing and contradictory interpretations could be made depending on the hand curated corpus of prints that was chosen. In short, the method doesn’t scale. And given that Isaac Cruikshank ‘only’ designed around 1,000 prints between 1783 and 1811 (the years during which he worked) – and I put only in scare quotes here as that is a big corpus for a monograph on printed images – I knew it was more than possible to pair ‘corpus level quantitative’ analysis with qualitative analysis of a hand picked selection of prints.
+
+The problem I then faced was how to do this ‘corpus level’ work. I didn’t need to analyse every aspect of every print to make my case, rather I needed a proxy for difference. So I thought about what I knew about these prints. One of the things I knew from years of studying prints by Isaac Cruikshank and his peers was that they were organised like theatre scenes: we see, more often than not, figures discussing politics or scandal or whatever on a ‘set’ dressed to add to our understanding of that discussion. One common element of that dressing was a suggestion of where in the world the scene was taking place. As I write on page 170:
+
+    Late-Georgian satirical prints frequently mirrored urban dramas that had occurred in specific places, such as the riots at Covent Garden Theatre in autumn 1809. When not reporting recent events or controversies, Isaac Cruikshank and his peers still chose to use specific places as a means of carrying their satire, humour, and message. For example, Isaac Cruikshank’s Peepers in Bond Street, or the cause of the lounge (Samuel Fores, 1793) works as a comic drama because Bond Street was noted as a metropolitan location (alongside venues that included St James’s Palace, Covent Garden, and the Pantheon) where the latest fashions could be seen; at this time those which exposed ladies ankles.
+
+And places weren’t just there when specific things were reported or specific places were needed to get across a particular point. Many scenes were depicted as having taken place somewhere non-specific: in town, a church, the country. This has important ramifications for how to interpret prints, as I write on page 170-171:
+
+    For example, the titular character of Isaac Cruikshank’s jovial A Good Joke: A Groggy Parson, his sense of orientation severely diminished, has returned from town drunk. He is the victim of his fellow drinkers who “resolved to play him a trick which was Accomplished by Mounting him with his face to the Horses Tail.” In his stupor and confusion he proclaims to his concerned wife that “Nothing grieves me but that the Plaguy Rogues should have cut my Horses Head off.” The comedy here is simple, playing on the impossibility of a headless horse taking a man home and that fact having escaped the groggy parson. The design also both alludes to and draws upon the comic song The Vicar and Moses (c.1782). Attributed to George Alexander Stevens, the song tells the story of a vicar and his clerk who under the influence of drink perform a farcical burial on a recently deceased child [..] Useful as this intertextual reading is, place would have been central to the potential reach of the design, to how and what it communicated. The parson travels between “town” and “country.” Georgian Londoners might have read the distinction between these two generic points as relating to exiting “town” at London Bridge and heading south into the “country.” A provincial audience, on the contrary, might have reapplied the same “town” and “country” narrative to their local surroundings, to any two known places delimited by being or not being comparatively urban or rural.
+
+So having established place as a potential proxy for the interests of different commercial audiences, I set about investigating it across the corpus. To do this I made a spreadsheet. On that spreadsheet I recorded the title, date of publication, and publisher of every Isaac Cruikshank print I could get my hands on. I then recorded the places depicted in each print. To do this I developed a crude taxonomy intended to capture both specific (the name of a street) and generic (a rural scene) spatial information. As I describe on page 171:
+
+    Using this schema Peepers in Bond Street is encoded as “Bond Street, London, England, Urban”; A TARTAN BELLE of 1792 (Samuel Fores, 1792) as “None [specific], Scotland, Rural”; A Fool and his Money’s soon parted (Robert Sayer, 1790) as “None [specific], England.”
+
+I then used this data to construct a directional relationship from the specific places to the generic places found in each print. So, again from page 171:
+
+    A Tartan Belle of 1792 [has] two links, “None [specific]” to “Scotland” and “None [specific]” to “Rural” [..] Peepers in Bond Street three links, “Bond Street” to “London,” “Bond Street” to “England,” and “Bond Street” to “Urban.”
+
+I then threw all this at Gephi , made some Force Atlas network graphs, and exported some tables of link destination rankings. The data I used and graphs I made are deposited on Zenodo: James Baker, ‘2016-04-11_satirical-design-place-data.csv,’ Zenodo (2016), doi: 10.5281/zenodo.49548 ; James Baker, ‘The Business of Satirical Prints in Late-Georgian England: Network Graphs,’ Zenodo (2016), doi: 10.5281/zenodo.58367 .
+Force Atlas network for Isaac Cruikshank prints published by Samuel Fores between 1789 and 1810. Nodes are places depicted in the prints. Edges connect nodes, directed from generic places to specific places.
+
+I won’t go fully into my interpretation of the data (I’m sure my publishers would rather you read the book to find out..), but in short it underscored three things: that political satires contained lots of specific locations and London addresses that social satires did not; that Isaac Cruikshank clearly tailored his work to fit the audiences of his prospective publishers; and that over the course of his career Isaac Cruikshank consolidated towards domestic scenes. Taking these in turn, the first and second were hardly surprising – it corroborated what I already had gathered from looking at prints – but it was useful to see that pattern playing out across the corpus. The third was more interesting and led me to spend some time figuring out why this might be. This took me back to the prints themselves, to assessing the quality of Isaac Cruikshank’s etching, and to explore the idea that poor quality work caused Isaac Cruikshank to lose the confidence of his principle publisher – Samuel Fores of Piccadilly – somewhere around 1800. When that confidence returned, Fores has built relationships with other artist-engravers to produce work on international affairs. This meant that Cruikshank was left to cover domestic scenes.
+
+Seen from the perspective of method, it should be clear that I did not substantiate any interpretations using corpus level network analysis alone: the content and physical properties of hand curated selections of prints were equally valuable, as was my knowledge of the subject at hand and – given that this work appears in the last chapter of the book – the accumulated weight of interpretation in the preceding seven chapters. The digital/’digital’/Digital [hH]istory here may be visible to the reader but it was far from ‘hard’ or – to draw on distinctions made in statistics – the results of data processing were used in an inferential rather than explanatory way. What this work did was help me balance the scales, help me move between close and far, macro and micro, print and print trade, give me confidence to make strong statements.
+
+As a final point, I should add that I’m aware that my network analysis was made and interpreted with caution. Network visualisations are – for the most part – not accurate representations of data. As I write on page 174 about Force Atlas:
+
+    As the model was developed to aid analysis of data in empiri- cal social science research, visual representations of Force Atlas networks do not strictly adhere to mathematical principles. Instead the nodes are forced to not overlap. This compromises mathematical accuracy in favour of emphasising the readability and structure of the network.
+
+Equally, I might have presented the results of running different network analysis algorithms against my data rather than just one. Indeed if I was using the work to explain historical phenomena I would have had to. But I wasn’t. I only ever intended to infer from the tables and graphs I produced, not least because as I created the data that I analysed, as I had abstracted spatial information from primary sources using a model I had developed, then I had put my own knowledge, understanding, prejudices, perspectives, and misconceptions into the data model. Historians rarely use phrases like ‘abstraction’ and ‘data models’, but these are things we do and make all the time in our research, just in less formal ways and in formats that are less easy to process as data, to run algorithms against, to visualise, to tabulate, and to reproduce. Doing digital history creates the conditions in which this abstraction from and modelling of primary sources bubbles to the surface. How we interpret the uncertainty that creates is something I tried to grapple with in The Business of Satirical Prints in Late-Georgian England . I’m hopeful I succeeded.
+Share this:
+
+    Twitter
+    Facebook
+    LinkedIn
+    Tumblr
+    Print
+    Email
+
+Like this:
+Like Loading...
+Related
+
+The soft digital history that underpins my book In "Caricature"
+
+Publication update (or, writing with people is the best) In "Caricature"
+
+Comic art beyond the print shop In "Caricature"
+Caricature Cruikshank DH dhist digital history Fores graphic satire History laurie network network analysis prints quantitative satire whittle
+Post navigation
+Previous Post The soft digital history that underpins my book Next Post Dewizardification
+One thought on “The hard digital history that underpins my book”
+
+    Pingback: Dewizardification | cradledincaricature
+
+Leave a Reply Cancel reply
+Enter your comment here...
+
+Please log in using one of these methods to post your comment:
+
+Gravatar
+Email (required) (Address never made public)
+Name (required)
+Website
+WordPress.com Logo
+
+You are commenting using your WordPress.com account. (  Log Out  /  Change  )
+Google photo
+
+You are commenting using your Google account. (  Log Out  /  Change  )
+Twitter picture
+
+You are commenting using your Twitter account. (  Log Out  /  Change  )
+Facebook photo
+
+You are commenting using your Facebook account. (  Log Out  /  Change  )
+Cancel
+
+Connecting to %s
+
+Notify me of new comments via email.
+
+Notify me of new posts via email.
+
+My Tweets
+Archive
+Archive
+…some thoughts on digital history, cartoons, and satire.
+Reuse my stuff!
+
+Creative Commons Licence
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License . Exceptions: quotations and embeds to and from external sources .
+Archives
+Archives
+Meta
+
+    Register
+    Log in
+    Entries feed
+    Comments feed
+    WordPress.com
+
+Create a free website or blog at WordPress.com.
+Post to
+Cancel
+Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.
+To find out more, including how to control cookies, see here: Cookie Policy
+
+    Follow
+        cradledincaricature
+        Customize
+        Follow
+        Sign up
+        Log in
+        Copy shortlink
+        Report this content
+        Manage subscriptions
+        Collapse this bar
+
+%d bloggers like this:
+
+Send to Email Address Your Name Your Email Address
+loading Cancel
+Post was not sent - check your email addresses!
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.
+:) 

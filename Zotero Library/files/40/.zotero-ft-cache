@@ -1,0 +1,147 @@
+
+Skip to content
+
+it's not just digital, it's electric!
+Open Menu Close Menu Menu
+
+    About Shawn Graham
+
+Making Nerdstep Music as Archaeological Enchantment, or, How do you Connect with People Who Lived 3000 Years Ago?
+
+by Shawn Graham, Eric Kansa, Andrew Reinhard
+What does data sound like?
+
+Over the last few days, what began as a bit of a lark has transformed into something more profound and meaningful. We’d like to share it with you—not just the result, but also our process. And in what we’ve made, perhaps, we find a way of answering the title’s question: how do you connect with people who lived 3,000 years ago?
+
+In the recent past, Shawn has become more and more interested in representing the patterns we might detect, at a distance, in the large collections of digital data that are becoming more and more available . . . using sound. Called ‘sonification’, this technique maps aspects of the information against things like timbre, scale, instrumentation, rhythm, and beats-per-minute to highlight aspects of the data that a visual representation might not pick up. It’s also partly about making something strange—we’ve become so used to visual representations of information that we don’t necessarily recognize the ways assumptions about it are encoded in the visual grammars of barcharts and graphs. By trying to represent historical information in sound, we have to think through all of those basic decisions and elaborate on their implications.
+
+Last week , he was toying with mapping patterns of topics in publications from Scotland from the 18th and 19th centuries as sound, using an online app called ‘ TwoTone ’. He shared it on Twitter, and well, one thing led to another, and a conversation began between Shawn, Eric, and Andrew: What might archaeological data sound like?
+
+“ Sing in me Muse, through thine API, of sherds and munsell colors, of stratigraphic relations, and of linked thesauri URIs! ”
+
+—Eric Kansa
+Get Some Data
+
+First things first: get some data. Open Context (Eric’s pet project) carefully curates and publishes archaeological data from all over the world. He downloaded 38,000 rows of data from the excavations at the Etruscan site of Poggio Civitate (where, in a cosmic coincidence, Andrew attended field school in 1991) and began examining it for fields that could be usefully mapped to various sonic dimensions. Ultimately, it was too much data! While there are a variety of ways of performing a sonification (see Cristina Wood’s Songs of the Ottawa , for instance), TwoTone only accepts 2,000 rows. The data used therefore for this audio experiment was very simple—counts of objects from Poggio Civitate were rendered as arpeggiated piano lines over three octaves; average latitude and average longitude were calculated for each class of thing thereby making a chord, and then each class of thing had its own unique value. Shawn’s initial result of data-driven piano sonification can be listened to here .
+
+The four original dimensions of the sonification appear above, mapped in TwoTone. The rising notes in the bottom track are the item type ids. All of the materials come from the same chronological period, thus to listen (or view left-to-right) needed some sort of organizing principle. Whether or not it is the right principle is a matter of interpretation and debate.
+Archaeology is a Remix
+
+But what if an actual musician got a hold of these tracks? Andrew recently published a work called ‘ Assemblage Theory ’ where he remixed found digital music in order to explore ideas of archaeological assemblages.[1] Taking his experimentation in electronic dance music (EDM) a step beyond Assemablage Theory , he took Shawn’s four original tracks based on Eric’s 3,000-year-old data and began to play, iterating through a couple of versions, in a genre he calls ‘nerdstep’. He crafted a 5-minute piece that has movements isolating one of the four data threads, which sometimes crash together like waves of building data, yet are linked together. He opted for 120 bpm, a dance music standard, and then, noting where the waves of data subside into quiet pools, was inspired to write some lyrics. “The quiet segues are basically data reflexivity in audio form,” he says.
+
+Data propagation
+All this information
+Gives me a reaction
+Need time for reflection
+
+A one-way conversation
+This endless computation
+Numbs me from sensation
+Need time for reflection
+
+Reflexivity
+Give me time to breathe
+Give me time to think
+
+Reflexivity
+Data raining down on me
+
+Emotionally exhausting
+How much will this cost me
+I’m alone but you are watching
+Look up from your screen
+
+Reflexivity
+Give me time to breathe
+Give me time to think
+Look up from your screen.
+
+Reinhard used the open source Audacity audio software application to create the song based on archaeological data sonification. The first four tracks are Shawn’s piano parts, staggered in such a way as to introduce the data bit-by-bit, and then merged with 16 other tracks—overburden or matrix. In the beginning, they are harmonious and in time, but because of subtle variations in bpm, by the time the song ends the data have become messy and frenetic, a reflection of the scattered pieces within the archaeological record, something that happens over time. Each movement in the song corresponds to an isolated data thread from one of Shawn’s piano parts, which then loops back in with the others to see how they relate.
+Life is A Strange Loop
+
+Speaking of loops, let’s think about the full loop we’ve encountered here. 3,000 years ago, at a plateau in the tufa landscape of southern Etruria, people lived their lives, only to have their debris carefully collected, studied, systematized, counted, digitized, and exposed online. No longer things but data, these counts and spaces were mapped to simple sonic dimensions using a web-toy, making a moderately pleasing experience. Remixed, the music moves us, enchants us, towards pausing and thinking through the material, the labour, the meanings, of a digital archaeology.[2] If/when this song is performed in a club (attn: John Schofield and the Theoretical Archaeology Groups [TAG] in both the UK and North America), the dancers would then be embodying our archaeological knowledge of Poggio in their movements, in the flows and subtle actions/reactions their bodies make across the floor. In dancing, we achieve a different kind of knowledge of the world, that reconnects us with the physicality of the world.[3] The eruptions of deep time into the present [4] – such as that encountered at an archaeological site – are weird and taxing and require a certain kind of trained imagination to engage with. But by turning the data into music, we let go of our authority over imagination, and let the dancers perform what they know.
+
+For the three of us as creators, this playful sonification of data allows us to see archaeological material with fresh eyes . . . errrrrr ears . . . and by doing so restores the enchantment we once felt at the start of a new project, or of being interested in archaeology in the first place. Restoring the notion of wonder into three middle-aged archaeologists is no small feat, but the act of play enabled us to approach a wealth of artifacts from one site we know quite well, and realize that we didn’t know it quite like this. Using the new music bridges the gap between humans past and present and in dancing we (and hopefully you) embody the data we present. It’s a new connection to something old, and is experienced by bodies. This is perhaps almost as intoxicating as the work done by Patrick McGovern (U. Penn) and Sam Caglione (Dogfish Head) in their experimentation and creation of ancient ales , the first of which was “ Midas Touch ”, a surprisingly drinkable brew concocted from an ancient recipe recovered on excavation in Asia Minor. Archaeology is often a cerebral enterprise, which deserves—at times—a good ass-shaking derived from a driving beat.
+
+“ I’m listening now and am amazed. It is really beautiful, not only as a finished product, but as a process that started with people who lived their lives almost 3000 years ago. ”
+
+—Eric Kansa
+Reflexivity, by KGR [5]
+
+    Have a listen here, with Reinhard’s vocals in the style of Thom Yorke (Radiohead)-by-way-of-Peter-Murphy (Bauhaus)
+    Here is a version without the vocals
+    And here is a link to the Dropbox folder with both tracks, plus the original four tracks made with TwoTone, and the original csv of data that Graham first fed into the sonification process.
+
+Endnotes
+
+[1] Reinhard’s article , “ Assemblage Theory : Recording the Archaeological Record,” and two responses by archaeologists Jolene Smith and Bill Caraher .
+
+[2] An argument made by Perry, Sara. (2019). The Enchantment of the Archaeological Record . European Journal of Archaeology, 22 (3), 354-371. doi:10.1017/eaa.2019.24
+
+[3] See for instance Block, Betty, and Judith Kissel (2001). Dance: The Essence of Embodiment. Theoretical Medicine and Bioethics 22(1), 5-15. DOI: 10.1023/A:1009928504969
+
+[4] Fredengren, Christina (2016). Unexpected Encounters with Deep Time Enchantment. Bog Bodies, Crannogs and ‘Otherworldly’ sites. The materializing powers of disjunctures in time. World Archaeology 48(4), 482-499, DOI: 10.1080/00438243.2016.1220327
+
+[5]  Kansa-Graham-Reinhard (pronounced as either “Cager” or “Kegger”—the GIF-debate of archaeological nerdstep/nerdcore).
+References
+
+Block, Betty, and Judith Kissel (2001). Dance: The Essence of Embodiment. Theoretical Medicine and Bioethics 22(1), 5-15. DOI: 10.1023/A:1009928504969
+
+Caraher, William. (2019). “Assemblage Theory: Recording the Archaeological Record: Second Response” Epoiesen http://dx.doi.org/10.22215/epoiesen/2019.10
+
+Fredengren, Christina (2016). Unexpected Encounters with Deep Time Enchantment. Bog Bodies, Crannogs and ‘Otherworldly’ sites. The materializing powers of disjunctures in time. World Archaeology 48(4), 482-499, DOI: 10.1080/00438243.2016.1220327
+
+Perry, Sara. (2019). The Enchantment of the Archaeological Record . European Journal of Archaeology, 22 (3), 354-371. doi:10.1017/eaa.2019.24
+
+Reinhard, Andrew. (2019). “Assemblage Theory: Recording the Archaeological Record” Epoiesen http://dx.doi.org/10.22215/epoiesen/2019.1
+
+Smith, Jolene. (2019). “Assemblage Theory: Recording the Archaeological Record: First Response” Epoiesen http://dx.doi.org/10.22215/epoiesen/2019.5
+
+Anthony Tuck. “ Murlo “. (2012) Anthony Tuck (Ed.) . Released: 2012-07-06. Open Context. < http://opencontext.org/projects/DF043419-F23B-41DA-7E4D-EE52AF22F92F > DOI:  https://doi.org/10.6078/M77P8W98  ARK (Archive):  https://n2t.net/ark:/28722/k2222wm10
+
+Featured Image by Sarthak Navjivan https://unsplash.com/photos/iTZOPe7BpTM
+
+Share this:
+
+    Reddit
+    Twitter
+    Facebook
+
+Like this:
+Like Loading...
+Related
+
+'Big Data Gothic' & Data Day 3 In "humanities"
+
+Review of Malkin, "A Small Greek World: Networks in the Ancient Mediterranean" In "archaeology"
+
+TravellerSim: Growing Settlement Structures and Territories with Agent-Based Modeling: full text In "agent based modeling"
+Posted on 20 Dec 2019 21 Dec 2019 Posted in Uncategorized By Shawn
+Related
+Post navigation
+Previous Post
+Previous Post A Song of Scottish Publishing, 1671-1893
+Next Post
+Next Post a note on git-lfs
+Find things
+Search for: Search
+Create a website or blog at WordPress.com
+Post to
+Cancel
+Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.
+To find out more, including how to control cookies, see here: Cookie Policy
+
+    Follow
+        electricarchaeology.ca
+        Customize
+        Follow
+        Sign up
+        Log in
+        Copy shortlink
+        Report this content
+        Manage subscriptions
+        Collapse this bar
+
+%d bloggers like this:
+
+close-alt close collapse comment ellipsis expand gallery heart lock menu next pinned previous reply search share star :) 

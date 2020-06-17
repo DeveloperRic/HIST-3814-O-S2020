@@ -1,0 +1,141 @@
+
+cradledincaricature
+Search
+Primary Menu Skip to content
+
+    James Baker
+        About the blog
+        CV & Publications
+
+Search for:
+Caricature , DHums , History , Writing
+The soft digital history that underpins my book
+24/05/2017 jwbaker 1 Comment
+
+A book I wrote was recently published . It is on making and selling of satirical prints in Britain – mostly London – during the late eighteenth and early nineteenth centuries. It has been on my mind, across my desk, and in my Dropbox for a long time. Indeed the postdoctoral fellowship that started the research was my first proper foray into ‘digital’ history. As the fellowship application stated in 2012 , my plan was to:
+
+    Begin constructing and overlaying physical networks (of artists, publishers, customers, advertisers, material suppliers involved in the trade) with representative networks (of places, people, locations found in designs produced by the trade) using ArcGIS (or similar).
+
+Based on these promises what I did was to take two business directories – Kent’s Directory of London (1794) and Post Office Directory (1808); see Historical Directories of England & Wales hosted by the University of Leicester – extract all the listings for businesses associated with printed images (data: 1794 , 1808 ), assign longitude and latitude coordinates to their addresses, and map them (using TileMill rather than ArcGiS ; see https://cradledincaricature.com/2012/09/28/week-4-heatmaps/ for more detail).
+
+The use I made of these maps with respect to the history I care about can be best described as ‘soft’ digital/’digital’/Digital [hH]istory. That is – unlike the ‘hard’ digital/’digital’/Digital [hH]istory the book also contains – more on which in a future post – they helped orientate and shape my thinking rather than provide ‘results’ that I analysed, interpreted, and/or presented in the book.
+
+What I mean by this is that going through the process of abstracting data from business directories, normalising those abstractions in preparation for analysis, and making visualisations of those abstractions shaped my mental model of how the business of satirical prints worked in late-Georgian Britain. Take this passage from page 113:
+
+    In order to survive, let alone to be successful, businesses that operated in Georgian London needed networks of trade contacts. For those who made satirical prints, these contacts included suppliers of raw materials, individuals and businesses who could undertake out work, and groups whose trustworthiness could be guaranteed. Relationships within these networks were established and maintained by direct, indirect, environmental, and community ties.
+
+Note that I talk about interdependency, networks, and environment. Or take another passage, this time from page 117:
+
+    In 1802 twenty-two of Fleet Street’s 113 liverymen were stationers. In nearby Shoe Lane, William and Russell Pontifex ran a coppersmith’s from 1795 that provided the area with copper pots, kettles, piping, and plates for over a half-decade. On upmarket Piccadilly, Samuel Fores rubbed shoulders with card-makers, joiners, vintners, and grocers as well as grow- ing numbers of stationers and booksellers. At the same time, his premises was less than half a mile south-east from the numerous colourmen on Long Acre and around Soho Square. Indeed looking at businesses in this way offers a clue as to why the trade in satirical prints drifted eastwards towards Cheapside after 1800. The tributaries, courts, and passages within a quarter-mile of John Johnston’s premises at 98/101 Cheapside housed the colour manufacturers Berger & Son of Well Court, the engravers John Corbould and William Hemsley of Foster Lane and Henry Sherborn and Thompson & Jackson of Gutter Lane, and the stationer Thomas Hobson of King Street.
+
+Note talk of density, proximity, and addresses. What you should – I hope – grasp from these (admittedly rather long) quotations is that space was constantly on my mind when writing about the context within which printed images were made and sold.
+
+These acts of making, in this case making maps – or, more precisely, creating visual representations of data abstracted from business directories – gave me a better sense of what I cared about. They also underpinned a process of source analysis and interpretation that lead me towards a central argument of the book. If you look again at the maps above you will note that one of the business categories listed in the key is missing: ‘stationers’. Here is a bigger version of the 1808 map without stationers.
+
+And here is the 1808 map including the data points for stationers.
+
+What struck me when I made the latter – which, I should add, was made before the former – was that I could not see any patterns because the stationers dominated the visual field. By instinct I removed the stationers, leaving me with the former maps. These enabled me to think through the spatial patterns associated with the other business categories: for example, that paper sellers/makers clustered around the bridges over the Thames and that oil and colourmen (who used explosive turpentine) quickly occupied new areas of outer London. But the necessity to remove stationers to do anything meaningfully with the other businesses drew me towards a crucial realisation: that is, that the category ‘stationers’ was a big bucket that contained a diverse range of business practice. See, for example, this passage from page 132:
+
+    Samuel Fores who, as we have seen, sold hundreds of satiri- cal prints designed and engraved by Isaac Cruikshank, was listed in the 1808 directory as a “Bookseller and Stationer.” If this seems to us a false description of his Piccadilly-based operation, it suggests the importance of the stationer in the late-Georgian metropolitan marketplace as more than just an ancient incorporated trade, but as a permeable and osmotic category into and around which many businesses operated.
+
+Which is to say that I arrived at what I consider to be one of the main intellectual contributions of my book by doing digital/’digital’/Digital [hH]istory. However, this digital/’digital’/Digital [hH]istory did not ‘make’ the book: these maps are not printed anywhere in the volume. Adding them just didn’t feel right because I don’t make an argument within them, rather my thinking – and subsequent source analysis – flowed from constructing them. In the Q&A after a talk last year I was chastised for this omission by a doctoral student I supervise . I was accused of suppressing the digital, of providing a bad example that played into old habits and prejudices. He was quite right to pick me up on this. In the next post I’ll talk about the digital/’digital’/Digital [hH]istory that did ‘make’ it to the book. Hopefully it will make up for these omissions.
+
+Edited 11 April 2019 to fix a stupid typo on the last line.
+Share this:
+
+    Twitter
+    Facebook
+    LinkedIn
+    Tumblr
+    Print
+    Email
+
+Like this:
+Like Loading...
+Related
+
+The Ackermann ledgers at Coutts In "Caricature"
+
+The hard digital history that underpins my book In "Caricature"
+
+Publication update (or, writing with people is the best) In "Caricature"
+book business of satirical prints Caricature digital digital history GIS History maps monograph palgrave prints satire
+Post navigation
+Previous Post Publication update (or, writing with people is the best) Next Post The hard digital history that underpins my book
+One thought on “The soft digital history that underpins my book”
+
+    Pingback: The hard digital history that underpins my book | cradledincaricature
+
+Leave a Reply Cancel reply
+Enter your comment here...
+
+Please log in using one of these methods to post your comment:
+
+Gravatar
+Email (required) (Address never made public)
+Name (required)
+Website
+WordPress.com Logo
+
+You are commenting using your WordPress.com account. (  Log Out  /  Change  )
+Google photo
+
+You are commenting using your Google account. (  Log Out  /  Change  )
+Twitter picture
+
+You are commenting using your Twitter account. (  Log Out  /  Change  )
+Facebook photo
+
+You are commenting using your Facebook account. (  Log Out  /  Change  )
+Cancel
+
+Connecting to %s
+
+Notify me of new comments via email.
+
+Notify me of new posts via email.
+
+My Tweets
+Archive
+Archive
+…some thoughts on digital history, cartoons, and satire.
+Reuse my stuff!
+
+Creative Commons Licence
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License . Exceptions: quotations and embeds to and from external sources .
+Archives
+Archives
+Meta
+
+    Register
+    Log in
+    Entries feed
+    Comments feed
+    WordPress.com
+
+Create a free website or blog at WordPress.com.
+Post to
+Cancel
+Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.
+To find out more, including how to control cookies, see here: Cookie Policy
+
+    Follow
+        cradledincaricature
+        Customize
+        Follow
+        Sign up
+        Log in
+        Copy shortlink
+        Report this content
+        Manage subscriptions
+        Collapse this bar
+
+%d bloggers like this:
+
+Send to Email Address Your Name Your Email Address
+loading Cancel
+Post was not sent - check your email addresses!
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.
+:)

@@ -1,0 +1,1044 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Document rdf:about="http://www.6floors.org/bracket/2016/03/07/returning-women-to-the-history-of-digital-history/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2"/>
+        <dc:title>Returning Women to the History of Digital History – [bracket]</dc:title>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.6floors.org/bracket/2016/03/07/returning-women-to-the-history-of-digital-history/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-15 01:38:32</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: www.6floors.org</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2/returning-women-to-the-history-of-digital-history.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.6floors.org/bracket/2016/03/07/returning-women-to-the-history-of-digital-history/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-15 01:38:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ahropenreview.com/HistoryCanBeOpenSource/manuscript/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>AHR OPEN REVIEW</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4"/>
+        <dc:title>Manuscript, AHR OPEN REVIEW</dc:title>
+        <dcterms:abstract>*Note: The period for public comment ended April 10, 2020.</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ahropenreview.com/HistoryCanBeOpenSource/manuscript/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-15 01:39:28</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: ahropenreview.com</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4/manuscript.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ahropenreview.com/HistoryCanBeOpenSource/manuscript/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-15 01:39:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_5">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5/Locke_American-Yawp_V1.pdf"/>
+        <dc:title>Locke_American-Yawp_V1.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.americanyawp.com/text/wp-content/uploads/Locke_American-Yawp_V1.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-16 16:19:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/6/Locke_American-Yawp_V2.pdf"/>
+        <dc:title>Locke_American-Yawp_V2.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.americanyawp.com/text/wp-content/uploads/Locke_American-Yawp_V2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-16 16:19:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Cameron Blevins</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blevins</foaf:surname>
+                        <foaf:givenName>Cameron</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>Topic Modeling Martha Ballard’s Diary</dc:title>
+        <dcterms:abstract>In A Midwife’s Tale, Laurel Ulrich describes the challenge of analyzing Martha Ballard’s exhaustive diary, which records daily entries over the course of 27 years: “The problem is…</dcterms:abstract>
+        <dc:date>2010-04-01T14:07:54+00:00</dc:date>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-17 17:08:42</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: www.cameronblevins.org</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/8/topic-modeling-martha-ballards-diary.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-17 17:08:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://twitter.com/natlibscot/status/1255478042207621126">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Twitter</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_10"/>
+        <dc:title>(20) National Library of Scotland on Twitter: &quot;Today for #DayofDH2020 we’ll be tweeting about our Data Foundry https://t.co/cZ35hXALB7 and taking you behind the scenes to explain how we turn collections into data. #NLSdata #dayofdh https://t.co/u3NvMKIy7H&quot; / Twitter</dc:title>
+        <z:language>en</z:language>
+        <z:shortTitle>(20) National Library of Scotland on Twitter</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://twitter.com/natlibscot/status/1255478042207621126</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-17 22:12:58</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: twitter.com</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/10/1255478042207621126.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://twitter.com/natlibscot/status/1255478042207621126</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-17 22:13:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_11">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1938-4122"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Drucker</foaf:surname>
+                        <foaf:givenName>Johanna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_12"/>
+        <dc:title>Humanities Approaches to Graphical Display</dc:title>
+        <dc:date>2011-03-10</dc:date>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1938-4122">
+        <prism:volume>005</prism:volume>
+        <dc:title>Digital Humanities Quarterly</dc:title>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>DHQ</dcterms:alternative>
+        <dc:identifier>ISSN 1938-4122</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/12/000091.html"/>
+        <dc:title>DHQ: Digital Humanities Quarterly: Humanities Approaches to Graphical Display</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-17 22:13:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://academic.oup.com/dsh/article/33/3/467/4810663">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2055-7671,%202055-768X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Causer</foaf:surname>
+                        <foaf:givenName>Tim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grint</foaf:surname>
+                        <foaf:givenName>Kris</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sichani</foaf:surname>
+                        <foaf:givenName>Anna-Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Terras</foaf:surname>
+                        <foaf:givenName>Melissa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:title>‘Making such bargain’: Transcribe Bentham and the quality and cost-effectiveness of crowdsourced transcription1</dc:title>
+        <dc:date>2018-09-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>‘Making such bargain’</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/dsh/article/33/3/467/4810663</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-17 22:23:46</dcterms:dateSubmitted>
+        <bib:pages>467-487</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2055-7671,%202055-768X">
+        <prism:volume>33</prism:volume>
+        <dc:title>Digital Scholarship in the Humanities</dc:title>
+        <dc:identifier>DOI 10.1093/llc/fqx064</dc:identifier>
+        <prism:number>3</prism:number>
+        <dc:identifier>ISSN 2055-7671, 2055-768X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/Causer et al. - 2018 - ‘Making such bargain’ Transcribe Bentham and the .pdf"/>
+        <dc:title>Causer et al. - 2018 - ‘Making such bargain’ Transcribe Bentham and the .pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://melissaterras.files.wordpress.com/2018/08/fqx064.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-17 22:23:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://cradledincaricature.com/2017/05/24/the-soft-digital-history-that-underpins-my-book/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>cradledincaricature</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>jwbaker</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_18"/>
+        <dc:title>The soft digital history that underpins my book</dc:title>
+        <dcterms:abstract>A book I wrote was recently published. It is on making and selling of satirical prints in Britain – mostly London – during the late eighteenth and early nineteenth centuries. It has bee…</dcterms:abstract>
+        <dc:date>2017-05-24T08:12:17+00:00</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cradledincaricature.com/2017/05/24/the-soft-digital-history-that-underpins-my-book/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-21 01:55:41</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: cradledincaricature.com</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_18">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/18/the-soft-digital-history-that-underpins-my-book.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cradledincaricature.com/2017/05/24/the-soft-digital-history-that-underpins-my-book/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-21 01:55:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://cradledincaricature.com/2017/06/06/the-hard-digital-history-that-underpins-my-book/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>cradledincaricature</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>jwbaker</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_20"/>
+        <dc:title>The hard digital history that underpins my book</dc:title>
+        <dcterms:abstract>In my last blog I wrote about the ‘soft’ Digital History – or digital/’digital’/Digital [hH]istory – that went into my recent book on making and selling of satir…</dcterms:abstract>
+        <dc:date>2017-06-06T07:36:37+00:00</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cradledincaricature.com/2017/06/06/the-hard-digital-history-that-underpins-my-book/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-21 01:56:05</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: cradledincaricature.com</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_20">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/20/the-hard-digital-history-that-underpins-my-book.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cradledincaricature.com/2017/06/06/the-hard-digital-history-that-underpins-my-book/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-21 01:56:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://scottbot.net/networks-demystified-9-modality/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>the scottbot irregular</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>weingart</foaf:surname>
+                        <foaf:givenName>scott b</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_22"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>method</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Networks Demystified 9: Bimodal Networks</dc:title>
+        <dc:date>2015-01-21</dc:date>
+        <z:language>English</z:language>
+        <z:shortTitle>Networks Demystified 9</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://scottbot.net/networks-demystified-9-modality/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-27 01:50:26</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/22/networks-demystified-9-modality.html"/>
+        <dc:title>Networks Demystified 9: Bimodal Networks – the scottbot irregular</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://scottbot.net/networks-demystified-9-modality/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-27 01:50:34</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ihrdighist.blogs.sas.ac.uk/2015/09/big-data-reintegrating-close-and-distant-reading-of-19th-century-newspapers/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Digital History Seminar</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>ihrdighist</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_24"/>
+        <dc:title>Tuesday 27 October 2015 - Melodee Beals - Boutique Big Data: Reintegrating Close and Distant Reading of 19th-Century Newspapers</dc:title>
+        <dcterms:abstract>Slide Show Forthcoming   Abstract From their earliest incarnations in the seventeenth-century, through their Georgian expansion into provincial and colonial markets and culminating in their late-Victorian transformation into New Journalism, British newspapers have...</dcterms:abstract>
+        <dc:date>2015-09-30T09:00:11+00:00</dc:date>
+        <z:language>en-US</z:language>
+        <z:shortTitle>Tuesday 27 October 2015 - Melodee Beals - Boutique Big Data</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ihrdighist.blogs.sas.ac.uk/2015/09/big-data-reintegrating-close-and-distant-reading-of-19th-century-newspapers/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-31 00:27:07</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: ihrdighist.blogs.sas.ac.uk</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/24/big-data-reintegrating-close-and-distant-reading-of-19th-century-newspapers.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ihrdighist.blogs.sas.ac.uk/2015/09/big-data-reintegrating-close-and-distant-reading-of-19th-century-newspapers/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-31 00:27:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Programming Historian</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Froehlich</foaf:surname>
+                        <foaf:givenName>Heather</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_26"/>
+        <dc:title>Corpus Analysis with Antconc</dc:title>
+        <dc:date>2015-06-19</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>programminghistorian.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-02 01:25:06</dcterms:dateSubmitted>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_26">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/26/corpus-analysis-with-antconc.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-02 01:25:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_28"/>
+        <dc:title>Very basic strategies for interpreting results from the Topic Modeling Tool – Miriam Posner's Blog</dc:title>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-03 01:17:59</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: miriamposner.com</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_28">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/28/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-03 01:18:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="/topic-modeling-tool/documentation/2017/01/06/quickstart.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Topic Modeling Tool Blog</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_30"/>
+        <dc:title>Quickstart Guide</dc:title>
+        <dcterms:abstract>Getting started with the Topic Modeling Tool</dcterms:abstract>
+        <dc:date>2017-01-06T19:09:33+00:00</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>/topic-modeling-tool/documentation/2017/01/06/quickstart.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-03 01:18:03</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: senderle.github.io</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/30/quickstart.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-03 01:18:06</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Matthew Lincoln, PhD</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lincoln</foaf:surname>
+                        <foaf:givenName>Matthew D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_32"/>
+        <dc:title>Confabulation in the humanities</dc:title>
+        <dc:date>2015-03-21T09:19:00-07:00</dc:date>
+        <z:language>English</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:24:58</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/32/confabulation-in-the-humanities.html"/>
+        <dc:title>Confabulation in the humanities - Matthew Lincoln, PhD</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:25:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://historyonics.blogspot.com/2013/12/big-data-for-dead-people-digital.html">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Historyonics</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hitchcock</foaf:surname>
+                        <foaf:givenName>Tim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Big Data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>born digital</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>culturomics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Digital Humanities</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Digitisation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>historiography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humanities</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Infinite Archive</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Lewis Mumford</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>macroscope</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>methodology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>positivism</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>privatisation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>selection bias</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Historyonics: Big Data for Dead People: Digital Readings and the Conundrums of Positivism</dc:title>
+        <dc:date>Monday, 9 December 2013</dc:date>
+        <z:shortTitle>Historyonics</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://historyonics.blogspot.com/2013/12/big-data-for-dead-people-digital.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:34:47</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: Blogger</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/big-data-for-dead-people-digital.html"/>
+        <dc:title>Blogspot Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://historyonics.blogspot.com/2013/12/big-data-for-dead-people-digital.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:34:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://rrchnm.org/argument-white-paper/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_36"/>
+        <dc:title>Digital History &amp; Argument White Paper – Roy Rosenzweig Center for History and New Media</dc:title>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://rrchnm.org/argument-white-paper/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:48:15</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: rrchnm.org</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/36/argument-white-paper.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://rrchnm.org/argument-white-paper/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:48:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_37">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Digital History Seminar</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>ihrdighist</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_38"/>
+        <dc:title>Tuesday 27 October 2015 - Melodee Beals - Boutique Big Data: Reintegrating Close and Distant Reading of 19th-Century Newspapers</dc:title>
+        <dcterms:abstract>Slide Show Forthcoming   Abstract From their earliest incarnations in the seventeenth-century, through their Georgian expansion into provincial and colonial markets and culminating in their late-Victorian transformation into New Journalism, British newspapers have...</dcterms:abstract>
+        <dc:date>2015-09-30T09:00:11+00:00</dc:date>
+        <z:language>en-US</z:language>
+        <z:shortTitle>Tuesday 27 October 2015 - Melodee Beals - Boutique Big Data</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ihrdighist.blogs.sas.ac.uk/2015/09/big-data-reintegrating-close-and-distant-reading-of-19th-century-newspapers/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:56:51</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: ihrdighist.blogs.sas.ac.uk</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_38">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/38/big-data-reintegrating-close-and-distant-reading-of-19th-century-newspapers.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ihrdighist.blogs.sas.ac.uk/2015/09/big-data-reintegrating-close-and-distant-reading-of-19th-century-newspapers/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-04 00:56:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://electricarchaeology.ca/2019/12/20/making-nerdstep-music-as-archaeological-enchantment-or-how-do-you-connect-with-people-who-lived-3000-years-ago/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Shawn</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_40"/>
+        <dc:title>Making Nerdstep Music as Archaeological Enchantment, or, How do you Connect with People Who Lived 3000 Years Ago?</dc:title>
+        <dcterms:abstract>by Shawn Graham, Eric Kansa, Andrew Reinhard What does data sound like? Over the last few days, what began as a bit of a lark has transformed into something more profound and meaningful. We’d like …</dcterms:abstract>
+        <dc:date>2019-12-20T19:19:08+00:00</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://electricarchaeology.ca/2019/12/20/making-nerdstep-music-as-archaeological-enchantment-or-how-do-you-connect-with-people-who-lived-3000-years-ago/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-05 23:58:20</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: electricarchaeology.ca</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_40">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/40/making-nerdstep-music-as-archaeological-enchantment-or-how-do-you-connect-with-people-who-lived.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://electricarchaeology.ca/2019/12/20/making-nerdstep-music-as-archaeological-enchantment-or-how-do-you-connect-with-people-who-lived-3000-years-ago/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-05 23:58:27</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-1-73284-106-2">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Grand Forks, ND</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>The Digital Press at the University of North Dakota</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Graham</foaf:surname>
+                        <foaf:givenName>Shawn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_41"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Biography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>College teachers</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Digital archaeology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Digital humanities</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Failure (Psychology)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Graham, Shawn</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>United States</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Failing gloriously and other essays</dc:title>
+        <dcterms:abstract>&quot;In Failing Gloriously, Shawn Graham recounts the sometimes painful, sometimes funny, but always affecting stories of what it means to be an imposter in the academy. The essays explore his personal journey of triumphs and failures to becoming a member of the professoriate, exploring what that might mean to make space for productive learning or rather, how it could be safe for others to fail&quot;--</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>LA2317.G72</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:identifier>ISBN 978-1-73284-106-2</dc:identifier>
+        <z:numPages>1</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/41/Graham - 2019 - Failing gloriously and other essays.pdf"/>
+        <dc:title>Graham - 2019 - Failing gloriously and other essays.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://digitalpressatund.files.wordpress.com/2019/12/failing_gloriously_final.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-06 00:25:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://songsoftheottawa.ca/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_44"/>
+        <dc:title>Songs of the Ottawa</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://songsoftheottawa.ca/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-06 00:25:56</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_44">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/44/songsoftheottawa.ca.html"/>
+        <dc:title>Songs of the Ottawa</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://songsoftheottawa.ca/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-06 00:25:58</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ottawacitizen.com/news/local-news/the-ottawa-rivers-history-re-told-in-musical-notes/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_48"/>
+        <dc:title>The Ottawa River's history re-told in musical notes | Ottawa Citizen</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ottawacitizen.com/news/local-news/the-ottawa-rivers-history-re-told-in-musical-notes/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-06 00:52:07</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/48/the-ottawa-rivers-history-re-told-in-musical-notes.html"/>
+        <dc:title>The Ottawa River's history re-told in musical notes | Ottawa Citizen</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ottawacitizen.com/news/local-news/the-ottawa-rivers-history-re-told-in-musical-notes/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-06 00:52:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.themacroscope.org/?page_id=875">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+                <dc:title>The Historian&amp;#039;s Macroscope: Big Digital History</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Milligan</foaf:surname>
+                        <foaf:givenName>Ian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_50"/>
+        <dc:title>Types of Visualizations</dc:title>
+        <dc:date>2016-01-05</dc:date>
+        <z:language>English</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.themacroscope.org/?page_id=875</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-10 01:43:56</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_50">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/50/www.themacroscope.org.html"/>
+        <dc:title>Types of Visualizations | The Historian's Macroscope: Big Digital History</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.themacroscope.org/?page_id=875</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-10 01:44:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://historyinthecity.blogspot.com/2013/11/before-i-start-i-want-to-thank-people.html">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_52"/>
+        <dc:title>Visualizing Schneemann</dc:title>
+        <dcterms:abstract>selected as editor’s choice Digital Humanities Now , November 19, 2013   Longer version of 10 minute talk given Nov 15 at  American Art His...</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://historyinthecity.blogspot.com/2013/11/before-i-start-i-want-to-thank-people.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-11 23:58:54</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: historyinthecity.blogspot.com</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_52">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/52/before-i-start-i-want-to-thank-people.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://historyinthecity.blogspot.com/2013/11/before-i-start-i-want-to-thank-people.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-11 23:59:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://orlando.cambridge.org/public/svDocumentation?formname=t&amp;d_id=ABOUTTHEPROJECT">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_54"/>
+        <dc:title>Orlando: Women's Writing - Documentation</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://orlando.cambridge.org/public/svDocumentation?formname=t&amp;d_id=ABOUTTHEPROJECT</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-12 00:42:40</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_54">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/54/svDocumentation.html"/>
+        <dc:title>Orlando: Women's Writing - Documentation</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://orlando.cambridge.org/public/svDocumentation?formname=t&amp;d_id=ABOUTTHEPROJECT</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-12 00:42:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://github.com/DeveloperRic/HIST-3814-O-S2020">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>GitHub</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_56"/>
+        <dc:title>DeveloperRic/HIST-3814-O-S2020</dc:title>
+        <dcterms:abstract>Crafting Digital History Summer 2020 @Carleton_U Dr. Shawn Graham - DeveloperRic/HIST-3814-O-S2020</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/DeveloperRic/HIST-3814-O-S2020</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-17 01:26:36</dcterms:dateSubmitted>
+        <dc:description>Library Catalog: github.com</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_56">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/56/HIST-3814-O-S2020.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/DeveloperRic/HIST-3814-O-S2020</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-17 01:26:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Data rdf:about="#item_57">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olaitan</foaf:surname>
+                        <foaf:givenName>Victor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <dc:title>DeveloperRic/HIST-3814-O-S2020</dc:title>
+        <dcterms:abstract>Crafting Digital History Summer 2020 @Carleton_U Dr. Shawn Graham</dcterms:abstract>
+        <dc:date>2020-06-17T01:36:09Z</dc:date>
+        <z:libraryCatalog>GitHub</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/DeveloperRic/HIST-3814-O-S2020</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-06-17 01:44:16</dcterms:dateSubmitted>
+        <dc:description>original-date: 2020-05-16T16:59:41Z</dc:description>
+        <z:programmingLanguage>HTML</z:programmingLanguage>
+    </bib:Data>
+</rdf:RDF>

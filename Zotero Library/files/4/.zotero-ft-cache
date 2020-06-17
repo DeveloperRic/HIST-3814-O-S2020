@@ -1,0 +1,1080 @@
+
+Skip to Content | Skip to Table of Contents
+AHR OPEN REVIEW
+History Can Be Open Source: Democratic Dreams and the Rise of Digital History
+
+    Navigate
+    Content
+    Discuss
+
+Contents
+Search
+Search for:
+Special Pages
+
+    Title Page
+    General Comments
+    All Comments
+    Comments by Commenter
+    Blog
+    Blog Archive
+    Log in
+
+Table of Contents
+
+    Introduction
+    Letter From the Editor
+    Manuscript
+    Reader’s Report #1
+    Reader’s Report #2
+    Reader’s Report #3
+    Editor’s Comments
+
+    Previous page
+    Next page
+
+Manuscript
+ahropenreview_otl135
+
+February 2, 2020
+
+¶ 1 Leave a comment on paragraph 1 0 *Note: The period for public comment ended April 10, 2020.*
+History Can Be Open Source: Democratic Dreams and the Rise of Digital History
+
+¶ 2 Leave a comment on paragraph 2 1
+
+¶ 3 Leave a comment on paragraph 3 5 In 2006, Roy Rosenzweig published an article in the Journal of American History entitled “Can History Be Open Source? Wikipedia and the Future of the Past.” By then Wikipedia had already become, he said, “perhaps the largest work of online historical writing, the most widely read work of digital history, and the most important free historical resource on the World Wide Web.” 1 Wikipedia’s anarchic editing process and uneven reliability have repelled academics. Despite studies—including Rosenzweig’s—comparing it favorably to traditional encyclopedias, it’s still the sour taste of “Wikipedia” that spoils much discussion of “open source” history, particularly outside of the digital humanities. But Rosenzweig wrote that “if historians believe that what is available free on the Web is low quality, then we have a responsibility to make better information sources available online.” Historians could endlessly indict Wikipedia for its many shortcomings, or, he said, we could “emulate [its] great democratic triumph … its demonstration that people are eager for free and accessible information resources.” 2
+
+¶ 4 Leave a comment on paragraph 4 3 Thirteen years after Rosenzweig’s plea, technological innovation, institutional resources, professional norms, and shifting scholarly attitudes have converged to prove Rosenzweig right: history can be open source. And yet, while scores of projects have sought to fulfill Rosenzweig’s call by providing free, high-quality, professionally produced, peer-reviewed materials, the historical profession has rarely stopped to take critical stock of Open Educational Resources (OER) and the broader ideological context from which it emerged. 3 This article therefore proposes to provide a critical evaluation of OER’s place in the historical profession—its history, the nature of open licensing, debates over neoliberalism, the problematic emphasis on digital “access,” the promise of mass collaboration, and an evaluation of major trends in contemporary digital history projects. In particular, by analyzing the founding values and short history of the digital history movement, surveying the current landscape of digital history, and identifying the possibilities of increasing professional and institutional support, it highlights the often problematic, and yet foundational, democratic aspirations at the heart of digital history and the broader digital humanities movement.
+
+¶ 5 Leave a comment on paragraph 5 0 — — —
+
+¶ 6 Leave a comment on paragraph 6 4 The dream of “democratization” fueled much of the rise of digital humanities. In 2001, information studies scholar Philip E. Agre argued that digital technologies would enable “the intellectual lives of academics to be democratized,” thereby opening the “existing scholarly and library practices [that] reflect the wisdom of centuries. 4 Writing in 1999, Ed Ayers trumpeted the historical profession’s recovery of forgotten voices—of women, people of color, the poor—but said,” The great democratization of history over the past few decades has not been accompanied by a democratization of audience.” 5 The digital humanities, it was argued, would facilitate that democratization. “In the 1990s, the animating spirit behind much of our work in the digital humanities was democratization,” said William G. Thomas III, a historian at the University of Nebraska Lincoln. “Our ambitions then,” he said, “were only secondarily to experiment with new forms of scholarship. They were primarily to democratize history: to transform the way history was understood by changing the way it was produced and accessed.” 6
+
+¶ 7 Leave a comment on paragraph 7 7 The rhetoric of “democratization” continues to permeate the field of digital history. It lurks in project descriptions, grant applications, and in the fundamental understanding that justifies so much of a now-mature field. And invocations of democracy not only provided the rhetorical cornerstone of the field’s rise to prominence, they undergird the larger promise of the digital humanities. But what does “democracy” mean in a world of ArcGIS databases, GitHub repositories, Creative Commons licenses, Python tokens, Gephi visualizations, and 3ds Max models (not to mention Twitter and all the rest)? “Democracy,” John Dewey wrote in 1916, “has to be born anew every generation,” and a survey of major digital projects and writings in the field reveals how digital historians have labored to realize new, refashioned notions of democracy through the life of a rising academic field. But such a survey also lays bare the unexplored tensions and contradictions of discourses that have, by and large, escaped serious academic scrutiny. 7
+
+¶ 8 Leave a comment on paragraph 8 4 Silicon Valley’s prophets may preach the “theory of disruptive innovation” to eager university administrators with the promise of inevitable democratic revolutions, but disruption is not a synonym for democracy. 8 As Roy Rosenzweig put it, “neither the democratization or the commodification of higher education is inherent in technology.” 9 Advocates of the digital humanities have gilded their technological innovations with the rhetoric of democracy, but few scholars have interrogated either the nature of those discourses or their impact upon the field’s development, maturation, and future direction. This article therefore confronts the omnipresence of “democracy” in the field of digital history by placing the field’s rise in a historical and institutional context, confronting the complexities, ironies, and puzzles posed by its advocates, and, finally, gesturing toward a positive definition of “democracy” that moves beyond questions of technological innovation and digital access to engage more fundamental and intractable questions about inequality, community, and participatory historical inquiry.
+
+¶ 9 Leave a comment on paragraph 9 0 “Democracy” is a slippery term. In his monumental 2016 exploration of “the struggle for self-rule” in the Atlantic world, Toward Democracy , Historian James T. Kloppenberg argued that democracy has been less a unified set of institutions and more an unattainable goal after which we must forever strive. 10 Vague, often unreflective ideas of “democracy” drove much of the development of the field of digital history. And yet, despite their penchant for definitional imprecision, digital historians have associated democracy with practices rooted in evolving understandings of structural inequalities. We therefore identify and critically analyze two major strains of democratic ideology in digital history and the digital humanities more broadly—one rooted in open access and one rooted in participation—to capture the key shifts, creative tensions, and urgent critiques of the digital humanities movement. 11
+
+¶ 10 Leave a comment on paragraph 10 3 Lured by the promises of the early internet, the first generation of digital humanists believed the digitization of analog resources would tear down barriers that held back the world’s knowledge from popular demand. Navigating a rising ideological and institutional neoliberalism, they championed open access and pushed OER into the mainstream. The gains of that early movement are impossible to overstate. But a recent generation of digital humanists, reared not in an insurgent and utopian field but in a respectable and increasingly institutionalized one, learned that digitization is not enough. Instead, repelled by the decadence of Silicon Valley, frustrated with the political economy of academia, and inspired especially by the scholarship of intersectional feminists and critical race theorists, they have striven for an expanded idea of democracy, one cognizant of stubborn structural inequalities and lingering institutional barriers to full participation in the production and consumption of digital projects. Like Alexis Lothian and Amanda Phillips, they “wonder how digital practices and projects might participate in more radical processes of transformation––might rattle the poles of the big tent rather than slip seamlessly into it.” 12 John Dewey argued in 1939 that “the task of democracy is forever that of creation of a freer and more humane experience in which all share and to which all contribute.” 13 Grappling with the practice of digital humanities and analyzing its maturation as an academic field, particularly in light of its contemporary critics, therefore demands a critical engagement with the field’s long quest for “democracy.”
+
+¶ 11 Leave a comment on paragraph 11 2 “Democracy” and “democratization,” of course, drove the study of the American past long before the rise of the digital humanities. From Alexis de Tocqueville to Jane Addams to Alain Locke, positive definitions of “democracy” have fueled investigations into the nature of American life. 14 Defending American studies as a field of inquiry at Yale in 1958, Norman Holmes Pearson claimed that students “must be educated to think of democracy not in narrow or formalistic political terms, but as a germinal impulse with profound bearings upon every phase of human activity.” 15 And historians have not only defined, interrogated, and deployed democracy as a focus of study in the making and unmaking of countless national narratives, they have carried that pursuit into the digital age.
+
+¶ 12 Leave a comment on paragraph 12 2 Much of the early energy propelling digital humanities would take inspiration from New Left ideas of participatory democracy that swirled around universities in the 1960s. 16 Most historically-minded computing in the 1960s and 1970s was confined to a core of “cliometric” historians, but the ideals of the New Left would shape the field of digital humanities. 17 Roy Rosenzweig’s pioneering work, for instance, would grow directly out of such ideals. As a former student and colleague, Elena Razlogova, explained, “Roy applied his unreconstructed ‘new left’ radicalism to new digital realities.” 18 As protests rocked campuses across the West, computer programmers, software engineers, and “hackers” embraced—often in parallel to the competitive corporatization surrounding new hardware developments—the notion of shared knowledge and pioneered the principles that would later undergird digital history’s push for “democratization.” 19 Richard Stallman, for instance, a freshman at Harvard University in 1970, became active in the nearby hacker community at MIT and, believing “free software” to be a social and ethical imperative, later founded the GNU project and launched the GNU General Public License (GPL) to allow for the free use, modification, and distribution of software. 20
+
+¶ 13 Leave a comment on paragraph 13 1 But early digital humanists struggled to realize the democratic dreams of New Left activists. “Democratization” too easily lost precise meaning in the scramble to adopt new technologies. Outside of academia, where “democracy” was left particularly ambiguous, notions of world-flattening offered moral cover for the decidedly anti-democratic ends of business. Inside the academy practitioners too often confused “access” with “democracy” and lost sight of participatory possibilities. A survey of early digital projects shows how.
+
+¶ 14 Leave a comment on paragraph 14 4 In 1995, the American Studies Crossroads Project , one of the earliest websites of any humanities organization, led English scholar Randy Bass to partner with historian Brett Eynon to lead the Visible Knowledge Project . Bass and his collaborators privileged pedagogical innovation and student participation over expanded access. 21 In hindsight, they appear outliers. Most of the digital humanities’ would-be democratizers equated democratization with expanded accessibility. While discussing the Text Encoding Initiative (TEI)—an effort to establish digital standards of textual presentation—at the 1994 meeting of the Modern Language Association, C. M. Sperberg-McQueen identified three fundamental requirements for scholarly editions of electronic text: “accessibility without needless technical barriers to use; longevity; and intellectual integrity.” 22 Early digital humanities projects followed suit. The Women’s Writers Project , launched in 1999, used TEI standards “to overcome the problems of inaccessibility and scarcity which had rendered women’s writing invisible for so long.” 23 In 1995, two Virginia scholars launched The Walt Whitman Archive , a collection of digital manuscript facsimiles and hypertext editions of Whitman’s poems that aimed to make all of Whitman’s public and private work  available to all. 24 The William Blake Archive similarly launched free and online in 1996 to “provide unified access to major works of visual and literary art.” 25
+
+¶ 15 Leave a comment on paragraph 15 0 American historians were similarly striving to expand access to scholarly work through digital presentation. In 1993, Edward Ayers and a large, rotating team at the University of Virginia launched The Valley of the Shadow as “an applied experiment in digital scholarship.” The project was a digital archive: it allowed users to freely compare letters, newspapers, maps, official records, and a wealth of other digitized sources from two counties, Franklin County, Pennsylvania, and Augusta County, Virginia (one Union and one Confederate) before, during, and after the Civil War. It was also, wrote Michael O’Malley and Roy Rosenzweig, “probably the most sophisticated historical site on the Web.” 26 Gary Kornblith wrote in The Journal of American Histor y that the project “represents the logical outcome of major trends in late-twentieth-century American academic life: computerization, interdisciplinary collaboration, the postmodern complication of traditional narrative, and the democratic search for ways to recognize, even celebrate, the role of ordinary people in making history and culture.” 27
+
+¶ 16 Leave a comment on paragraph 16 2 The field of “digital humanities”—a phrase not yet widely used—was busy being born. In 1994, Roy Rosenzweig, then a pioneering social historian at George Mason University, founded the Center for History and New Media (CHNM) to “incorporate multiple voices, reach diverse audiences and encourage popular presentation in presenting and preserving the past” 28 Rosenzweig worked with the American Social History Project to produce pedagogical CD-ROMs. 29 In 1998, Edward Ayers and William Thomas formed the Virginia Center for Digital History at the University of Virginia. 30 New projects launched. At the University of Houston, Steven Mintz and Sara McNeil pioneered a free (though not yet “open,” since the ubiquity of open licensing was still to come) digital history text, Digital History: Using New Technologies to Enhance Teaching and Research ( http://www.digitalhistory.uh.edu/ ) , providing an enduring example of a practical, student-centered project that also explored—in its case, through “hyperlink history”—the new possibilities afforded by its digital platform. In 1998, the CHNM launched History Matters: The U.S. Survey Course on the Web (http://historymatters.gmu.edu/), a vast collection of primary sources, pedagogical essays, syllabi, reference material, and other teaching tools. As these projects demonstrated, online access remained the defining feature of “democratic” digital scholarship.
+
+¶ 17 Leave a comment on paragraph 17 2 Lisa Spiro, in her essay “Defining the Values of the Digital Humanities,” argued that a set of core values, rather than traditional disciplinary boundaries, demarcated “digital humanities.” Surveying Digital Humanities manifestoes and combing the rhetoric of the young field, 31 she proposed “openness” as the first of five values governing the field. 32 She defined openness not only in the sense of licensing and transparency, but in the “larger goal of the humanities,” to, in the words of Bridget Draxler and the Humanities, Arts, Science, and Technology Alliance (HASTAC), “to democratize knowledge to reach out to ‘publics,’ share academic discoveries, and invite an array of audiences to participate in knowledge production.” 33 Such statements, of course, saturate much of the rhetoric championing digital humanities and the open access movement. “Many scholars hope and anticipate that open practices,” two digital humanists, George Veletsianos and Royce Kimmons, wrote, “will broaden access to education and knowledge, reduce costs, enhance the impact and reach of scholarship and education, and foster the development of more equitable, effective, efficient, and transparent scholarly and educational processes.” 34
+
+¶ 18 Leave a comment on paragraph 18 1 Democratization, in other words, was integral to the definition of the digital humanities from the very beginning. Andrea Hunter, writing in the Canadian Journal of Communication in 2015, argued that democratization was the best answer to the field’s chronic definitional question: “What is the digital humanities?” Hunter advocated reframing the field away from technology by emphasizing gains in “access and participation.” Only through democratization, she argued, could the digital humanities realize its disciplinary promise. 35 To illustrate her argument, Hunter specifically cited projects: The Orlando Project ( http://orlando.cambridge.org/ ), a self-described “new kind of electronic textbase for research and discovery” produced by the University of Alberta and the University of Guelph that revolves around “Women’s Writing in the British Isles from the Beginnings to the Present”; and CHNM’s Omeka ( https://omeka.org/ ), a digital platform designed to allow users to curate and share their own historical archives. The first project was designed to bring obscure sources online and out of the archive; the second to allow users to become historians themselves. Both aimed to make the humanities accessible to a wider audience.
+
+¶ 19 Leave a comment on paragraph 19 0 Such projects illustrate the common desires of digital historians and digital humanists to disseminate knowledge beyond the walls of particular colleges and universities. “The notion of the university as ivory tower no longer makes sense, if it ever did,” argued the five authors of the 2012 book Digital Humanities . “Since the Digital Humanities studies and explicates what it means to be human in the networked information age, it expands the reach and relevance of the humanities far beyond small groups of specialists locked in hermetically sealed conversation.” By connecting specialists across fields, they argued, the field will “open up the prospect of a conversation extending far beyond the walls of the ivory tower that connects universities to cultural institutions, libraries, museums, and community organizations” 36
+
+¶ 20 Leave a comment on paragraph 20 2 The open access movement grew alongside the digital humanities. As Martin Paul Eve put it in his recent survey of open access in the humanities, “the overwhelming assumption from the literature on open scholarship is that it has co-evolved with broader technological developments. 37 The digital revolution brought open licensing into the mainstream with the establishment of Creative Commons in 2001. 38 The following year, a UNESCO forum championed what they called “a universal educational resource available for the whole of humanity, to be referred to henceforth as Open Educational Resources [OER].” 39 OER—resources that are not simply freely available online but released into the pubic domain or with an open license that allows users to copy, reuse, revise, remix, and redistribute them—had been born. When the Public Library of Science (PLOS) began publishing open access journals in science and medicine, open access established a foothold in the academy. 40
+
+¶ 21 Leave a comment on paragraph 21 0 “Open access,” however, remains a relatively new idea for many historians outside of the digital humanities. 41 In a notice appended to their 2014 open monograph, The History Manifesto , historians David Armitage and Jo Guldi wrote, “Even two or three years ago, most academics in the humanities, and certainly most members of the non-academic public, had not heard much if anything about the Open Access movement.” 42 But already, as advocate Martin Weller put it, “openness is now such a part of everyday life that it seems unworthy of comment.” 43 Creative Commons’ open licenses are now ubiquitous parts not only of academics’ general internet browsing but increasingly of their scholarship as well: a number of pioneering publications in the humanities are now following the sciences into open access publishing and grant money is appearing for such projects. In fact, according to Eve, “It is now more often the practicalities of achieving such a goal that are the focus of disagreement.” 44 And this is where many projects have stalled—until recently.
+
+¶ 22 Leave a comment on paragraph 22 3 In just a few short years, barriers to participation in digital humanities have fallen and institutional supports have risen. New publishing venues for open-source scholarship and pedagogy, streamlined digital platforms and lowered technological barriers, massive injections of public and private grant money, the institutionalization of digital humanities in research universities, the development of scholarly guidelines and best practices, and the growing acceptance of open-source scholarship and pedagogy among the academic community: all have created the conditions for a digitized history.
+
+¶ 23 Leave a comment on paragraph 23 1 A wealth of funding has buoyed DH across American universities. The National Endowment for the Humanities (NEH) and the Andrew W. Mellon Foundation in particular seeded the institutional bedrocks of digital history and continue to fund many of the current initiatives reshaping the field. The NEH, for instance, whose charter declares that “the humanities belong to the people of the United States,” spun off a new Office of Digital Humanities in 2008. In 2015, citing an “urgent and compelling” need to pioneer digital publishing, the Andrew W. Mellon Foundation awarded several million-dollar grants to university presses for the exploration of digital publishing models. 45 Other wealthy foundations have focused on digital publication. Yale University Library, for instance, received a $3 million grant in 2014 from The Goizueta Foundation to launch a Digital Humanities Laboratory. 46 It is just one of many new ventures that have smashed barriers to online “publication” with appeals for expanded access.
+
+¶ 24 Leave a comment on paragraph 24 5 Historian Daniel Cohen, in the same year that Rosenzweig penned his plea for open source history, said “Resources that are free to use in any way, even if they are imperfect, are more valuable than those that are gated or use-restricted, even if those resources are qualitatively better.” 47 And while popular suspicions about the quality of open resources continue to limit adoption, recent polls have shown that academics are not fundamentally opposed to open projects, provided they can be reassured that they are using a rigorous product. 48 But without the safety net of peer review to fall back on, how can digital humanities projects win over hesitant academics? As Martin Paul Eve writes, “any transition to open access must necessarily interact with the value systems of the academy and its publishing mechanisms.” 49 Fortunately those very publishing mechanisms have begun to embrace open access, harkening a radical change in academia’s prestige economy: scholars can now remain within existing academic structures even as they push the boundaries of access and audience.
+
+¶ 25 Leave a comment on paragraph 25 2 University presses, libraries, and academics have spent more than a decade experimenting with and innovating new publishing platforms for open scholarship. University presses have been particularly vigorous in their experiments with open-access and open-source publications. The University of Michigan Library and the University of Michigan Press launched the digitalculturebooks imprint in 2006 with the goal of “developing open platforms that make openness part of the scholarly peer review process” and publishes work under an Attribution-Noncommercial-No Derivative Works 3.0 Creative Commons (CC) License. 50 Under Mark Saunders, the University of Virginia Press received substantial institutional and Mellon grant funding in 2006 and 2007 to seed the publication of online texts under its Rotunda Imprint, bringing The Papers of Thomas Jefferson and The Documentary History of the Ratification of the Constitution online.
+
+¶ 26 Leave a comment on paragraph 26 1 In the intervening years, university presses have continued to move forward into open access publication and several presses have launched open-access imprints. “If there ever was a time for a university press to go into open access,” said Neil B. Christensen, the director of digital business development for the University of California Press, “this is the time.” In 2015, the Press launched dual platforms for publishing open-access journals and monographs, Collabra and Luminos. 51 (Striving for long-term sustainability, however, the venture’s open-access business model revolves around authors’ fees and paid reviewers, and charging authors anything at all, let alone $600-$700, is largely foreign to academic historians.) In 2012, the University of Minnesota, through the William and Flora Hewlett Foundation, launched The Open Textbook Initiative, a catalog of online, open-license textbooks. In 2018, The Graduate Center’s Digital Scholarship Lab at the City University of New York received a nearly one-million-dollar grant from the Mellon Foundation to develop Manifold, an open-source web-based publishing platform. 52
+
+¶ 27 Leave a comment on paragraph 27 2 Advocates of OER have also continued experimenting with alternative models of sustainable, open-source publishing. “Access to the work we produce must be opened up as a site of conversation not just among scholars but also between scholars and the broader culture,” wrote  Kathleen Fitzpatrick in Planned Obsolescence , her exploration into the future of technology and academic publishing. 53 In 2015, Caroline Edwards and Martin Paul Eve launched the Open Library of Humanities (OLH), with grant money from the Mellon Foundation and partnerships with university libraries, to provide a new, sustainable, open-access publishing platform for the humanities. 54 University libraries, meanwhile, continue to experiment with publishing models. “If making scholarly research publicly accessible on the Web could go some way toward enlightening the general public about the importance and the skill of scholarly work,” Brown University’s faculty dean, Kevin McLaughlin, said, “that would be fantastic.” 45
+
+¶ 28 Leave a comment on paragraph 28 1 The gold standard of academic scholarship remains the university press, and, over the past years many have incorporated open publishing into their regular imprints. In 2006, The Orlando Project turned to a traditional press, Cambridge, to “publish” the project. Cambridge’s agreement marked a turning point in academic legitimation of open source publishing. “They are the name,” a producer of the project said, “they have standards.” 55 Cambridge in particular has continued to experiment with open access. Their 2014 publication of The History Manifesto , a book-length essay by historians Jo Guldi and David Armitage, marked a new highpoint of academic respectability for open access publication in the history profession. 56
+
+¶ 29 Leave a comment on paragraph 29 2 Cambridge is not alone. As already discussed, the University of Virginia Press has long published projects online, if not necessarily with formal open access. The Massachusetts Institute of Technology Press has published multiple field-defining books online through both an open review and open licensing. The University of Michigan, from 2011 to 2013, oversaw the open peer review and eventual dual publishing of Writing History in the Digital Age at the same time the University of Minnesota similarly published Debates in the Digital Humanities . Beginning in 2019, the Public Library of Science began to allow authors to participate in their version of an open review, where readers reports, editorial decisions, and author responses are all made publicly available. 57
+
+¶ 30 Leave a comment on paragraph 30 2 These developments offered prototypes for how open access platforms can extend traditional notions of “publication.” And such efforts continue to multiply. The boundaries of “publication” are expanding. Stanford University Press, for instance, recently received a large Mellon Grant to bring peer review to digital-native projects. With such efforts proliferating across the university press landscape, academic credibility can hardly be considered any longer an obstacle to democratized access. And yet academic credibility is not the only remaining obstacle to the flourishing of a democratized digital humanities. In fact, the very mechanisms that triggered its expansion—grant-funding, institutional backing, easy traffic in earnest rhetoric rooted in “democratization”—have raised legitimate alarms. “Access,” it seems, is not the only barrier to a more democratic humanities.
+
+¶ 31 Leave a comment on paragraph 31 0 Digitization by itself did not guarantee the broad-based notion of “democracy” so ardently touted by early champions of the digital humanities.  Robert Darnton, distinguished historian and librarian at Harvard University, examined Google’s massive book digitization project in a 2006 issue of The New York Review of Books and argued that,“Yes we must digitize. But more important, we must democratize. We must open access to our cultural heritage. How? By rewriting the rules of the game, by subordinating private interests to the public good, and by taking inspiration from the early republic in order to create a Digital Republic of Learning.” 58 Such language has done important work for the field, and great strides have been made in expanding access under the banner of democratization. At its worst, the Digital Humanities can seem an esoteric world, one more concerned with the code that goes into projects but not with the products that come out. New endeavors can seem designed to win grants, but not users. 59 The digital humanities have expanded rapidly over the intervening decades, and yet, William Thomas lamented in 2012, “We are in danger of losing that animating spirit, and we need to recover the democratization at the heart of the Digital Humanities movement.” 60
+
+¶ 32 Leave a comment on paragraph 32 0 The collision of technology and the humanities incites hyperbole: utopians dream of technological revolutions in research and a democratized world of free learning; skeptics warn of a predatory neoliberalism and privatized, profit-driven scholarship and pedagogy that privilege shallow instruction from de-skilled educators. As early as 1999, Rosenzweig himself, writing in a review essay for the American Quarterly , lamented the “bifurcated tendency toward visions of utopia and dystopia” in discussions surrounding digital humanities. 61
+
+¶ 33 Leave a comment on paragraph 33 2 For decades, the disruption-minded, messianic rhetoric of Silicon Valley has overlaid digital history with the moral appeal of democratized scholarship and pedagogy. Siva Vaidhyanathan, writing in the American Quarterly in 2006, called for digital humanists to challenge techno-fundamentalism, “the misguided faith in technology and progress.” 62 Critics note that the self-important utopian rhetoric surrounding the digital humanities often mirrors the language and reflects the libertarian social values of Silicon Valley. 63 The rhetorical similarities between digital humanities and Silicon Valley are stark. A typical claim made by a commentator in 2010 is indicative: “The digital humanities should not be about the digital at all. It’s all about innovation and disruption. The digital humanities is really an insurgent humanities.” 64 It is a necessary criticism that much of the rhetoric justifying academic and educational “disruptions” can conceal ulterior motives. 65  
+
+¶ 34 Leave a comment on paragraph 34 0 The specter of facilitating the de-skilling of education—manifested most obviously in the shrinking of the ranks of full-time faculty—and competing for the patronage of billionaire-philanthropists and endowment-bureaucracies while touting “innovation,” “disruption,” and “democratization” haunts the Digital Humanities. 66 Wendy Hui Kyong Chun, Richard Grusin, Patrick Jagoda, and Rita Raley wrote in 2016 of the “The Dark Side of the Digital Humanities,” arguing that the “same neoliberal logic that informs the ongoing destruction of the mainstream humanities has encouraged” the growth of digital humanities as a field. 67
+
+¶ 35 Leave a comment on paragraph 35 1 That same summer, three academics writing in the Los Angeles Review of Books blamed digital humanities for abetting the neoliberalization of the American academy. “Despite the aggressive promotion of Digital Humanities as a radical insurgency,” they wrote, “its institutional success has for the most part involved the displacement of politically progressive humanities scholarship and activism in favor of the manufacture of digital tools and archives.” 68 Singling out the digital humanities turn in English, they characterized digital humanists’ utopian rhetoric as a self-serving veil concealing the move toward computation over interpretation, external funding over institutional support, and general administration-supported corporatism over traditional academic labor. The authors placed much of the impetus for the Digital Humanities to what they saw as a conservative core of literary scholars at the University of Virginia who crystallized the parameters of the field between 1999 and 2002. 69 Such critiques must be made and met. The Trojan Horse dangers of “disruption” can certainly overshadow the promise of a democratized history.
+
+¶ 36 Leave a comment on paragraph 36 4 The issue of free labor, for instance, can taint open-access projects. In the neoliberal academy, scholars are expected to offer more and more of their labor without due compensation or recognition. But few beyond a small circle of prominent scholars receive significant compensation for writing articles, books, or textbooks. And yet, in spite of that lack of remuneration, as Stevan Harnard pointed out in his groundbreaking 1994 “subversive proposal,” an early call for scholarly research papers to be archived online, open access is possible because academics—whose salaries are already paid by universities—produce what he calls “esoteric” work: work, that is, grounded in an internal economy driven by readership and impact, not profits. 70 A copyright designed to protect an author’s personal profits hardly makes sense for the bulk of academics who receive no profits to protect. As Martin Paul Eve put it, “why should academics retain the economic protections of copyright if they are not dependent upon the system of remuneration that this is supposed to uphold?” 71 In a digital world in which the marginal cost of reproduction is nil, open access advocates such as John Willinsky and Creative Commons’ Cable Green argue that academics have an ethical obligation as humanists to share our work and our knowledge with the public and with our students. 72 And, given the gravity of the current cost crisis in higher education, such work seems increasingly imperative.
+
+¶ 37 Leave a comment on paragraph 37 2 And yet, despite the proliferation of digital history and positive shifts in professional norms, was William Thomas right to argue in 2012 that “we are in danger of losing that animating spirit” of democratization? 60 Certainly the field’s massive grants and vast institutional backing should be for naught if the digital humanities drifted further from its democratic promise. Digital history betrays its core principles if it fails to engage users by privileging professional advancement, grant-winning, and innovation-for-innovation’s-sake over the pursuit of readership, ease of use, and pedagogical utility.
+
+¶ 38 Leave a comment on paragraph 38 2 Rather than some manifestation of a nefarious neoliberal plot, perhaps the engines of digital history are simply by their nature self-destructive and the very hunger for innovation which spawned the field must inevitably condemn it to irrelevance. Perhaps democratization must be sacrificed to the gods of “disruption.” In 1992, Richard Jensen, a historian at the University of Illinois at Chicago, founded H-Net as an electronic means to link historians around the world. By 2012, its various lists claimed 10,000 subscribers. 73 But, built for an earlier iteration of electronic communication, the old listserv platform needed updating. After a vigorous fund-raising effort, H-Net relaunched as H-Net Commons in 2018, a new platform capable of hosting blogs, moderated discussions, customized user home pages, and curated content collections. It met every requirement of the new “web 2.0”: it was customizable, iterative, and connective. But it collapsed H-Net’s communities and the project shed thousands of users. A bloated interface, clunky navigability, and an overall confusing experience propelled the very migration to platforms such as Twitter that the Commons was meant to staunch.
+
+¶ 39 Leave a comment on paragraph 39 0 And yet the idea of the Commons reinforced the conception that, despite much of the early rhetoric in the field, digitization does not mean “democracy.” In their pursuit of new projects and new grants, for instance, scholars have long been content to dump information online and call it “democracy.” 74 Instead, as historian Patricia Limerick noted in 1997, “we are in much greater need of methods and strategies for filtering, sorting, managing, synthesizing” than simply finding new ways to access information that will never really be consumed. 75 Little has changed in two decades.
+
+¶ 40 Leave a comment on paragraph 40 0 The lack of sophisticated, professionally curated textbooks—a major impetus of Rosenzweig’s call for open source history–testifies to the many blind spots of democratized knowledge. Traditional rather than disruptive, pedagogical rather than research-based, eye-glazing rather than grant-winning, textbooks are nevertheless the most widely used tool in humanities classrooms. Mintz and McNeil recognized this as early as the 1990s with their Digital History survey text, but few academics followed them. 76 Nowhere else are current costs and potential savings quite so clear and many outside of academia have long recognized the democratic and cost-annihilating potential of open texts. A closer look at textbooks in history and literature is revealing. For decades, scholars have allowed responsibility for textbook creation to fall upon for-profit education companies, unwieldy non-profit bureaucracies, under-resourced lone wolves, and unregulated open wikis. Perhaps Wikipedia, despite Rosenzweig’s plea, poisoned historians’ attitudes toward open texts. A 2014 “Textbooks and Teaching” roundtable in the Journal of American History cited only the unreliability of open texts, rather than their promise. 77 For years, the construction of an open-licensed, collaborative textbook fell to the educational industrial complex and its network of funder-disrupters.
+
+¶ 41 Leave a comment on paragraph 41 1 In 2014, we proposed a new model for history textbooks. After a year-long collaboration, over 350 historians produced the first edition of The American Yawp ( www.americanyawp.com ), an open American history textbook project. We launched the project as a radical experiment in mass collaboration and institution-free pedagogy—an experiment that hundreds of thousands of users now benefit from each year. But the Yawp was only a logical extension of the democratic promise inherent not just in the rise of the digital humanities as an identifiable academic field, but in a moment when technological innovation, institutional resources, professional norms, and shifting scholarly attitudes have converged to prove Rosenzweig right: history can be open source.
+
+¶ 42 Leave a comment on paragraph 42 2 Ours is not the only project to emphasize the democratic possibilities of massive collaboration. According to Roy Rosenzweig’s 2006 plea for open source history in the Journal of American History, Wikipedia is democratic in two senses: it is a free, widely accessible resource, and it is a massively participatory project. 78 Applying the principles of democracy to classrooms increasingly means involving students in the production of knowledge. With the support of a five-year, $50 million digital media and learning initiative, Henry Jenkins explored the impacts of participatory culture, specifically the opportunity for digital technology to enable the popular production rather than simply the consumption of culture. Jenkins and his fellow travelers work to transform education around technological opportunities to develop cultural competencies and encourage student involvement in not just consuming, but also producing and disseminating knowledge. The democratizing tactics of these educators include student blogging, video-making, podcasting, and even gaming or social networking. According to Jenkins, academics, educators, and policy makers need to “shift the focus of the conversation about the digital divide from questions of technological access to those of opportunities to participate and to develop the cultural competencies and social skills.” 79 For some, the expansions in participatory culture promise to shatter nearly all hierarchies and replace them with egalitarian, collaborative relationships. 80
+
+¶ 43 Leave a comment on paragraph 43 1 Still, even while digital humanities practitioners frequently use “democracy” as shorthand for expanded digital access, even a broader emphasis on participation can elide structural inequalities. Issues of gender, racial, and sexual representation, for instance, dominate humanistic inquiry but continue to plague the practice and production of the digital humanities. Miriam Posner argued in 2016 that the field must confront these questions, but “to truly engage in this kind of critical work .… would require dismantling and rebuilding much of the organizing logic that underlies our work.” 81 Similar essays by Tara McPherson—“Why Are the Digital Humanities So White?”—Bethany Nowviskie—“What Do Girls Dig?”—and host of other critics hint at problems that are foundational and cannot be solved through modest organizational statements or more equitable faculty appointments and grant disbursements. 82
+
+¶ 44 Leave a comment on paragraph 44 1 According to Sharon Leon, the very act of defining the discipline of digital history reinforces inequality. Leon, for instance, argues that women, especially women of color, have been especially eager to connect digital work to community needs and that an overemphasis on the production of research as the foundation of DH thereby privileges male imperatives. 83 An uncritically engaged practice of the digital humanities, critics therefore rightfully argue, belies decades of “democratic” longings and will continue to weigh upon the field as its enters its maturity. 84 As digital humanists institutionalize themselves further into the landscape of higher education, they must conceive of themselves less as underdogs and revolutionaries than as gatekeepers. 85
+
+¶ 45 Leave a comment on paragraph 45 0 The digital humanities, of course, do not have a monopoly on democracy discourse. In fact, some of the most active practitioners operate outside of the digital humanities. The Democratizing Knowledge Project at Syracuse University, for example, draws from an impressively interdisciplinary core faculty and eschews digital practice in favor of analog forms of scholarship and activism. Through an annual summer institute, campus forums, creative pedagogy, and connections beyond the walls of the academy, the project pursues its goal of “confronting white privilege, hegemonic masculinity, heteronormativity, and colonial heritages.” 86 The field of public history, for instance, has long emphasized public participation. 87
+
+¶ 46 Leave a comment on paragraph 46 0 Arguments for a participatory digital history have likewise become increasingly visible. Laurenellen McCann has argued publicly that digital projects must work with communities, not for them. 88 By annihilating the distance between the production and consumption of knowledge, the authors of Digital_Humanities argue, digital humanists “are able to revitalize the cultural record in ways that involve citizens in the academic enterprise and bring the academy into the expanded public sphere.” 89 Sharon Leon, for instance, in her presentation of “digital public history” work, has emphasized the idea of a digital “user-centered history.” 90 Digital humanities projects have therefore at times taken seriously a participatory form of democratization. 91 The Anti-Eviction Mapping Project is one such example. After providing a host of maps and other material on “the dispossession and resistance by San Francisco Bay area residents,” the project included a link for users to “Help Stop Evictions” by donating to the “not-for-profit collective,” reporting illegal vacation rentals, supporting local unions, avoiding calling police on neighbors, and pledging to abstain from renting from anyone who has unscrupulous landlords. 92
+
+¶ 47 Leave a comment on paragraph 47 1 Projects like the Anti-Eviction Mapping Project show that technology cannot be the only defining feature of digital history or of the broader digital humanities. Miriam Posner, for instance, has warned against the fetishization of code among digital humanists, arguing that, for instance, calls to encourage women and persons of color to learn to code fail to confront longstanding structural inequalities. 93 And even code, critics argue, is not valueless. “There is no such thing as a ‘merely technical’ design decision,” wrote Julia Flanders. “Our technical systems are meaning systems and ideological systems.” 94 Safiya Noble, likewise, argues that “the political, social and economic dimensions of technologies” are all “co-constituted in racialized and gendered ways that involve power and often foster and maintain systematic discrimination and oppression.” 95 Kim Gallon calls for “a technology of recovery, characterized by efforts to bring forth the full humanity of marginalized peoples through the use of digital platforms and tools.” Digital historians, such calls suggest, must work to recover not just lost voices but paradigms of imagination occluded by longstanding power inequalities. Gallon champions the “black digitial humanities,” which, she argues, “troubles the very core of what we have come to know as the humanities by recovering alternate constructions of humanity that have been historically excluded from that concept.” 96 Fiona Barnett, Zach Blas, micha cárdenas, Jacob Gaboury, Jessica Marie Johnson, and Margaret Rhee, drawing on the work of queer theorist Kara Keeling, created QueerOS to confront the inequalities embedded in our digital tools. 97
+
+¶ 48 Leave a comment on paragraph 48 0 Critical race and gender studies, as such comments show, have offered the most pointed criticisms of DH and reminds practitioners that democratization demands a reckoning with deeper, structural inequalities. 98 Lisa Nakamura, for instance, argues that race and racism suffuse our digital lives. 99 Whiteness, critics argue, suffuses the field. 100 Coding has been thoroughly gendered. 101 Black feminists such as Safiya Umoja Noble—who urges digital humanities to “consider the degree to which our very reliance on digital tools … exacerbates existing patterns of exploitation and at times even creates new ones”—continue to shine a light on patterns of marginalization that lurk in supposedly value-neutral digital worlds. 102
+
+¶ 49 Leave a comment on paragraph 49 2 Pedagogically minded digital humanities projects have especially taken these criticisms to heart. William Thomas and Elizabeth Lorang, for instance, advocated “an alternative modality of engagement with the digital on our campuses—one built around reciprocity, openness, local community, and particularity.” 103 Amy E. Earhart of Texas A&M, a large public land-grant university, and Toniesha L. Taylor of Prairie View A&M, a nearby historically black land-grant university, turned these ideas into practice. Their White Violence, Black Resistance Project sought not only to “bring to light timely historical documents” but also, employing students from both institutions, to “expose power differentials in our own institutional settings.” 104 Such projects remind us that, however well-funded and well-defined it becomes as an academic field, the digital humanities betrays its founding principles if it remains confined to an esoteric community of coders and tech-utopians. It must be practiced with fundamental ends in mind. It must be designed to be used. It must privilege accessibility. It must seek out readers and reach actual users. And it must draw upon the insights of humanities scholarship to push the boundaries of what democracy means by exposing and confronting the inequalities that suffuse our objects of study as well as our professional structures. 
+
+¶ 50 Leave a comment on paragraph 50 0 Digital history is certainly capable of refashioning professional paradigms. Its much-touted emphasis on collaboration, for instance, cannot be underestimated. In 2011, AHA president Anthony Grafton urged historians to reject the myth of the solitary scholar. Arguing against Wilhelm von Humboldt’s idealization of “loneliness and freedom” as the hallmarks of academic life, Grafton wrote, “there is much to be gained by recognizing, and promoting, collaboration … and, with it, the elements of joy and creative fantasy that can too easily be lost as we go about our traditionally lonely craft.” 105 If academic historians typically toil under a professional paradigm designed for the isolated scholar, the so-called “digital turn” and the rise of digital history have generated new collaborative energy that spills across traditional research opportunities: new technologies and emerging paradigms are facilitating academic collaboration. And it need not even be institutionalized. Andrew Torget, reflecting on his early work at the University of Virginia and arguing that “digital projects by necessity require collaboration,” nevertheless believed collaboration could be flexible and informal. “I see,” he said, “a movement towards collaborative teams built around projects and problems that will last for as long as the project or problem does. You may have a home department, but you will also have collaborative teams that form and dissolve over time depending on what you’re working on.” 106 But is collaboration enough?
+
+¶ 51 Leave a comment on paragraph 51 2 A democratized history still beckons. Over two decades of work in digital history and digital humanities has opened access to resources. Universities and grant-giving institutions have provided homes for practitioners. University presses are embracing open scholarship and professional norms have shifted accordingly. In the meantime, digital humanities scholars have built proper platforms for new projects: vast worlds of knowledge are within reach of any average web user. Building a textbook is as easy as signing up for WordPress. Inviting mass collaboration is as easy as installing a CommentPress plug-in. Encouraging students to communicate with a text—and with each other—is as easy as a one-click Hypothes.is install. A personally curated exhibit is as easy as a visit to a digital humanities librarian and an installation of the Omeka platform. But democratization isn’t something that just happens on its own, and democracy isn’t some fortunate byproduct of technological advancement.
+
+¶ 52 Leave a comment on paragraph 52 3 If much early work in digital history was grounded in the radical democratic vision of the 1960s and 1970s, much of the contemporary push for digitization of scholarship and pedagogy borrows equally from neoliberal mania for “disruption” and libertarian notions of techno-futurism. By spanning the rise and maturation of digital history and the digital humanities, invocations of “democratization” have transcended their original context and threaten to become just another tool for digital humanists to carve out greater and greater academic space for their work and for themselves. But such invocations have also allowed practitioners to challenge traditional academic boundaries surrounding the production of distribution of knowledge. “Democracy” is, and always has been, at root a discourse about power: about agency and access and equality, and “democratization,” therefore, cannot rely on institutions, philanthropy, or even technology alone, but must emerge consciously alongside critical self-reflection in the conception and execution of the work that will continue to push digital history forward.
+
+    ¶ 53 Leave a comment on paragraph 53 0
+    Roy Rosenzweig, “Can History Be Open Source? Wikipedia and the Future of the Past,” The Journal of American History (June 2006), 117-146. 119. [ ↩ ]
+    Ibid., 137, 145. [ ↩ ]
+    The field of digital history speakers in the “future tense,” argues Cameron Blevins. Cameron Blevins, “Digital History’s Perpetual Future Tense,” in Debates in the Digital Humanities 2016, edited by Matthew K. Gold and Lauren F. Klein (Minneapolis: University Minnesota Press, 2016) https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016]. [ ↩ ]
+    Philip E. Agre, “Supporting the Intellectual Life of a Democratic Society,” Ethics and Information Technology , 3 (2001), 289. [ ↩ ]
+    Edward L. Ayers, “The Pasts and Futures of Digital History,” Virginia Center for Digital History, 1999 ( http://www.vcdh.virginia.edu/PastsFutures.html) . [ ↩ ]
+    William G. Thomas, “Trends in Digital Humanities: Remarks at the CIC Digital Humanities Summit,” Keynote Address, CIC Digital Humanities Summit, April 19, 2012 ( http://railroads.unl.edu/blog/?p=794) . Cameron Blevins similarly argues that digital history began with “an overriding ideology: to democratize access to the past.” Blevins, “Digital History’s Perpetual Future Tense.” [ ↩ ]
+    John Dewey, “The Need of an Industrial Education in an Industrial Democracy,” Manual Training and Vocational Education (February 1916), 410. [ ↩ ]
+    See, for instance, Jill Lepore, “The Disruption Machine What the Gospel of Innovation Gets Wrong,” The New Yorker (June 23, 2014); Clayton M. Christensen and Henry J. Eyring, The Innovative University: Changing the DNA of Higher Education from the Inside Out (2011), xxii. [ ↩ ]
+    Rosenzweig, “Live Free or Die,” 172. [ ↩ ]
+    James T. Kloppenberg, Toward Democracy: The Struggle for Self-Rule in European and American Thought (New York: Oxford University Press, 2016). For a sampling of recent work detailing contests over “democracy,” see, for instance, Manisha Sinha and Penny Von Eschen, editors, Contested Democracy: Freedom, Race, and Power in American History (New York: Columbia University Press, 2012); Caleb McDaniel, The Problem of Democracy in the Age of Slavery: Garrisonian Abolitionists and Transatlantic Reform (Baton Rouge: Louisiana State University Press, 2013); and Sean Wilentz, The Rise of American Democracy: Jefferson to Lincoln (New York: Norton, 2005). [ ↩ ]
+    This paper largely restricts itself to processes in the United States. Ideologies surrounding the digital humanities, and particularly the rise of open access, have different contexts outside of the U.S. The United Kingdom, for example, now requires open access publishing for many recipients of state research funding. See Margot Finn, “Plan S and the History Journal Landscape: Royal Historical Society Guidance Paper,” Royal Historical Society (October 23, 2019) https://royalhistsoc.org/royal-historical-society-publishes-guidance-paper-on-plan-s-and-history-journals/. [ ↩ ]
+    Alexis Lothian and Amanda Phillips, “Can Digital Humanities Mean Transformative Critique?” Journal of e-Media Studies 3 (2013), 4. DOI:10.1349/PS1.1938-6060.A.425. [ ↩ ]
+    John Dewey, “Creative Democracy: The Task Before Us,” in John Dewey and the Promise of America (Columbus: American Education Press, 1939). Sara Evans and Harry Boyte, activist-historians at the University of Minnesota, argued in the 1980s that effective democratic champions must therefore create opportunities for the practice of democracy. “Democratic action,” they argued, citing the specific historical experience of independent black churches, the Women’s Christian Temperance Union, the Knights of Labor, and the Farmers’ Alliance, “depends upon … free spaces, where people experience a schooling in citizenship and learn a vision of the common good in the course of struggling for change.” Sara M. Evans and Harry C. Boyte, Free Spaces: The Sources of Democratic Change in America (New York: Harper & Row, 1986). In light of stubborn inequality, some scholars remain far more suspicious of democracy. or at least pointed to the considerable structural obstacles to its achievement. Jodi Dean, Democracy and Other Neoliberal Fantasies: Communicative Capitalism and Left Politics (Durham: Duke University Press, 2009). See also Patricia Hill Collins, Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment (New York: Taylor & Francis, 2002); Seyla Benhabib, Democracy and Difference: Contesting the Boundaries of the Political (Princeton: Princeton University Press, 1996), Iris Marion Young, Inclusion and Democracy, Oxford Political Theory (Oxford: Oxford University Press, 2000). [ ↩ ]
+    Vernon Louis Parrington began his 1927 Main Currents in American Thought , often cited as the first work of American studies, by stating his ambition to interrogate democracy by identifying the “germinal ideas that have come to be reckoned traditionally American.” Parrington, Main Currents in American Thought (New York: 1927), 1. For more on Parrington, see Jaap Verheul, “The Ideological Origins of American Studies”. European Contributions to American Studies,” European Contributions to American Studies 40 (1999), 91-103. [ ↩ ]
+    Michael Holzman, “The Ideological Origins of American Studies at Yale,” American Studies , 40:2 (Summer 1999), 91. Alice Kessler-Harris’s 1992 American Studies Association presidential address argued that “the heart of American Studies is the pursuit of what constitutes democratic culture.” Alice Kessler-Harris, “Cultural Locations: Positioning American Studies in the Great Debate,” American Quarterly 44 (Sept., 1992): 299-313. [ ↩ ]
+    We seek the establishment of a democracy of individual participation, governed by two central aims,” Tom Hayden and members of the Students for a Democratic Society (SDS) wrote in their iconic 1962 Port Huron Statement, “that the individual share in those social decisions determining the quality and direction of his life; that society be organized to encourage independence in men and provide the media for their common participation.” See especially James Miller, Democracy Is in the Streets: From Port Huron to the Siege of Chicago (Cambridge: Harvard University Press, 1987). [ ↩ ]
+    On the other hand, the very first digital humanities project, Roberto Busa’s Index Thomisticus, depended upon the support of IBM, obscured the labor of the women who turned the project into reality, and drew rebukes from humanists who feared the dehumanization of quantitative-based scholarship. Melissa Terras and Julianne Nyhan, “Father Busa’s Female Punch Card Operatives,” in Debates 2016, https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016; Meredith Hindley, “The Rise of the Machines,” Humanities , Vol. 34, no. 4, (2013). [ ↩ ]
+    Bonnie Goodman, “In Memory of Roy Rosenzweig,” History News Network (January 8, 2008), http://historynewsnetwork.org/article/43739. [ ↩ ]
+    See, for instance, Steven Levy, Hackers: Heroes of the Computer Revolution (New York: Doubleday, 1984). [ ↩ ]
+    Stallman would champion “free software” over “open source” software. Richard Stallman, “Why Open Source misses the point of Free Software,” GNU, http://www.gnu.org/philosophy/open-source-misses-the-point.html, accessed 7 August 2013. [ ↩ ]
+    Randy Bass et al, Crossroads Project http://crossroads.georgetown.edu/]. For more on Crossroads and its innovations see John Carlos Rowe, ed. A Concise Companion to American Studies (Malden, MA: Blackwell, 2010), 335-336; Matthias Oppermann, American Studies in Dialogue: Radical Reconstructions between Curriculum and Cultural Critique (Frankfurt/New York: Campus Verlag, 2010), 167-168; and Ann Kovalchick and Kara Dawson, eds. Education and Technology: An Encyclopedia (Santa Barbara, CA: ABC-CLIO, 2004),182. [ ↩ ]
+    C. M. Sperberg-McQueen, “Textual Criticism and the Text Encoding Initiative,” (paper presented at the annual meeting for the Modern Language Association, San Diego, California, December 1994). Available online at: http://www.tei-c.org/Vault/XX/mla94.html. See also Susan Hockey, “The History of Humanities Computing,” in Susan Scheibman, Ray Siemens, and John Unsworth eds. Companion to Digital Humanities (Oxford: Blackwell, 2004). [ ↩ ]
+    Despite significant support from various foundations, the project requires subscriptions that continue to hamper access. Only one of the two authors of this piece, for instance, has access through their university to the excellent database. [ ↩ ]
+    Ed Folsom and Kenneth Price, The Walt Whitman Archive http://whitmanarchive.org/. [ ↩ ]
+    Morris Eaves et al, The William Blake Archive http://www.blakearchive.org/staticpage/archiveataglance. [ ↩ ]
+    Michael O’Malley and Roy Rosenzweig, “Brave New World or Blind Alley? American History on the World Wide Web,” Journal of American History 84 (June 1997), 135-155, 146. [ ↩ ]
+    Gary J. Kornblith, “Venturing into the Civil War, Virtually: A Review,” The Journal of American History 88 (June, 2001), 145-151, 146. [ ↩ ]
+    See, for instance, Roy Rosenzweig Center for History and New Media, “About,” n.d. (http://chnm.gmu.edu/about/). [ ↩ ]
+    Roy Rosenzweig Center for History and New Media, “Our Story,” n.d. (http://rrchnm.org/our-story/history/). [ ↩ ]
+    Virginia Center for Digital History, “About,” n.d., (http://www.vcdh.virginia.edu/index.php?page=About). [ ↩ ]
+    Lisa Sprio, “This Is Why We Fight: Defining the Values of the Digital Humanities,” in Matthew K. Gold, editor, Debates in the Digital Humanities (Minneapolis: University of Minnesota Press, 2012). [ ↩ ]
+    Spiro also cited “collaboration,” “collegiality and connectedness,” “diversity,” and “experimentation.” Spiro, “Why We Fight.” [ ↩ ]
+    Draxler, Bridget, et al. “Democratizing Knowledge.” Humanities, Arts, Science, and Technology Alliance and Collaboratory . September 21,2009 (http://hastac.org/forums/hastac-scholars-discussions/democratizing-knowledge-digital-humanities). [ ↩ ]
+    George Veletsianos and Royce Kimmons, “Assumptions and Challenges of Open Scholarship,” International Review of Research in Open and Distance Learning 13 (2012), 166–89, 167, cited by Martin Paul Eve, Open Access and the Humanities: Contexts, Controversies, and the Future (New York: Cambridge, 2014), 3. [ ↩ ]
+    Andrea Hunter, “The Digital Humanities and Democracy,” Canadian Journal of Communication 40 (2015), 407-423. [ ↩ ]
+    Anne Burdick et al, Digital_Humanities (Cambridge: MIT Press, 2012), 82. https://mitpress.mit.edu/books/digitalhumanities. <P> [ ↩ ]
+    Martin Paul Eve, Open Access and the Humanities: Contexts, Controversies, and the Future (New York: Cambridge, 2014), 16. [ ↩ ]
+    Creative Commons licenses built on the earlier work of David Wiley and his Open Publication License. In 2002, Wiley dissolved his license and formally joined Creative Commons. David Wiley, “OpenContent is officially closed. And that’s just fine.,” Open Content (June 30, 2003). Early critics however, accused Creative Commons of failing “to confront and look beyond the logic and power asymmetries of the present.” See David Berry and Giles Moss, “On the “Creative Commons”: a critique of the commons without commonalty,” Free Software Magazine , Issue 5 (July 15, 2005).  [ ↩ ]
+    UNESCO, “Forum on the Impact of Open Courseware for Higher Education in Developing Countries,” July 1-3, 2002, http://unesdoc.unesco.org/images/0012/001285/128515e.pdf . See also Sally M. Johnstone,  “Open Educational Resources Serve the World” .  Educause Quarterly  28: 3(2005), 15-18; and T.J. Bliss and M Smith, “A Brief History of Open Educational Resources” in: Jhangiani, R S and Biswas-Diener, R., eds., Open: The Philosophy and Practices that are Revolutionizing Education and Science . (London: Ubiquity Press, 2017). 9–27. [ ↩ ]
+    For a timeline of the Public Library of Science, see https://www.plos.org/history . [ ↩ ]
+    “The term ‘open access,’” according to Martin Paul Eve, refers to the removal of price and permission barriers to scholarly research.” Martin Paul Eve, Open Access , 3. [ ↩ ]
+    David Armitage and Jo Guldi, “Why Open Access Publication for The History Manifesto?” Cambridge Open (2014). http://historymanifesto.cambridge.org/blog/2014/09/why-open-access-publication-history-manifesto#sthash.FYCNEiH9.dpuf. “This is a new era for all of us,” said Harriette Hemmasi, university librarian at Brown University, upon receiving funds to explore digital publishing. Carl Straumsheim, “Piecing Together Publishing,” Inside Higher Ed (February 25, 2015). https://www.insidehighered.com/news/2015/02/25/researchers-university-press-directors-emboldened-mellon-foundation-interest. [ ↩ ]
+    Martin Weller, The Battle for Open: How Openness Won and Why It Doesn’t Feel Like Victory (London: Ubiquity Press, 2014), 2. [ ↩ ]
+    Eve, Open Access , 7. [ ↩ ]
+    Straumsheim, “Piecing Together,” n.p. [ ↩ ][ ↩ ]
+    Amanda Patrick, “The Goizueta Foundation supports creation of a Digital Humanities Laboratory at Yale,” Yale News (December 11, 2014) http://news.yale.edu/2014/12/11/goizueta-foundation-supports-creation-digital-humanities-laboratory-yale. [ ↩ ]
+    Daniel J. Cohen, “From Babel to Knowledge: Data Mining Large Digital Collections,” D-Lib Magazine 12 (March 2006) http://www.dlib.org/dlib/march06/cohen/03cohen.html. [ ↩ ]
+    Eve, Open Access , 3; “When presented with the concept of OER, most faculty say that they are willing to give it a try,” concluded one report. I. Elaine Allen and Jef Seaman, Opening the Curriculum: Open Educational Resources in U.S. Higher Education (Wellesley, MA: Babson Survey Research Group, 2014), 2. [ ↩ ]
+    Eve, Open Access , 4. [ ↩ ]
+    Digitalculturebooks, “About Us,” n.d. http://www.digitalculture.org/about/.
+
+    ¶ 54 Leave a comment on paragraph 54 0 [ ↩ ]
+    Carl Straumsheim, “‘Paying It Forward’ Publishing,” Inside Higher Ed (February 10, 2015) https://www.insidehighered.com/news/2015/02/10/u-california-press-builds-open-access-publishing-model-around-paying-it-forward. [ ↩ ]
+    For more on Manifold see https://manifoldapp.org/ . For examples of projects built through the platform see https://cuny.manifoldapp.org/projects/all . [ ↩ ]
+    Kathleen Fitzpatrick, Planned Obsolescence Publishing, Technology, and the Future of the Academy (New York: NYU Press, 2011), 174. [ ↩ ]
+    See, for instance, Open Library of Humanities, “About,” n.d., https://www.openlibhums.org/site/about/. [ ↩ ]
+    Hunter, “Digital Humanities and Democracy,” 418. [ ↩ ]
+    Jo Guldi and David Armitage, The History Manifesto (Cambridge: Cambridge University Press, 2014). [ ↩ ]
+    PLOS refers to their process as a transparent Peer Review History. For more see https://www.plos.org/faq#loc-Peer-review-history . [ ↩ ]
+    Robert Darnton, “Google and the Future of Books,” The New York Review of Books , (February 12, 2009). [ ↩ ]
+    William Pannapacker,“Stop Calling It ‘Digital Humanities,’” The Chronicle of Higher Education (February 18, 2013; http://chronicle.com/article/Stop-Calling-It-Digital/137325/). [ ↩ ]
+    Thomas, “Trends,” n.p. [ ↩ ][ ↩ ]
+    Roy Rosenzweig, “Live Free Or Die?: Death, Life, Survival, And Sobriety On The Information Superhighway,” American Quarterly 5 1, (March 1999), 161. [ ↩ ]
+    Siva Vaidhyanathan, “Introduction: Rewiring the ‘Nation’: The Place of Technology in American Studies,” American Quarterly 58 (September 2006), 557. [ ↩ ]
+    Safiya Noble identifies digital utopianism as a neoliberal ideology and credits critical theorists with complicating triumphalist DH narratives. Safiya Umoja Noble, “A Future for Intersectional Black Feminist Technology Studies.” Scholar & Feminist Online 13, no. 3–14, no. 1 (2016): 1–8. Brian Greenspan, however, argues that utopian ideas are necessary for radical ends. Brian Greenspan, “Are Digital Humanists Utopian?” in Debates 2016 , https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016. See also Ruth Levitas, “For Utopia: The (Limits of the) Utopian Function in Late Capitalist Society,” Critical Review of International Social and Political Philosophy 3 (2000): 25–43; Louis Marin, Utopics: The Semiological Play of Textual Spaces (Amherst, N.Y.: Humanities Press International, 1984); and Fred Turner, From Counterculture to Cyberculture: Stewart Brand, the Whole Earth Network, and the Rise of Digital Utopianism (Chicago: University of Chicago Press, 2010). [ ↩ ]
+    Mark Sample, “I’m Mark, and Welcome to the Circus,” HASTAC Blog, September 10, 2010 http://hastac.org/blogs/cforster/im-chris-where-am-i-wrong. [ ↩ ]
+    See, for instance, Pannapacker,“‘Digital Humanities.’” [ ↩ ]
+    One can perhaps think of HBO’s satirical Silicon Valley and its fictional tech-billionaire Gavin Belson, who doesn’t “want to live in a world where someone else makes the world a better place better than we do.” [ ↩ ]
+    Wendy Hui Kyong Chun, Richard Grusin, Patrick Jagoda, and Rita Raley, “The Dark Side of the Digital Humanities,” in Debates 2016 , https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016. [ ↩ ]
+    Daniel Allington et al, “Neoliberal Tools (and Archives): A Political History of Digital Humanities,” The L.A. Review of Books (May 1, 2016) https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/. For one of many rejoinders, see Juliana Spahr, Richard So, and Andrew Piper, “Beyond Resistance: Towards a Future History of Digital Humanities,” The L.A. Review of Books (May 11, 2016) https://lareviewofbooks.org/article/beyond-resistance-towards-future-history-digital-humanities/. [ ↩ ]
+    We could here also address the MOOC frenzy, but that bubble has begun to pop and the passion has calmed, whether or not the pernicious logic behind its “disruption”-minded indictment of education remains. [ ↩ ]
+    Stevan Harnad, “Overture: A Subversive Proposal,” in Scholarly Journals at the Crossroads: A Subversive Proposal for Electronic Publishing , ed. Shumelda Okerson and James J. O’Donnell (Washington, D.C.: Association of Research Libraries, 1995), 11–12. [ ↩ ]
+    Martin Paul Eve, Open Access and the Humanities: Contexts, Controversies, and the Future (New York: Cambridge University Press, 2014), 18; see also Peter Suber, Open Access (Cambridge: MIT Press, 2012), 9-15. [ ↩ ]
+    John Willinsky, The Access Principle: The Case for Open Access to Research and Scholarship (Cambridge: MIT Press, 2009). As Cable Green, Creative Commons’ Director of Global Learning, put it, “When the marginal cost of sharing is $0, educators have an ethical obligation to share.” Cable Green, “Open Education: The Moral, Business & Policy Case for OER,” Keynote Address, Affordable Learning Georgia Conference (December 11, 2014) http://www.affordablelearninggeorgia.org/documents/Cable_EveningPlenaryKeynote.pdf. [ ↩ ]
+    Matthew Gilmore, “H-Net: Digital Discussion for Historians,” Perspectives: The Newsletter of the American Historical Association , 45 (May 2007); Richard Jensen, “Internet’s Republic of Letters: H-Net for Scholars,” (1997) http://members.aol.com/dann01/whatis.html. [ ↩ ]
+    Online access, of course, does not even necessarily guarantee greater access. See David Parry, “Be Online or Be Irrelevant,” AcademHack, January 11, 2010 http://academhack.outsidethetext.com/home/2010/be-online-or-be-irrelevant/ . [ ↩ ]
+    Patricia Nelson Limerick, “Insiders and Outsiders: The Borders of the USA and the Limits of the ASA: Presidential Address to the American Studies Association,” American Quarterly 49.3 (1997) 449-469, 453. [ ↩ ]
+    Mintz and McNeil, Digital History ( http://www.digitalhistory.uh.edu/) . ) ) Textbooks should have been ripe targets for the open access movement. ((Weller, Battle , 76. For evidence that OER improves learning outcomes, see Lane Fischer, John Hilton III, T. Jared Robinson, and David A. Wiley, “A multi-institutional study of the impact of open textbook adoption on the learning outcomes of post-secondary students,” Journal of Computing in Higher Education Vol 27 No 3 (December 2015), 159-172. [ ↩ ]
+    Scott E. Casper ed., “Textbooks Today and Tomorrow: A Conversation about History, Pedagogy, and Economic,” Journal of American History Vol. 100, No 4 (March 2014), 1139-1169. [ ↩ ]
+    Rosenzweig, “Can History Be Open Source?,” 117-146. [ ↩ ]
+    Henry Jenkins, “Confronting the Challenges of Participatory Culture: Media Education for the 21st Century” https://www.macfound.org/media/article_pdfs/JENKINS_WHITE_PAPER.PDF. [ ↩ ]
+    See, for example, Tapscott and Williams, Wikinomics: How Mass Collaboration Changes Everything (New York: Penguin, 2006). [ ↩ ]
+    Miriam Posner, “What’s Next: The Radical, Unrealized Potential of Digital Humanities,” Debates 2016 , http://dhdebates.gc.cuny.edu/debates/text/54. [ ↩ ]
+    Tara McPherson, “Why Are the Digital Humanities So White? or Thinking the Histories of Race and Computation” Debates 2012, http://dhdebates.gc.cuny.edu/debates/text/29.; Bethany Nowviskie, “What Do Girls Dig?” http://nowviskie.org/2011/what-do-girls-dig/. [ ↩ ]
+    See especially Sharon M. Leon, “Complicating a ‘Great Man’ Narrative of Digital History in the United States,” in Bodies of Information: Intersectional Feminism and the Digital Humanities , edited by Elizabeth Losh and Jacqueline Wernimont. (Minneapolis: University of Minnesota Press, 2018). [ ↩ ]
+    See also Henry Jenkins, “Bringing Critical Perspectives to the Digital Humanities: An Interview with Tara McPherson”  Confessions of an ACA-Fan (March 20, 2015); David Kim, “Archives, Models, and Methods for Critical Approaches to Identities: Representing Race and Ethnicity in the Digital Humanities” (PhD dissertation, UCLA, 2015.) [ ↩ ]
+    Oral historians Julianne Nyhan and Andrew Flinn identified “revolutionary” and “underdog” as the recurring motifs in how the fields and its practitioners understood themselves: the underdog and the revolutionary. Julianne Nyhan and Andrew Flinn, Computation and the Humanities: Towards an Oral History of Digital Humanities (London: Springer, 2016). https://www.springer.com/gp/book/9783319201696 . [ ↩ ]
+    Carol Fadda et al, Democratizing Knowledge Project http://democratizingknowledge.syr.edu/index.html. [ ↩ ]
+    “Public history is not only history for a large audience,” Thomas Cauvin explains, “but involves public participation as well.” Thomas Cauvin, Public History: A Textbook of Practice (New York: Routledge, 2016), 179. [ ↩ ]
+    Laurenellen McCann, “Building Technology With, Not For Communities: An Engagement Guide for Civic Tech,” Medium.com , March 30, 2015.  https://medium.com/@elle_mccann/building-technology-with-not-for-communities-an-engagement-guide-for-civic-tech-b8880982e65a . See also Wendy F. Hsu, “Lessons on Public Humanities from the Civic Sphere,” in Debates 2016 . [ ↩ ]
+    Anne Burdick et al, Digital_Humanities , 93. [ ↩ ]
+    See Sharon Leon, “About,” in User-Centered Digital History , https://digitalpublichistory.org/about . [ ↩ ]
+    As the American Studies Association’s Digital Humanities Caucus put it in 2016, American studies has been “a welcoming home for innovative, critical, boundary-pushing, justice-based, and experimental work.” “DH Caucus Advisory Committee Statement on AQ’s Digital Projects Review,” American Studies Association (April 6, 2016) https://www.theasa.net/about/news-events/announcements/dh-caucus-advisory-committee-statement-aq%E2%80%99s-digital-projects-review. [ ↩ ]
+    The Anti-Eviction Mapping Project http://www.antievictionmap.com/. [ ↩ ]
+    Miriam Posner, “Some things to think about before you exhort everyone to code,” Miriam Posner’s Blog: Digital Humanities, Data, Labor, and Information (February 29, 2012), https://miriamposner.com/blog/some-things-to-think-about-before-you-exhort-everyone-to-code/ . Safiya Noble likewise has identified the push to get black girls to code as “an individualized, privatized approach to thinking about Black women’s empowerment, in neoliberal fashion.” Safiya Umoja Noble, “A Future for Intersectional Black Feminist Technology Studies.” Scholar & Feminist Online 13, no. 3–14, no. 1 (2016): 1–8. [ ↩ ]
+    Elizabeth Losh and Jacqueline Wernimont, eds., Bodies of Information: Intersectional Feminism and Digital Humanities (Minneapolis: University of Minnesota Press, 2018), xvii. For the relationship of DH’s digital tools and broader values, see Natalia Cecire, “Introduction: Theory and the Virtues of Digital Humanities.” Journal of Digital Humanities (2011), http://journalofdigitalhumanities.org/1-1/introduction-theory-and-the-virtues-of-digital-humanities-by-natalia-cecire/ ; Stephen Ramsay, “On Building.” Stephen Ramsay Blog , January 11, 2011. http://stephenramsay.us/text/2011/01/11/on-building/ ; and Tom Scheinfeldt, ““Where’s the Beef? Does Digital Humanities Have to Answer Questions?” In Debates 2012 ), http://dhdebates.gc.cuny.edu/debates/text/18 .; and Roopika Risam, “Navigating the Global Digital Humanities: Insights from Black Feminism,” Debates 2016 ,; Siva Vaidhyanathan, “Afterword: Critical Information Studies,” Cultural Studies Volume 20, No 2-3 (2006), 292-315. [ ↩ ]
+    Safiya Umoja Noble, “Toward a Critical Black Digital Humanities,” in Debates 2019 . See also Noble, “A Future for Intersectional Black Feminist Technology Studies,” Scholar & Feminist Online 13, no. 3–14, no. 1 (2016): 1–8. [ ↩ ]
+    Kim Gallon, “Making a Case for the Black Digital Humanities,” in Debates 2016, https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016. [ ↩ ]
+    Fiona Barnett, Zach Blas, Micha Cárdenas, Jacob Gaboury, Jessica Marie Johnson, and Margaret Rhee, “QueerOS: A User’s Manual,” in Debates 2016, https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016.  [ ↩ ]
+    See, for instance. Jessie Daniels, “Race and Racism in Internet Studies: A Review and Critique,” New Media and Society 15, no. 5 (2012): 695–719. [ ↩ ]
+    Lisa Nakamura, Cybertypes: Race, Ethnicity, and Identity on the Internet (New York: Routledge, 2002). Legal scholar Jerry Kang was among the earliest to consider how race and representation function on the web. Jerry Kang, “Cyber-Race,” Harvard Law Review 113, no. 5 (2002): 1130–1208. See also Jessica Marie Johnson and Mark Anthony Neal, “Introduction: Wild Seed in the Machine,” The Black Scholar: Journal of Black Studies and Research Vol 47, No 3 (2017). [ ↩ ]
+    See, for instance, Moya Z. Bailey, “All the Digital Humanists Are White, All the Nerds Are Men, but Some of Us Are Brave,” Journal Of Digital Humanities (Winter 2011); and Tara McPherson, “Why Are the Digital Humanities So White? or Thinking the Histories of Race and Computation,” in Debates 2012 . [ ↩ ]
+    Janet Abbate chronicled how the representation of coding evolved from a feminine activity in the mid-twentieth century to a masculine one at the dawn of the twenty-first. Janet Abbate, Recoding Gender: Women’s Changing Participation in Computing (Cambridge: MIT Press, 2012). For gender and DH, see also Donna Haraway, “A Cyborg Manifesto: Science, Technology, and Socialist Feminism in the Late Twentieth Century,” in Simians, Cyborgs and Women: The Reinvention of Nature (New York; Routledge, 1991); Deb Verhoeven, “Has Anyone Seen a Woman?” Alliance of Digital Humanities Organizations Speech, (2015), debverhoeven.com/anyone-seen-a-woman. On intersectionality, see especially Roopika Risam, “Beyond the Margins: Intersectionality and the Digital Humanities,” Digital Humanities Quarterly 9 (2015); and Safiya Umoja Noble and Brendesha M. Tynes, editors, The Intersectional Internet: Race, Sex, Class, and Culture Online (New York: Peter Lang, 2016). [ ↩ ]
+    Safiya Umoja Noble, “A Future for Intersectional Black Feminist Technology Studies.” Scholar & Feminist Online 13, no. 3–14, no. 1 (2016): 1–8. [ ↩ ]
+    “William G. Thomas III, and Elizabeth Lorang. “The Other End of the Scale: Rethinking the Digital Experience in Higher Education,” Educause Review (September 15, 2014). [ ↩ ]
+    Amy E. Earhart and Toniesha L. Taylor, “Pedagogies of Race: Digital Humanities in the Age of Ferguson,” in Debates 2016 , https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016.  [ ↩ ]
+    Anthony Grafton,“Loneliness and Freedom,” Perspectives: The Newsletter of the American Historical Association , 49 (March 2011) https://www.historians.org/publications-and-directories/perspectives-on-history/march-2011/loneliness-and-freedom. [ ↩ ]
+    Scott Nesbit et al, “A Conversation with Digital Historians,” Southern Spaces (January 31, 2012) https://southernspaces.org/2012/conversation-digital-historians. [ ↩ ]
+
+Page 2
+
+    Previous page
+    Next page
+
+    Comments
+    Activity
+
+Comments
+1 Comment on the whole Page
+
+    Cameron Blevins February 9, 2020 at 6:31 pm
+
+    This is an interesting article that speaks to some really important issues at the heart of digital history and the historical profession more broadly. As it currently stands, however, the article mistakenly conflates “digital humanities” and “digital history.” This isn’t a semantic quibble. Although there is important overlap between digital humanities and digital history, the latter has a fundamentally different intellectual, methodological, institutional, and professional genealogy. Both Sharon Leon’s “Complicating a “Great Man” Narrative of Digital History in the United States” and Stephen Robertson’s “The Differences between Digital Humanities and Digital History” explore this in much more depth. Parsing out digital humanities vs. digital history isn’t always a critical distinction. But for an article that offers an overview of the origins, trajectory, and current landscape of digital history, this conflation of the two “DH’s” ends up mischaracterizing the field in several important ways.
+     
+    First, one of the features of digital history that distinguishes it from the digital humanities is the centrality of public history to its genesis and development as a field. I’ll point to Sharon Leon’s “Complicating a “Great Man” Narrative of Digital History in the United States” in which she looked at 586 NEH grants given to digital history projects between 1994-2016: “Given that the bulk of the projects were funded by the Divisions of Preservation and Access, Public Programs, and Education Programs, it is possible to surmise that these ventures were associated with the work of libraries and archives, museums and public humanities, and teaching and learning.” Yet public history receives comparatively little attention in this essay. Given its exploration of “democratization” and the ways this theme intersects with public history, it would seem like an important and fruitful avenue to explore. 
+     
+    Second, the conflation between digital history/humanities leads to some strawmen and muddled detours. For instance, the 2016 LARB critique of digital humanities as “neoliberal” along with the responses to that critique were almost entirely conducted amongst literary scholars, not historians. In fact, history as a discipline was entirely absent from that article. Same with the pieces by William Pannapacker and Wendy Hui Kyong Chun et. al. Again, there are definite and important overlaps between digital humanities and digital history (and there are also important critiques of digital history specifically) but this essay’s conflation of the two means that some of their discussion lands well off-target. Another related strawman: “Certainly the field’s massive grants and vast institutional backing should be for naught if the digital humanities drifted further from its democratic promise. Digital history betrays its core principles if it fails to engage users by privileging professional advancement, grant-winning, and innovation-for-innovation’s-sake over the pursuit of readership, ease of use, and pedagogical utility.” The vast majority of historians who are actually doing digital history are not the recipients of “massive grants or vast institutional backing.” The Yale’s and Stanford’s might get a lot of attention, but they’re not representative. In fact, as Leon’s article points out, the grants that ARE going to digital history projects would seem to be going to exactly the sort of projects that the authors advocate for, rather than the kind of Silicon Valley neoliberal disruption bogeyman they raise. 
+     
+    In short, the article’s fuzziness around digital history as a field can make it feel like a conversation that was happening in the late 2000s or between scholars from other disciplines. Some of the most exciting recent developments in digital history specifically – critical archives studies like Jessica Marie Johnson’s “Markup Bodies”, the Collections as Data project, the Colored Conventions Project, distant viewing and the visual turn, etc. – aren’t discussed very much, if at all. Neither, oddly, are developments in how historians are using technology that aren’t typically associated with “digital history” as a field but are probably even more relevant to the themes the authors are exploring: the rise of Twitter as a platform for historians to contribute to public discourse, for instance, or the authors’ own AmericanYawp textbook which has had an absolutely transformational impact in terms of how history is taught (and only receives a few, far-too-modest passing sentences in this article). I would have loved a much more in-depth discussion of the authors’ own experiences and reflections on building such a successful collaborative and democratic history project. I think that AHR’s readers – as historians – would benefit from a much clearer distinction between digital history and digital humanities, and a more focused discussion of the developments and issues specific to their discipline of history. 
+    Reply to Cameron Blevins
+
+Leave a comment on the whole Page
+0 Comments on paragraph 1
+
+Leave a comment on paragraph 1
+1 Comment on paragraph 2
+
+    Nora Slonimsky April 7, 2020 at 6:38 pm
+
+    This roadmap is really useful. 
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 2
+5 Comments on paragraph 3
+
+    Jean-Claude Guédon February 6, 2020 at 5:11 pm
+
+    “Wikipedia’s anarchic editing process and uneven reliability have repelled academics.” This sentence reads like an editorial. The editing process of Wikipedia includes some elements of anarchy, but most humans interaction do the same, and “anarchy” does not adequately characterize the editing process of Wikipedia.
+    The “uneven reliability” issue is not limited to Wikipedia; all statements have limited  reliability. In fact, scholarly publishing is designed to expose statements to criticisms which, when incorporated in the subsequent versions of the original statement, act as traces of previous “unreliability” while exposing themselves to the same critical process. Scholarship, unlike faith, seeks to “know”, not to “believe”, and knowledge is always limited in its claim because it stands to be corrected. In fact knowledge seeks to be corrected in order to improve.
+    Some academics have been repelled by Wikipedia’s “uneven reliability”, not all. Many academics – I among others – have argued in front of their student that reading a Wikipedia article is a very good critical exercise where one learns to keep one’s critical guard up. Documenting both pro and con judgments of academics (and others) would seem necessary here.
+    “sour taste”: what is the historical status of this concept (if it is a concept). And pitting the digital humanities versus the non-digital humanities types does not appear to be the most constructive approach to building communities of historians.
+    Etc. etc.
+    Reply to Jean-Claude Guédon
+    Trevor Owens February 23, 2020 at 9:06 pm
+
+    Following along with Jean-Claude’s comment, I would also note that the complex bureaucracy of Wikipedia is very much not anarchic. If anything, it is worth noting that as Wikipedia has grown its complex governance bureaucracy has come under fire for the same kinds of problems that other complex bureaucracies run mostly by white men have. 
+    Reply to Trevor Owens
+    Martin Eve March 2, 2020 at 4:56 pm
+
+    Just to add my +1 to this – there is very much a culture of top-down (even if “top” is self designated) rule-following in Wikipedia editing…
+    Reply to Martin Eve
+    Martin Eve March 2, 2020 at 4:58 pm
+
+    [open source]
+    Could you say something about how “source” is being used here? Wikipedia is both openly accessible and openly sourced, but I’m not sure in which sense it is being used (this may be addressed later — apologies, I am commenting as I go)
+    Reply to Martin Eve
+    Nora Slonimsky April 7, 2020 at 6:35 pm
+
+    How much of being “free” and (unfair) perceptions of “low quality” has to do with the limits of time and labor? Do you think this has shifted in the past decade or so since Rosenzweig’s (extremely insightful) article?
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 3
+3 Comments on paragraph 4
+
+    Martin Eve March 2, 2020 at 4:59 pm
+
+    [Open Educational Resources (OER)]
+    Again, should this concept be distinguished from OA (open access)? Usually, OERs refer to textbooks and other educational course materials, apart from openly accessible research work.
+    Reply to Martin Eve
+    Jordan Taylor March 4, 2020 at 1:42 pm
+
+    [digital history and the broader digital humanities movement.]
+    I appreciate that this manuscript’s authors may wish to avoid setting up boundaries between digital history and the digital humanities. But I think it needs to contend with the argument, including the one posited in the Blevins essay cited here, that digital history is less argument-driven and more public-focused, than other strands of the digital humanities. Some, like Tom Scheinfeldt, also ascribe a distinct genealogy to digital history. Engaging and acknowledging these debates, even briefly, may allow the authors to be more nimble in what follows about moving between “digital history” and “digital humanities,” without setting up false dichotomies. As a reader of the piece as a whole, I sometimes found myself perplexed by the authors’ claims, before backing up and realizing that they had switched their frame from digital history to digital humanities. Sometimes, the authors seem to use these terms interchangeably, and sometimes they’re used carefully and distinctly, and readers need to have some sense of why you’re making those choices.
+    Reply to Jordan Taylor
+    Nora Slonimsky April 7, 2020 at 6:38 pm
+
+    This is very intriguing, and clearly is a valuable contribution! These terms though can have multiple meanings depending on audience, field of study etc. so a clear, brief definition of each one (how you are using ‘open licensing’ as opposed to ‘open access’ for example) would be extremely helpful and avoid getting bogged down in debates over terminology. This could be in notes. 
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 4
+0 Comments on paragraph 5
+
+Leave a comment on paragraph 5
+4 Comments on paragraph 6
+
+    Martin Eve March 2, 2020 at 5:01 pm
+
+    [Writing in 1999, Ed Ayers trumpeted the historical profession’s recovery of forgotten voices—of women, people of color, the poor—but said,” The great democratization of history over the past few decades has not been accompanied by a democratization of audience.”]
+    Another potential source here, specifically pertaining to “open” contexts Ulrich Herb’s note that open access was originally ‘portrayed in a romanticising way and was embedded in a conceptual ensemble of participation, democratisation, digital commons and equality’ – Herb, Ulrich. 2018. “Open Access And Symbolic Gift Giving.” In Open Divide: Critical Studies on Open Access, edited by Joachim Schöpfel and Ulrich Herb, 69–81. Sacramento, CA: Library Juice Press. https://doi.org/10.5281/zenodo.1206377 ., p. 69
+    Reply to Martin Eve
+    Lisa Spiro March 30, 2020 at 4:32 pm
+
+    I’d like to see a little more analysis of each of these quotations. What view of democracy does each advance? Also, I might cite an historian rather than an information studies scholar unless the point is to describe the wider discourse around democratization, scholarship, and the internet.
+    Reply to Lisa Spiro
+    Mark Boonshoft April 9, 2020 at 4:41 pm
+
+    I’m struck by the academic elite (all R1) origins of this ‘democratic’ thinking. Maybe some analysis of how it was, in some way, a mark of privilege to be able to do this kind of work in the late-1990s and early aughts. Perhaps that’s still true.
+    Reply to Mark Boonshoft
+    Lindsay Chervinsky April 10, 2020 at 7:20 pm
+
+    One aspect of democratization that the authors may want to consider is the possible conflict between democratizing the producers of history and the consumers, as they aren’t always the same and sometimes contradictory.
+    Reply to Lindsay Chervinsky
+
+Leave a comment on paragraph 6
+7 Comments on paragraph 7
+
+    Martin Eve March 2, 2020 at 5:08 pm
+
+    [Python tokens]
+    This seems the odd one out in this list as it’s not clear whether you mean tokenized word lists parsed in python or the list of standard constants use in parse trees. If you just want a standard “something with python” reference, why not do something like “python bytecode”?
+    Reply to Martin Eve
+    Martin Eve March 2, 2020 at 5:09 pm
+
+    [But what does “democracy” mean in a world of ArcGIS databases, GitHub repositories, Creative Commons licenses, Python tokens, Gephi visualizations, and 3ds Max models (not to mention Twitter and all the rest)?]
+    To play devil’s advocate: what does “democracy” mean in a world of novels, newspapers, books, television, or any other media form?
+    Reply to Martin Eve
+    Jordan Taylor March 4, 2020 at 1:48 pm
+
+    [But what does “democracy” mean in a world of ArcGIS databases, GitHub repositories, Creative Commons licenses, Python tokens, Gephi visualizations, and 3ds Max models (not to mention Twitter and all the rest)? ]
+    I don’t think this grouping accomplishes what the authors want it to. There are several points that could be made here, each of which would need to be drawn out more precisely. Is the point that some tools are technically difficult and therefore exclusionary? That social media threatens political democracy while also maintaining a semi-democratic ethos? Creative Commons and GitHub license incredible democratic collaboration, and seem fundamentally distinct from the other examples in important ways.
+    Reply to Jordan Taylor
+    Christy Hyman March 27, 2020 at 4:52 am
+
+    I like that democratization is being taken up, front and center. As I read, I am also thinking about democratization as it relates to digital history scholar’s positionality within the university ecoystem of power and influence.
+    How does the a person’s rank, network, and  university affiliation (R1 versus Ivy versus resourced versus under-resourced) promote or impede their access to fulfilling the possibilities of digital history guarantees?
+    Reply to Christy Hyman
+    Christy Hyman March 27, 2020 at 4:55 am
+
+    Aha! You have touched on an important aspect. Resources. Access. Staff availability.
+    Do departments have ArcGIS licenses? Can they distribute to students as they learn the tool?
+    Are there faculty to teach Python, Gephi, GitHub navigation? And if so has their pedagogical expertise provided a form of instruction that allows students to explore the tools in meaningful ways? Pedagogy is key here. Many students need structure and close guidance as they venture into learning these digital tools. Good to see them listed here.
+    Reply to Christy Hyman
+    Christy Hyman March 27, 2020 at 4:57 am
+
+    YES!
+    Reply to Christy Hyman
+    Nora Slonimsky April 7, 2020 at 6:39 pm
+
+    Ditto to here — it might seem redundant, but it would be helpful to me to understand how you are approaching/framing/deploying this term. 
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 7
+4 Comments on paragraph 8
+
+    Trevor Owens February 23, 2020 at 9:10 pm
+
+    There are points already where there is a shift back and forth between “digital history” and “the digital humanities.” Given the focus of the AHR on history and the frequent connections to historians, it strikes me that it would be better to generally pivot to just talk about digital history. Much of the broader digital humanities discourses are not about democratization and access, so it seems like it is stronger and clearer to just be talking about digital history throughout.  
+    Reply to Trevor Owens
+    Martin Eve March 2, 2020 at 5:10 pm
+
+    [few scholars have interrogated either the nature of those discourses]
+    Perhaps the closest I know to this, though, is Moore, Samuel, ‘Common Struggles: Policy-Based vs. Scholar-Led Approaches to Open Access in the Humanities’ (unpublished Doctoral Thesis, King’s College London, 2019) < https://hcommons.org/deposits/item/hc:24135/&gt ; [accessed 6 June 2019]
+     
+     
+    Reply to Martin Eve
+    Christy Hyman March 27, 2020 at 5:05 am
+
+    Yes. Often, “institutions re-articulate capitalist logics in ways that reflect a kind of new digital humanitarianism” that is cloaked in technological advancement.
+    How do the promises of tech reach the student, the public? And how can practicioners assure that those with the skills are recognized and supported for their contributions to digital history projects? Beyond cv lines?
+    quote is from “New Frontiers of Philanthro‐capitalism: Digital Technologies and Humanitarianism” by Ryan Burns
+     
+     
+    Reply to Christy Hyman
+    Lisa Spiro March 30, 2020 at 4:44 pm
+
+    How is “positive” meant here?
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 8
+0 Comments on paragraph 9
+
+Leave a comment on paragraph 9
+3 Comments on paragraph 10
+
+    Trevor Owens February 23, 2020 at 9:12 pm
+
+    OER has come up a few times already and has not been defined or contextualized. This is important in that in my experience OER is much more a term that is in use in work in education and not in disciplinary fields like digital history or other digital humanities areas. Similarly, “open access” has largely been a concept advanced in scholarly communications and publishing and less so a concept at the heart of digitization efforts focused on providing access to digitized primary sources. 
+    Reply to Trevor Owens
+    Trevor Owens February 23, 2020 at 9:15 pm
+
+    It’s not clear to me that there were any advocates at any point that thought digitization would be enough. Indeed, much of the work that Rosenzweig was involved in from the beginning was focused on the production of digital resources that supported use of digitized primary sources in varied contexts. For example, the Who Built America CD-Rom was functionally an interactive textbook. 
+    Reply to Trevor Owens
+    Nora Slonimsky April 7, 2020 at 6:41 pm
+
+    This reference is great, could be an opportunity to develop a little further, either conceptually or theoretically, the implied link here to Dewey?
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 10
+2 Comments on paragraph 11
+
+    Martin Eve March 2, 2020 at 5:13 pm
+
+    [the American past ]
+    And more globally, I’d say, through the liberal enlightenment humanist ethos. It’s the most common defence of the university, too — perhaps, I would add, falsely.
+    Reply to Martin Eve
+    Christy Hyman March 27, 2020 at 5:09 am
+
+    And yet, our field still contends with the vestiges of Ulrich B. Phillips and other’s afterlives–who is given credibility over the the recognized authority of interpretation of major historical events? We all can agree that the 1619 Project revealed that the field of history still remains tethered to an idea that only certain historians can tell certain stories.
+    Reply to Christy Hyman
+
+Leave a comment on paragraph 11
+2 Comments on paragraph 12
+
+    Martin Eve March 2, 2020 at 5:15 pm
+
+    [Richard Stallman]
+    Later a problematic figure, though
+    Reply to Martin Eve
+    Dan Gorman March 15, 2020 at 2:14 pm
+
+    Despite the push for open computing, early personal computer networks relied on telephone companies’ lines, which were privately owned. It is worth noting, perhaps, that the “open” hacker ethos needed a commercial infrastructure in which to function. 
+    Reply to Dan Gorman
+
+Leave a comment on paragraph 12
+1 Comment on paragraph 13
+
+    Martin Eve March 2, 2020 at 5:16 pm
+
+    [Inside the academy practitioners too often confused “access” with “democracy” and lost sight of participatory possibilities]
+    Great
+    Reply to Martin Eve
+
+Leave a comment on paragraph 13
+4 Comments on paragraph 14
+
+    Robert Nelson February 11, 2020 at 7:27 pm
+
+    Small detail: Ed Folsom wasn’t in Virginia but at Iowa, and when it was launched it was the Walt Whitman Hypertext Archive. As I recall, it was renamed around 2000 to drop the already dated “hypertext.”
+    Reply to Robert Nelson
+    Jordan Taylor March 4, 2020 at 1:49 pm
+
+    This paragraph might benefit from a stronger topic sentence that alerts readers to the fact that you’re discussing literary scholars’ works, and their collaborations with historians, to match the topic sentence in the following paragraph.
+    Reply to Jordan Taylor
+    Christy Hyman March 27, 2020 at 5:16 am
+
+    Ed Folsom and Kenneth Price. Why not name them as others early adopters have been named?
+    Reply to Christy Hyman
+    Lisa Spiro March 30, 2020 at 5:00 pm
+
+    [The Women’s Writers Project]
+    Couldn’t it be argued that providing access to works by underrepresented authors enables wider participation and serves democracy?
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 14
+0 Comments on paragraph 15
+
+Leave a comment on paragraph 15
+2 Comments on paragraph 16
+
+    Trevor Owens February 23, 2020 at 9:20 pm
+
+    For a lot of the CHNM projects, it would seem that online access was part of this meaning, but it was also very much about academic historians producing materials for a range of audiences. In particular, as several of the examples mentioned, this included producing materials for K-12 teachers and students to use. 
+    Reply to Trevor Owens
+    Amanda Regan April 9, 2020 at 7:06 pm
+
+    I agree here with Trevor – and I would recommend taking a look at some of the early grants and projects associated with CHNM in the 90s. Many of these are available in the RRCHNM 20th Anniversary archive and I think will be helpful in fleshing out the focus on producing materials for a range of audiences. https://20.rrchnm.org/
+     
+    Reply to Amanda Regan
+
+Leave a comment on paragraph 16
+2 Comments on paragraph 17
+
+    Martin Eve March 2, 2020 at 5:19 pm
+
+    [the field]
+    See also Liu, Alan, ‘Is Digital Humanities a Field? — An Answer From the Point of View of Language’, Journal of Siberian Federal University, Humanities and Social Sciences , 7 (2013), 1546–52
+     
+    Reply to Martin Eve
+    Christy Hyman March 27, 2020 at 5:28 am
+
+    Important to note this. Yes openness. To what extent is openness allowed in our current moment within institutions endeavoring to mark their own dh footprint? Is oppeness about access? Is openness about the composition and arrangement of project teams? Is openness about the discipline? Open access to archives for units of historical study is one thing, but applying them to certain digital humanities tools is another. We can all use the Dave Rumsey mapwarper to crudely georeference a map.
+    But if you take that map to a geographer who specializes in GIS that geographer will be concerned with the Root mean square error on the map which is the standard deviation of the residuals (prediction errors) for control points; that measure of how far from the regression line data points are.
+    So when we approach tools from a digital humanities perspective independent of discipline it is open, but once we delve further into the intricacies of protocols within disciplines where these tools find their home–not so open. Very controlled and governed by rigid principles of application.
+    Reply to Christy Hyman
+
+Leave a comment on paragraph 17
+1 Comment on paragraph 18
+
+    Martin Eve March 2, 2020 at 5:23 pm
+
+    [the definition of the digital humanities from the very beginning]
+    I think you should be careful about asserting that there is a definition of “the digital humanities” — which was originally “humanities computing”. Certainly  a definition of DH has taken this as its core strand…
+    Reply to Martin Eve
+
+Leave a comment on paragraph 18
+0 Comments on paragraph 19
+
+Leave a comment on paragraph 19
+2 Comments on paragraph 20
+
+    Martin Eve March 2, 2020 at 5:25 pm
+
+    [.]
+    Missing close quotation mark
+    Reply to Martin Eve
+    Lisa Spiro March 30, 2020 at 5:32 pm
+
+    This paragraph might present an opportunity for examining the relationship between open access and OER.
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 20
+0 Comments on paragraph 21
+
+Leave a comment on paragraph 21
+3 Comments on paragraph 22
+
+    Trevor Owens February 23, 2020 at 9:24 pm
+
+    Somewhat confused by the use of “open-source scholarship” here. Is this a reference to open access publishing? Is this about open access to sources? Partly confused in that “open source” has specific and distinct significance in relation to software projects which are often related to digital history or humanities projects. 
+    Reply to Trevor Owens
+    Trevor Owens February 23, 2020 at 9:26 pm
+
+    Confused about the use of “open-source scholarship” here. Is this being used as open access? Or is this about sources? It’s particularly confusing given that open source largely is a reference to software development. I realize that the term “open source” comes from the title of this piece and from the essay you are referring back to but it would be good to get working definitions and terms in play throughout.   
+    Reply to Trevor Owens
+    Nora Slonimsky April 7, 2020 at 6:44 pm
+
+    Why? I’d like to know your thoughts, or gesture to them here if not expanded upon later. 
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 22
+1 Comment on paragraph 23
+
+    Lisa Spiro March 30, 2020 at 7:04 pm
+
+    Of course, the NEH’s budget is dwarfed by the NSF’s and the NIH’s. Many DH projects struggle to find funding.
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 23
+5 Comments on paragraph 24
+
+    Trevor Owens February 23, 2020 at 9:34 pm
+
+    It is not clear to me that there are suspicions about the quality of open resources, but I think that is partly an issue of definitions. That is, if the issue is the quality of open resources like Wikipedia, I’d agree that there is continued questions about quality. However, most of the broadening of access in history has been the result of the digitization of primary sources, in which case I don’t have any sense that there is suspicion about the quality of digitized primary sources that cultural heritage institutions around the world have made available.  
+    Reply to Trevor Owens
+    Trevor Owens February 23, 2020 at 9:35 pm
+
+    Somewhat confused in this case in that it’s not clear to me that there are any suspicions about the quality of digitized primary sources, which would seem to be the bulk of the work on open resources in history. 
+    Reply to Trevor Owens
+    Martin Eve March 2, 2020 at 5:28 pm
+
+    [And while popular suspicions about the quality of open resources continue to limit adoption, recent polls have shown that academics are not fundamentally opposed to open projects, provided they can be reassured that they are using a rigorous product]
+    Is rigour relative and does this contradict the preceding sentiment?
+    Reply to Martin Eve
+    Nora Slonimsky April 7, 2020 at 6:45 pm
+
+    I think there needs to be a little push-back, or pulling back the curtain, here: why are publishing mechanisms embracing open access? How do the finances work for them to do so?
+    Reply to Nora Slonimsky
+    Amanda Regan April 9, 2020 at 7:20 pm
+
+    I think another element the authors might consider here is the flirtation with alternative means of publication through venues such as blogging and journal platforms that experimented with “post-publication” peer review.
+    Reply to Amanda Regan
+
+Leave a comment on paragraph 24
+2 Comments on paragraph 25
+
+    Jordan Taylor March 4, 2020 at 1:56 pm
+
+    [Rotunda Imprint]
+    Based on the context of this paragraph, there’s an implication that Rotunda is open access, which it obviously isn’t. Founders Online, which is open, resulted from a collaboration with UVA Press, though. It has a significant amount of overlap with Rotunda, though as far as I know the Documentary History of the Ratification of the Constitution isn’t freely available online.
+    Reply to Jordan Taylor
+    Mark Boonshoft April 9, 2020 at 4:52 pm
+
+    One can access scans of the printed volumes of the DHRC freely through the editors’ institutional home, UW-Madison( http://digicoll.library.wisc.edu/cgi-bin/History/History-idx?type=browse&scope=History.CSAC ) as well. This is a very different experience, though, from using the Rotunda edition. 
+    Reply to Mark Boonshoft
+
+Leave a comment on paragraph 25
+1 Comment on paragraph 26
+
+    Lisa Spiro March 30, 2020 at 7:12 pm
+
+    Is there any connection between the push to publish DH works openly and the larger effort among university presses to explore open access models? Why were some DH scholars keen to publish openly anyway?
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 26
+2 Comments on paragraph 27
+
+    Christy Hyman March 27, 2020 at 6:00 am
+
+    This is true, and beyond the discussion of cost which often predominates, there is an issue of  user privacy that goes into certain OER software platforms.
+    Reply to Christy Hyman
+    Lisa Spiro March 30, 2020 at 7:17 pm
+
+    [Advocates of OER]
+    I think it would be more precise to say advocates of open access; Fitzpatrick, for example, primarily focuses on scholarship.
+    This paragraph helps explain *why* scholars and libraries support open access, but the motivations could be explained further, or the topic sentence could point to the desire to promote greater engagement with scholars and the public.
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 27
+1 Comment on paragraph 28
+
+    Lisa Spiro March 27, 2020 at 9:41 pm
+
+    Orlando requires a subscription to access: http://orlando.cambridge.org/public/svDocumentation?&d_id=HOWTOSUBSCRIBE
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 28
+2 Comments on paragraph 29
+
+    Martin Eve March 2, 2020 at 5:32 pm
+
+    [As already discussed, the University of Virginia Press has long published projects online, if not necessarily with formal open access]
+    Not necessary to cite, but for interest, I’ve persuaded Stanford to make my last book with them OA
+    Reply to Martin Eve
+    Jordan Taylor March 4, 2020 at 1:56 pm
+
+    [if not necessarily with formal open access.]
+    This may be a reference to Rotunda’s being behind a paywall—if that’s so, it probably ought to be acknowledged above.
+    Reply to Jordan Taylor
+
+Leave a comment on paragraph 29
+2 Comments on paragraph 30
+
+    Jordan Taylor March 4, 2020 at 2:10 pm
+
+    Paragraphs 23-28 give some useful information on university presses’ efforts to open up book-length publications. Yet the obvious, perhaps painfully obvious, questions are 1- the degree to which this is sustainable, and 2- what proportion of these presses’ catalogues their open projects represent. 
+    Here I would have also liked to see some discussion of academic journals. The Journal of American History (where, full disclosure, I used to work while in graduate school) often publishes one open-access article per issue. It also occasionally temporarily opens up articles that are relevant to the present for whatever reason: commemorations, current events, etc. They opened up the entirety of their issue on the U.S. carceral state. This isn’t so unusual. The AHR has made some similar initiatives. But the  JAH  and most other journals seem to have remained committed to a subscription model in order to finance the incredible amount of labor involved in reviewing, editing, and copyediting articles. How does a more democratic approach to the history profession reckon with these fundamental issues of labor and financing?
+    I think it would strengthen this essay to reckon with the critiques of those who view some strains of the OA rhetoric emerging from STEM as inappropriate for knowledge production in the humanities. I’m thinking particularly of Karin Wulf’s work at the Scholarly Kitchen on this.
+    Reply to Jordan Taylor
+        Alex Lichtenstein April 19, 2020 at 5:43 pm
+
+        As AHR editor, I am glad to see this comment. Thanks, Jordan.
+        Reply to Alex Lichtenstein
+
+Leave a comment on paragraph 30
+0 Comments on paragraph 31
+
+Leave a comment on paragraph 31
+0 Comments on paragraph 32
+
+Leave a comment on paragraph 32
+2 Comments on paragraph 33
+
+    Lisa Spiro March 27, 2020 at 9:51 pm
+
+    I see how this quotation sounds like it could come out of a Silicon Valley pitch, but the entire comment from which it was pulled doesn’t read that way to me. The author celebrates the margins and the “freakshow” in arguing against being subsumed by the institution. 
+    Reply to Lisa Spiro
+    Nora Slonimsky April 7, 2020 at 6:47 pm
+
+    How does this engage/parallel or not with the work of someone like Johann Neem and neoliberalism/the nation state and “vast Early America”/business schools etc.?
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 33
+0 Comments on paragraph 34
+
+Leave a comment on paragraph 34
+1 Comment on paragraph 35
+
+    John O'Brien April 7, 2020 at 1:03 pm
+
+    Are you reluctant to name them in this paragraph?
+    Reply to John O'Brien
+
+Leave a comment on paragraph 35
+4 Comments on paragraph 36
+
+    Trevor Owens February 23, 2020 at 9:41 pm
+
+    Confused on this point, as the free labor of peer review is part of the closed-access system of scholarly publishing too. That is, irrespective of if a publication is open access or not, the free labor issues are at play.
+    Reply to Trevor Owens
+        Alex Lichtenstein April 19, 2020 at 5:48 pm
+
+        This is a good point. But as an editor who remains troubled by the “free labor” issues, I want to point to an important distinction. In any published scholarly article there are two levels of value-added labor. First is the uncompensated work of peer reviewers–like all of you–that represent the basic moral economy of scholarly exchange. But once an article has been through that process, before it can appear as published scholarship it undergoes another value-added process. It has to be fact-checked; edited for infelicitous and/or confusing prose; copy-edited for errors; typeset; proofread; corrected; and “published.” None of this is frictionless; none of it happens automatically; and all of it requires some level of paid labor.  Any discussion of “open access” must take account of this, and not pretend that once we have done what we are doing here the article will magically appear on-line without any “editorial” work being done on it. 
+        Reply to Alex Lichtenstein
+    Martin Eve March 2, 2020 at 5:34 pm
+
+    [can taint open-access projects]
+    Though it applies equally to toll-access projects
+    Reply to Martin Eve
+    Lisa Spiro March 30, 2020 at 7:27 pm
+
+    I’m also confused by this paragraph. If academics earn income through their academic positions rather than from the publishing system, wouldn’t it be preferable for them to be able to give their work to the commons and thus enhance their own reputations?
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 36
+2 Comments on paragraph 37
+
+    Jordan Taylor March 4, 2020 at 2:13 pm
+
+    [Certainly the field’s massive grants and vast institutional backing should be for naught if the digital humanities drifted further from its democratic promise]
+    The breadth of this statement opens the authors up for unnecessary criticism. Surely argument-driven digital history projects aimed at more-or-less exclusively academic audiences, including projects that topic model or even map historiographies, don’t align with a “democratic” ethos—though I doubt that the authors would count them as being for “naught.” 
+    Reply to Jordan Taylor
+    Dan Gorman March 15, 2020 at 2:23 pm
+
+    If I am reading this correctly, the authors imply — what is the good of making documents digitally accessible if we do not cultivate an audience that actively uses those documents? 
+    Reply to Dan Gorman
+
+Leave a comment on paragraph 37
+2 Comments on paragraph 38
+
+    Trevor Owens February 23, 2020 at 9:45 pm
+
+    This seems like an oddly grandiose assertion and it also seems disjointed from the points that come afterward about h-net. I think it is very much fair to observe that continued shifts in digital media for communication are themselves inherently disruptive. While h-net changed, it does indeed look to be the case that discussion and dialog is happening on the site. 
+    Reply to Trevor Owens
+    Jordan Taylor March 4, 2020 at 2:16 pm
+
+    [But it collapsed H-Net’s communities and the project shed thousands of users.]
+    I’ll admit I’m speaking from subjective experience here, but this doesn’t match my understanding of this transition. I experienced H-Net already losing ground to social media well before 2018. In some communities, the advent of the Commons seems to have invigorated discussion and participation. Again, though, this is only informed by my experience so should be taken with a grain of salt.
+    Reply to Jordan Taylor
+
+Leave a comment on paragraph 38
+0 Comments on paragraph 39
+
+Leave a comment on paragraph 39
+0 Comments on paragraph 40
+
+Leave a comment on paragraph 40
+1 Comment on paragraph 41
+
+    Lisa Spiro March 30, 2020 at 7:37 pm
+
+    I’d be interested in learning more about The American Yawp. How does it embody the democratic ethos– in addressing barriers to knowledge? in promoting collaboration?
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 41
+2 Comments on paragraph 42
+
+    Martin Eve March 2, 2020 at 5:37 pm
+
+    [ it is a free, widely accessible resource, and it is a massively participatory project]
+    As above, I think that disentangling this much earlier in your definition of “open source” would be preferable
+    Reply to Martin Eve
+    Nora Slonimsky April 7, 2020 at 7:00 pm
+
+    How do you envision this?
+    Reply to Nora Slonimsky
+
+Leave a comment on paragraph 42
+1 Comment on paragraph 43
+
+    Lisa Spiro March 30, 2020 at 7:34 pm
+
+    The authors are right to point to barriers to participation based on gender, race, and sexual identification. I’d also note the problem of uncompensated labor; see, for example, the critique of crowdsourcing projects.
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 43
+1 Comment on paragraph 44
+
+    Amanda Regan April 9, 2020 at 7:23 pm
+
+    I’m happy to see Leon’s article cited here but I’d echo calls for some of the history that she outlines to be integrated earlier in the article.
+    Reply to Amanda Regan
+
+Leave a comment on paragraph 44
+0 Comments on paragraph 45
+
+Leave a comment on paragraph 45
+0 Comments on paragraph 46
+
+Leave a comment on paragraph 46
+1 Comment on paragraph 47
+
+    Martin Eve March 2, 2020 at 5:45 pm
+
+    [for instance]
+    Slightly overused now
+    Reply to Martin Eve
+
+Leave a comment on paragraph 47
+0 Comments on paragraph 48
+
+Leave a comment on paragraph 48
+2 Comments on paragraph 49
+
+    Jordan Taylor March 4, 2020 at 2:26 pm
+
+    [It must seek out readers and reach actual users.]
+    This is an important point that deserves greater development in this essay. It’s something that the authors are nibbling around the edges of in several places, but might benefit from taking on in a more head-on way. 
+    The essay might benefit from thinking through how the evolution of the internet in the late 20th and early 21st centuries has shaped the challenge of creating a democratic field of digital history. Digital history today exists in the 21st century attention economy, not in the media ecosystem that sustained earlier projects like The Valley of the Shadow.
+    As such, new projects compete for readers and “actual users” not only with hundreds of other DH projects, but also with social media, YouTube, and news outlets. Creating a substantial interplay between creators and audiences, which I take to be an important feature of democratic DH practice, requires thinking through how a project will compete in this attention economy. An under-explored feature of DH commentary, I think, is that a significant number of meaningful DH projects fail to develop a consistent audience and are lost in the ether of the eternal scroll. This almost certainly contributes to problems of obsolescence as well. Is focusing on working with communities,  (as you discuss in paragraph 44) rather than “audiences,” a way of addressing this challenge?
+    Reply to Jordan Taylor
+    Lisa Spiro March 30, 2020 at 7:42 pm
+
+    [Toniesha L. Taylor]
+    Now at Texas Southern University
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 49
+0 Comments on paragraph 50
+
+Leave a comment on paragraph 50
+2 Comments on paragraph 51
+
+    Jordan Taylor March 4, 2020 at 2:31 pm
+
+    [Building a textbook is as easy as signing up for WordPress. Inviting mass collaboration is as easy as installing a CommentPress plug-in. Encouraging students to communicate with a text—and with each other—is as easy as a one-click Hypothes.is install. A personally curated exhibit is as easy as a visit to a digital humanities librarian and an installation of the Omeka platform.]
+    Again, the authors have opened themselves up to charges of overstating their case here. As the authors well know, there’s massive labor involved in building a textbook. Inviting mass collaboration may be easy, but actually building it is another thing. Collaborative annotation and digital pedagogy is great, but creates its own pedagogical challenges. None of these things is simple, in my experience, and require thoughtful preparation, rather than the impulsivity of clicking a button. The authors know this, of course. But I think the language here almost reads as a bit techno-utopian. 
+    Reply to Jordan Taylor
+    Lisa Spiro March 30, 2020 at 7:50 pm
+
+    [ democracy isn’t some fortunate byproduct of technological advancement.]
+    So what would it take for the above-mentioned projects to promote democratization?
+    Reply to Lisa Spiro
+
+Leave a comment on paragraph 51
+3 Comments on paragraph 52
+
+    Trevor Owens February 23, 2020 at 9:56 pm
+
+    I think there is a case to be made for this assertion, but I don’t feel like it has been made in this essay. The essay cites a lot of relevant reference material, but it is not clear based on the work that there has been significant borrowing from “neoliberal mania for disruption.” 
+    Reply to Trevor Owens
+    Martin Eve March 2, 2020 at 5:51 pm
+
+    [ “Democracy” is, and always has been, at root a discourse about power: about agency and access and equality, and “democratization,” therefore, cannot rely on institutions, philanthropy, or even technology alone, but must emerge consciously alongside critical self-reflection in the conception and execution of the work that will continue to push digital history forward.]
+    I think that this piece would benefit from more specific definitional work throughout — the open-ended question about what democracy means would be much easier to answer were the terms defined for instance
+    Reply to Martin Eve
+    Mark Boonshoft April 9, 2020 at 5:16 pm
+
+    [If much early work in digital history was grounded in the radical democratic vision of the 1960s and 1970s, much of the contemporary push for digitization of scholarship and pedagogy borrows equally from neoliberal mania for “disruption” and libertarian notions of techno-futurism.]
+    Much of the first 1/3rd of the essay is about what the term has meant to the historical profession and the work it did in the early years of digital history. But it drops out from the middle third of the essay. I think we need a discussion of how ideas of democracy evolved (generally, not just as democracy related to DH) from the heyday of the New Left to now, and especially from the “end of history” cloud of the late-90s/early-2000s to now. 
+    Reply to Mark Boonshoft
+
+Leave a comment on paragraph 52
+0 Comments on paragraph 53
+
+Leave a comment on paragraph 53
+0 Comments on paragraph 54
+
+Leave a comment on paragraph 54
+
+Cancel
+Leave a Comment
+Your details
+
+Name (required)
+
+Mail (will not be published) (required)
+
+Website
+Your comment Comment
+Visual Text
+
+Loading...
+Activity
+Recent Comments on this Page
+
+    Alex Lichtenstein
+
+    April 19, 2020 at 5:48 pm
+
+    This is a good point. But as an editor who remains troubled by the “free labor” issues, I want to point to an important distinction. In any published scholarly article there are two levels of value-added labor. First is the uncompensated work of peer reviewers–like all of you–that represent the basic moral economy of scholarly exchange. But once an article has been through that process, before it can appear as published scholarship it undergoes another value-added process. It has to be fact-checked; edited for infelicitous and/or confusing prose; copy-edited for errors; typeset; proofread; corrected; and “published.” None of this is frictionless; none of it happens automatically; and all of it requires some level of paid labor.  Any discussion of “open access” must take account of this, and not pretend that once we have done what we are doing here the article will magically appear on-line without any “editorial” work being done on it. 
+
+    See in context
+    Alex Lichtenstein
+
+    April 19, 2020 at 5:43 pm
+
+    As AHR editor, I am glad to see this comment. Thanks, Jordan.
+
+    See in context
+    Lindsay Chervinsky
+
+    April 10, 2020 at 7:20 pm
+
+    One aspect of democratization that the authors may want to consider is the possible conflict between democratizing the producers of history and the consumers, as they aren’t always the same and sometimes contradictory.
+
+    See in context
+    Amanda Regan
+
+    April 9, 2020 at 7:23 pm
+
+    I’m happy to see Leon’s article cited here but I’d echo calls for some of the history that she outlines to be integrated earlier in the article.
+
+    See in context
+    Amanda Regan
+
+    April 9, 2020 at 7:20 pm
+
+    I think another element the authors might consider here is the flirtation with alternative means of publication through venues such as blogging and journal platforms that experimented with “post-publication” peer review.
+
+    See in context
+    Amanda Regan
+
+    April 9, 2020 at 7:06 pm
+
+    I agree here with Trevor – and I would recommend taking a look at some of the early grants and projects associated with CHNM in the 90s. Many of these are available in the RRCHNM 20th Anniversary archive and I think will be helpful in fleshing out the focus on producing materials for a range of audiences. https://20.rrchnm.org/
+     
+
+    See in context
+    Mark Boonshoft
+
+    April 9, 2020 at 5:16 pm
+
+    [If much early work in digital history was grounded in the radical democratic vision of the 1960s and 1970s, much of the contemporary push for digitization of scholarship and pedagogy borrows equally from neoliberal mania for “disruption” and libertarian notions of techno-futurism.]
+    Much of the first 1/3rd of the essay is about what the term has meant to the historical profession and the work it did in the early years of digital history. But it drops out from the middle third of the essay. I think we need a discussion of how ideas of democracy evolved (generally, not just as democracy related to DH) from the heyday of the New Left to now, and especially from the “end of history” cloud of the late-90s/early-2000s to now. 
+
+    See in context
+    Mark Boonshoft
+
+    April 9, 2020 at 4:52 pm
+
+    One can access scans of the printed volumes of the DHRC freely through the editors’ institutional home, UW-Madison( http://digicoll.library.wisc.edu/cgi-bin/History/History-idx?type=browse&scope=History.CSAC ) as well. This is a very different experience, though, from using the Rotunda edition. 
+
+    See in context
+    Mark Boonshoft
+
+    April 9, 2020 at 4:41 pm
+
+    I’m struck by the academic elite (all R1) origins of this ‘democratic’ thinking. Maybe some analysis of how it was, in some way, a mark of privilege to be able to do this kind of work in the late-1990s and early aughts. Perhaps that’s still true.
+
+    See in context
+    Nora Slonimsky
+
+    April 7, 2020 at 7:00 pm
+
+    How do you envision this?
+
+    See in context
+
+Recent Comments in this Document
+
+    Alex Lichtenstein
+
+    April 19, 2020 at 5:48 pm
+
+    This is a good point. But as an editor who remains troubled by the “free labor” issues, I want to point to an important distinction. In any published scholarly article there are two levels of value-added labor. First is the uncompensated work of peer reviewers–like all of you–that represent the basic moral economy of scholarly exchange. But once an article has been through that process, before it can appear as published scholarship it undergoes another value-added process. It has to be fact-checked; edited for infelicitous and/or confusing prose; copy-edited for errors; typeset; proofread; corrected; and “published.” None of this is frictionless; none of it happens automatically; and all of it requires some level of paid labor.  Any discussion of “open access” must take account of this, and not pretend that once we have done what we are doing here the article will magically appear on-line without any “editorial” work being done on it. 
+
+    See in context
+    Alex Lichtenstein
+
+    April 19, 2020 at 5:43 pm
+
+    As AHR editor, I am glad to see this comment. Thanks, Jordan.
+
+    See in context
+    Lindsay Chervinsky
+
+    April 10, 2020 at 7:20 pm
+
+    One aspect of democratization that the authors may want to consider is the possible conflict between democratizing the producers of history and the consumers, as they aren’t always the same and sometimes contradictory.
+
+    See in context
+    Randall Miller
+
+    April 10, 2020 at 5:14 pm
+
+     
+
+    Thank you for the opportunity to read this revealing and rewarding manuscript and to comment on it in an open-review format. I approach my reading of this manuscript as an “outsider” of sorts in that I am not much conversant with the literature about digital history or digital humanities, though I have been involved in digital history projects in various venues and in various formats. That said, the invitation was/is for an open-review process, so the door was/is open for the likes of me.
+
+    My reading of the manuscript impressed me with the deep knowledge on the history of digital history that the authors convey and with their dedication to the “cause” of open-source publication, and the value of digital history as a calling and a discipline (which has somewhat of a crusading aspect to it in tilting against “the profession” and the persistence of the old ways of publishing). The comments of the knowledgeable readers point to much good that the manuscript does in laying out the issues and tracking the history but also to the need for clarification(s) of definitions, emphases in subject interest, and lines of argument.
+
+    But as an outsider and a very interested reader, please let me add a couple brief observations (really suggestions) that might be helpful in further contextualizing the issue and sharpening the focus by expanding the lens. They are:
+
+    The authors acknowledge that the vocabulary of “open access” and “democratization” remains unsettled, is sometimes confusing and contradictory, and demands more precision. Because of that, might it be useful to know what have been the prevailing or most “accepted” definitions of such and by particular interests at defining moments in the history of the digital humanities and digital history, and what are the dominant (can we use that word in discussing “democracy?”) working definitions today? Perhaps the authors might also want to stake out their own working definition(s) of such critical terms. In the case of “democratization,” it is not clear if it refers to the creation, distribution, and/or use of the digital history. Who or what makes anything “democratic” anyway, if there’s no understanding what that means and agreement on what that entails?  Claiming such is not the same as being such, and creator, distributor, and user may have very different ideas about how “democratic” the project or product is or should be. Add funder in there to further complicate the problem of identifying and claiming parentage and purpose.
+
+    The authors spread their history across much intellectual and experiential territory but, from my reading, remain almost wholly focused on the “American” story and practice. The authors do make several references to developments outside the United States. In footnote 11, for example, they acknowledge their limited scope of inquiry, noting that digital humanities and open access operate in different contexts in Europe and the UK; they also reference the Canadian Orlando Project , which suggests there is something to learn from outside the USA; and they also point to the UNESCO call for open-source access, especially for developing countries, which suggests there might be some kind of worldwide standard for creating and making accessible open-source materials. These references are almost asides in the manuscript, and the authors offer no rationale for an almost exclusive American focus. One wonders how, if at all, ideas, interests, and experience elsewhere have informed American thinking, development, and practice. Or ought do so. And vice versa. The authors need not rethink and revise their manuscript to incorporate such matter into it in any significant way in this iteration of their thinking on the subject, but any further consideration ought to have a wider compass. We’re not alone in this effort. That said, for this manuscript, the authors might do more than simply acknowledge that there is a wider world; they might at least tell us why they’re focusing almost wholly and only on the American interest and experience and suggest the implications of doing such.
+
+    Finally, with all the interest in “democratization” and in the American experience, the authors might consider the history and place of community-based digital history – the kind of “bottom-up” and open-source history that has produced many and varied works, from the “virtual exhibit” of a people’s things, stories, places, to the digitization of documents in private hands that otherwise would never be available and “accessible,” to cite two obvious and common examples. By my reading of the manuscript, the concern is with validation by “the profession,” but what of validation by “the people” in their various communities in selecting, creating, and supporting projects emanating from their own interests, and who decides what counts in that? How do we in “the profession” value such work, and how do we (even dare we) claim any authority and “right” to do so? And what roles, if any, do we, or might we, have in collaborating in such people’s projects democratically? This question also relates to the reward systems in university life, where collaborating with non-professionals and working outside the normal channels of “publication” and recognition not only count for little but might even count against you. On the flip side, some schools are encouraging “community-based scholarship,” so there is opportunity for democratic engagement and collaboration that will bring recognition and reward at one’s institution and encourage more such work.
+
+    Again, this manuscript is timely and telling. For the “outsiders” like me it will be an eye-opener to the complexity of the issues attending open-source “digital history” and the sophistication of the arguments about it. It’s also a very readable manuscript. That’s worth a lot. There won’t be much democratization of digital or any history if we couch it in a language that excludes rather than reveals. The authors make their work accessible and thus knowable, which, after all, is the point of it all.
+
+    Randall M. Miller, Saint Joseph’s University
+
+     
+
+    See in context
+    Amanda Regan
+
+    April 9, 2020 at 7:23 pm
+
+    I’m happy to see Leon’s article cited here but I’d echo calls for some of the history that she outlines to be integrated earlier in the article.
+
+    See in context
+    Amanda Regan
+
+    April 9, 2020 at 7:20 pm
+
+    I think another element the authors might consider here is the flirtation with alternative means of publication through venues such as blogging and journal platforms that experimented with “post-publication” peer review.
+
+    See in context
+    Amanda Regan
+
+    April 9, 2020 at 7:06 pm
+
+    I agree here with Trevor – and I would recommend taking a look at some of the early grants and projects associated with CHNM in the 90s. Many of these are available in the RRCHNM 20th Anniversary archive and I think will be helpful in fleshing out the focus on producing materials for a range of audiences. https://20.rrchnm.org/
+     
+
+    See in context
+    Mark Boonshoft
+
+    April 9, 2020 at 5:16 pm
+
+    [If much early work in digital history was grounded in the radical democratic vision of the 1960s and 1970s, much of the contemporary push for digitization of scholarship and pedagogy borrows equally from neoliberal mania for “disruption” and libertarian notions of techno-futurism.]
+    Much of the first 1/3rd of the essay is about what the term has meant to the historical profession and the work it did in the early years of digital history. But it drops out from the middle third of the essay. I think we need a discussion of how ideas of democracy evolved (generally, not just as democracy related to DH) from the heyday of the New Left to now, and especially from the “end of history” cloud of the late-90s/early-2000s to now. 
+
+    See in context
+    Mark Boonshoft
+
+    April 9, 2020 at 4:52 pm
+
+    One can access scans of the printed volumes of the DHRC freely through the editors’ institutional home, UW-Madison( http://digicoll.library.wisc.edu/cgi-bin/History/History-idx?type=browse&scope=History.CSAC ) as well. This is a very different experience, though, from using the Rotunda edition. 
+
+    See in context
+    Mark Boonshoft
+
+    April 9, 2020 at 4:41 pm
+
+    I’m struck by the academic elite (all R1) origins of this ‘democratic’ thinking. Maybe some analysis of how it was, in some way, a mark of privilege to be able to do this kind of work in the late-1990s and early aughts. Perhaps that’s still true.
+
+    See in context
+
+Website content © AHR OPEN REVIEW 2020. All rights reserved.
+
+Source: https://ahropenreview.com/HistoryCanBeOpenSource/manuscript/
+Insert/edit link
+Close
+
+Enter the destination URL
+URL
+Link Text
+Open link in a new tab
+
+Or link to existing content
+Search
+
+No search term specified. Showing recent items. Search or use up and down arrow keys to select an item.
+
+Cancel
+Comment Quote & Comment
+×
+Quote
+×
+#
+
