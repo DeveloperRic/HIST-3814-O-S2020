@@ -55,11 +55,11 @@ _`&nbsp;` represents a space_
 1. Define column headings as `'date', 'column 2', ...`
 2. Apply `trim leading and trailing whitespace` as well as `collapse consecutive whitespace` transformations
 3. Remove empty columns
-4. Save project as [`virginia-woolf-diary.tsv`](diary-entries\virginia-woolf-diary.tsv)
+4. Save project as [`virginia-woolf-diary.openrefine.tar.gz`](https://github.com/DeveloperRic/HIST-3814-O-S2020/blob/master/week6/virginia-woolf-diary.openrefine.tar.gz)
 
 ### Voyant actions
 
-1. Load [virginia-woolf-diary.tsv](diary-entries\virginia-woolf-diary.tsv) directly into Voyant
+1. Load [virginia-woolf-diary.tsv](https://github.com/DeveloperRic/HIST-3814-O-S2020/blob/master/week6/diary-entries/virginia-woolf-diary.tsv) directly into Voyant
 2. In 'Contexts' view, search for collocates of 'England'
 3. In 'Trends' view, show `'wom*'` and `'men*|man` using 25 document segements
 
@@ -76,7 +76,7 @@ _`&nbsp;` represents a space_
 
 Here is a list of the tracks used in TwoTone to sonify Virginia Woolf's diary (from heighest to lowest track). I modified each track to better express the emotion of the topics that they portray. Sadder topics have their track in a minor scale; topics relating to dynamics (movement) have their tracks played in faster tempos. All tempos are factors of 2 (to preserve the consistency of the audio).
 
-![sonify tracks snippet](https://github.com/DeveloperRic/HIST-3814-O-S2020/tree/master/week6/snippets/sonify-tracks.png)
+![sonify tracks snippet](https://raw.githubusercontent.com/DeveloperRic/HIST-3814-O-S2020/master/week6/snippets/sonify-tracks.PNG)
 
 1. Recorded audio detailing the instrument of each following track and the topic that it represents
     - volume: 66%
@@ -122,7 +122,7 @@ Here is a list of the tracks used in TwoTone to sonify Virginia Woolf's diary (f
 
 The TwoTone app seems to be really buggy. If I change any track, I have to reload the page before I can actually listen to the audio again. Also, I tried exporting the audio twice and both audio files have no sound (but they have all the metadata and megabytes). I loaded the created audio file into Audacity and sure enough, there was nothing in the file.
 
-![sonify muted file snippet](https://github.com/DeveloperRic/HIST-3814-O-S2020/tree/master/week6/snippets/sonify-mute.png)
+![sonify muted file snippet](https://raw.githubusercontent.com/DeveloperRic/HIST-3814-O-S2020/master/week6/snippets/sonify-mute.PNG)
 
 ## Downloads
 
