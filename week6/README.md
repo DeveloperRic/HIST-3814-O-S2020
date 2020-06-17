@@ -63,7 +63,7 @@ In response, I pivoted -- whilst still focusing on the same theme of feminism --
 
 It was kind of funny trying to use OpenRefine for my data. Because each row was an entry and each entry was a diary log, the columns (exluding the date column) were all cluttered with arbitrary amounts of text.
 
-![open refine loading](https://raw.githubusercontent.com/DeveloperRic/HIST-3814-O-S2020/master/week6/snippets/load-open-refine.PNGg)
+![open refine loading](https://raw.githubusercontent.com/DeveloperRic/HIST-3814-O-S2020/master/week6/snippets/load-open-refine.PNG)
 
 ![open refine facet](https://raw.githubusercontent.com/DeveloperRic/HIST-3814-O-S2020/master/week6/snippets/open-refine-facet.PNG)
 
